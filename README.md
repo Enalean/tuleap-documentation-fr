@@ -7,7 +7,7 @@ documentation for [Tuleap](http://tuleap.com/).
 This is a work in progress. Please refer to the official documentation until this 
 becomes stable.
 
-Build the documentation
+Build the documentations
 -----------------------
 
     sudo apt-get install python-pip
