@@ -6,7 +6,7 @@ SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         = a4
 BUILDDIR      = _build
-LANG          = en
+LANG          = fr
 
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
@@ -21,11 +21,11 @@ I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 pre-build:
 	@rm -rf tmp/$(LANG)
 	@mkdir -p tmp/$(LANG)
-	@cp -R languages/en/* tmp/$(LANG)/
+	@cp -R languages/$(LANG)/* tmp/$(LANG)/
 ifneq ($(LANG),en)
 	@for f in $$(cd languages/$(LANG) && find . -type f \( ! -iname ".*" \) | sort); do \
-		if [ -f languages/en/$$f ]; then \
-			if [ $$(stat -c %s languages/$(LANG)/$$f) = $$(stat -c %s languages/en/$$f) ]; then \
+		if [ -f languages/$(LANG)/$$f ]; then \
+			if [ $$(stat -c %s languages/$(LANG)/$$f) = $$(stat -c %s languages/$(LANG)/$$f) ]; then \
 				echo "The file '$$f' seems to be exactly the same as English one, perhaps it could be deleted"; \
 			fi; \
 			cp languages/$(LANG)/$$f tmp/$(LANG)/$$f; \
@@ -34,7 +34,7 @@ ifneq ($(LANG),en)
 		fi; \
 	done
 endif
-	@cp languages/en/conf.py tmp/$(LANG)/conf.py
+	@cp languages/$(LANG)/conf.py tmp/$(LANG)/conf.py
 	@sed -i.bak 's/#language = None/language = "$(LANG)"/' tmp/$(LANG)/conf.py
 	@rm -f tmp/$(LANG)/conf.py.bak
 
