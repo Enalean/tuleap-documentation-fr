@@ -19,6 +19,7 @@ Bienvenue sur la documentation de Tuleap !
    user-guide/project-summary
    user-guide/project-admin
    user-guide/tracker
+   user-guide/agile-dashboard
    user-guide/frs
    user-guide/cvs
    user-guide/svn
