@@ -1,5 +1,5 @@
 
-.. Tuleap replace:: Tuleap
+
 
 Vue d'ensemble de Tuleap
 ====================================

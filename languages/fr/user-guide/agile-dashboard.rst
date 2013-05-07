@@ -1,4 +1,4 @@
-.. Tuleap replace:: Tuleap
+
 
 .. _agile-dashboard:
 

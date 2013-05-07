@@ -1,5 +1,5 @@
 
-.. Tuleap replace:: Tuleap
+
 
 .. _administration-d'un-projet:
 

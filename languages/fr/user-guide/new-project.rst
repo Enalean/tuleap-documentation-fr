@@ -1,5 +1,5 @@
 
-.. Tuleap replace:: Tuleap
+
 
 Créer un nouveau projet
 =======================

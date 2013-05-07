@@ -1,5 +1,5 @@
 
-.. Tuleap replace:: Tuleap
+
 
 Introduction
 ============
