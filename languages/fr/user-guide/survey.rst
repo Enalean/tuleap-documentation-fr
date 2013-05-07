@@ -9,13 +9,13 @@ Le gestionnaire de sondage permet à une équipe de projet de créer des
 sondages d'opinion. Fournir un service de sondage dans un environnement
 dédié aux activités de développement logiciel peut paraître un peu
 étrange au premier abord. Cependant, si vous vous souvenez que
-SYS\_PRODUCT\_NAME est aussi un outil qui permet de rester en contact
+Tuleap est aussi un outil qui permet de rester en contact
 avec votre communauté d'utilisateurs, vous réaliserez assez rapidement
 qu'être à l'écoute de cette communauté est le meilleur moyen de la faire
 croître et de la satisfaire.
 
 Rester à l'écoute de sa communauté peut se faire de plusieurs façons sur
-SYS\_PRODUCT\_NAME :
+Tuleap :
 
 -  par le biais des listes de diffusion et des forums web,
 
@@ -26,7 +26,7 @@ SYS\_PRODUCT\_NAME :
    période.
 
 Tous ces moyens de communication permettent aux utilisateurs de
-SYS\_PRODUCT\_NAME de "pousser" des avis et demandes spontanés vers le
+Tuleap de "pousser" des avis et demandes spontanés vers le
 projet concernant un sujet qui leur tient vraiment à coeur. Mais que
 faire si vous souhaitez recueillir l'avis de votre communauté
 d'utilisateurs sur un certain nombre de sujets et que vous voulez que
@@ -54,7 +54,7 @@ Publier un sondage
 
 Vous avez travaillé dur pour créer ce sondage parfaitement peaufiné et
 vous désirez maintenant atteindre l'audience la plus large possible.
-SYS\_PRODUCT\_NAME vous permet de rendre votre sondage visible de
+Tuleap vous permet de rendre votre sondage visible de
 plusieurs façons :
 
 **Via le gestionnaire de sondages lui-même** : aussitôt qu'un sondage
@@ -69,16 +69,16 @@ sondage, assurez-vous de publier une annonce annonçant sa disponibilité,
 qui est supposé y répondre et le pointeur Web (URL) où se trouve le
 sondage (voir ci-dessous). En publiant une annonce vous avez aussi une
 chance de la voir apparaître sur la page d'accueil du site si l'équipe
-SYS\_PRODUCT\_NAME en décide ainsi.
+Tuleap en décide ainsi.
 
 **E-mail** : le sondage que vous avez créé est accessible directement
-via un pointeur Web (URL) du site SYS\_PRODUCT\_NAME. En conséquence
+via un pointeur Web (URL) du site Tuleap. En conséquence
 vous pouvez informer votre communauté d'utilisateur en incluant ce
 pointeur Web dans tout document tel que message e-mail, page Web ou tout
 autre document. Même les personnes qui ne sont pas enregistrées sur
-SYS\_PRODUCT\_NAME peuvent participer à un sondage.
+Tuleap peuvent participer à un sondage.
 
-Tous les sondages créés sur SYS\_PRODUCT\_NAME sont accessibles via un
+Tous les sondages créés sur Tuleap sont accessibles via un
 pointeur Web (URL) comme celui-ci :
 
 ::
@@ -107,7 +107,7 @@ exemple de sondage.
     uniquement présentées de façon agrégée et non pas dans le but de
     mettre en évidence un ou plusieurs utilisateurs ou développeurs.
 
-|Un exemple de sondage émanant du projet SYS\_PRODUCT\_NAME|
+|Un exemple de sondage émanant du projet Tuleap|
 
 Administration des sondages
 ===========================
@@ -199,7 +199,7 @@ possibles (voir ? pour quelques exemples de questions) :
 
 -  **Aucun** : choisir ce type de réponse pour une question revient à la
    désactiver. La question disparaît alors de tous les sondages qui
-   l'utilisent. Comme souvent en pareil cas dans SYS\_PRODUCT\_NAME, la
+   l'utilisent. Comme souvent en pareil cas dans Tuleap, la
    question n'est pas détruite et toutes les réponses associées émanant
    des divers sondages demeurent intactes.
 
@@ -291,11 +291,11 @@ moyenne des valeurs ainsi que la distribution des valeurs.
     **Tip**
 
     Si vous souhaitez procéder à des traitements plus poussés sur les
-    réponses d'un sondage, souvenez-vous que SYS\_PRODUCT\_NAME permet
+    réponses d'un sondage, souvenez-vous que Tuleap permet
     aux administrateurs du projet d'exporter les données du projet y
     compris les résultats des sondages. Pour plus d'information voir ?
 
 .. |Page d'accueil du gestionnaire de sondages| image:: ../../screenshots/fr_FR/sc_surveywelcome.png
-.. |Un exemple de sondage émanant du projet SYS\_PRODUCT\_NAME| image:: ../../screenshots/fr_FR/sc_surveysample.png
+.. |Un exemple de sondage émanant du projet Tuleap| image:: ../../screenshots/fr_FR/sc_surveysample.png
 .. |Écran d'administration du gestionnaire de sondages| image:: ../../screenshots/fr_FR/sc_surveyadmin.png
 .. |Résultats d'un sondage| image:: ../../screenshots/fr_FR/sc_surveyresults.png

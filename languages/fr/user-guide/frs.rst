@@ -9,7 +9,7 @@ Publication du code source : conseils
 =====================================
 
 Il existe deux façons pour un administrateur de projet de donner accès
-au code source d'un projet hébergé sur SYS\_PRODUCT\_NAME : le système
+au code source d'un projet hébergé sur Tuleap : le système
 de contrôle de version (CVS ou Subversion) et le système de gestionnaire
 de livrables. A première vue, le fait d'avoir deux systèmes de livraison
 du code source peut paraître redondant. Cependant les deux outils ont
@@ -22,7 +22,7 @@ Proposer les deux outils à vos utilisateurs est un vrai plus.
    fichier. Toutefois accéder au SCV nécessite l'installation d'un
    logiciel particulier sur le poste client. Certains utilisateurs ne
    peuvent pas ou ne souhaitent pas le faire. L'accès au SCV est
-   particulièrement adapté aux utilisateurs de SYS\_PRODUCT\_NAME qui
+   particulièrement adapté aux utilisateurs de Tuleap qui
    souhaitent approfondir le code, ajouter de nouvelles extensions,
    corriger des anomalies et proposer des modifications à l'équipe de
    projet. A noter que certains projets n'autorisent pas l'accès de leur
@@ -32,7 +32,7 @@ Proposer les deux outils à vos utilisateurs est un vrai plus.
 -  **Le gestionnaire de livrables** permet de publier le logiciel
    (source, binaire ou documentation) sous forme de fichiers d'archive
    (zip, tar, jar...) qu'un utilisateur autorisé peut facilement
-   télécharger depuis le site Web de SYS\_PRODUCT\_NAME. Aucun outil ni
+   télécharger depuis le site Web de Tuleap. Aucun outil ni
    connaissance particulière n'est nécessaire. En complément de la
    fourniture éventuelle du code source, fournir des versions binaires
    prêtes à utiliser de vos logiciels est une excellente pratique. Le
@@ -123,7 +123,7 @@ de versions. Pour rendre visible un paquet caché, il suffit de cliquer
 sur l'icône *plus* avant le nom du paquet. Par défaut, tous les paquets
 sont visibles.
 
-SYS\_PRODUCT\_NAME vous permet également de surveiller des paquets. De
+Tuleap vous permet également de surveiller des paquets. De
 cette manière, vous serez averti lors de la parution d'une nouvelle
 version ou lors de la modification d'une version existante. Pour
 surveiller un paquet, il suffit de cliquer sur l'icône représentant une
@@ -279,7 +279,7 @@ modifier les versions a posteriori.
 
           **Tip**
 
-          SYS\_PRODUCT\_NAME vous permet de télécharger vos fichiers par
+          Tuleap vous permet de télécharger vos fichiers par
           FTP (ou SCP). Pour ce faire, suivez les indications qui vous
           sont données lorsque vous cliquez sur le *?* situé après le
           lien [ajouter un fichier]. Ensuite rafraîchissez la page Web
@@ -362,9 +362,9 @@ modifier les versions a posteriori.
 -  **Step 6 - Envoyer une notification par email (facultatif)**
 
    Cette étape est optionnelle, c'est à dire qu'elle peut ne pas
-   apparaître à l'écran. Si certains utilisateurs SYS\_PRODUCT\_NAME ont
+   apparaître à l'écran. Si certains utilisateurs Tuleap ont
    activé la surveillance de l'un de vos paquets, l'étape 4 vous
-   indiquera combien l'ont fait. SYS\_PRODUCT\_NAME vous donne alors la
+   indiquera combien l'ont fait. Tuleap vous donne alors la
    possibilité de leur envoyer (ou pas) une notification email les
    avertissant de la publication d'une nouvelle version conformément à
    leur demande. Nous vous conseillons vivement de ne pas négliger cette
@@ -377,10 +377,10 @@ modifier les versions a posteriori.
        pluReleasePropertiess haut niveau de votre archive un fichier
        LISEZMOI (ou README). Ce fichier doit comporter toutes les
        informations utiles concernant votre projet telles que l'adresse
-       de votre site Web sur SYS\_PRODUCT\_NAME, les listes de
+       de votre site Web sur Tuleap, les listes de
        distributions destinées aux utilisateurs, comment soumettre un
        bug ou une demande d'assistance à l'équipe de projet (via
-       SYS\_PRODUCT\_NAME bien sûr)
+       Tuleap bien sûr)
 
 Administration de la liste des processeurs
 ==========================================

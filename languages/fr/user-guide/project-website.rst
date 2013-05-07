@@ -8,7 +8,7 @@ Site Web d'un projet
 Visiter un site Web
 ===================
 
-Lorsqu'un projet est créé sur SYS\_PRODUCT\_NAME un site Web spécifique
+Lorsqu'un projet est créé sur Tuleap un site Web spécifique
 est initialisé. Vous pouvez accéder au site Web de deux façons
 différentes :
 
@@ -20,7 +20,7 @@ différentes :
        http://nom_projet.SYS_DEFAULT_DOMAIN
                  
 
-   Ou si votre serveur SYS\_PRODUCT\_NAME est en mode sécurisé :
+   Ou si votre serveur Tuleap est en mode sécurisé :
 
    ::
 
@@ -33,7 +33,7 @@ différentes :
 Si l'équipe de projet n'a pas créé ses propres pages Web, vous verrez
 apparaître la page d'accueil par défaut vous informant que le site sera
 bientôt disponible complétée d'un lien de retour vers le site
-SYS\_PRODUCT\_NAME.
+Tuleap.
 
 Création d'un site Web
 ======================
@@ -50,7 +50,7 @@ site Web. Tous ces fichiers doivent être placés dans :
     /home/groups/nom_projet
 
 Si vous avez la possibilité d'utiliser votre compte Shell (voir ?) pour
-vous connecter au serveur SYS\_PRODUCT\_NAME et vous placer dans ce
+vous connecter au serveur Tuleap et vous placer dans ce
 répertoire en utilisant la commande Unix "cd /home/groups/nom\_projet"
 vous verrez trois répertoires :
 
@@ -119,7 +119,7 @@ Publication du site Web
 -----------------------
 
 Vous pouvez utiliser différentes méthodes pour publier les pages de
-votre site Web sur le serveur SYS\_PRODUCT\_NAME :
+votre site Web sur le serveur Tuleap :
 
 -  Édition à  distance avec des éditeurs HTML comme celui de
    Netscape/Mozilla, Microsoft Frontpage ou Emacs avec accès FTP
@@ -129,7 +129,7 @@ votre site Web sur le serveur SYS\_PRODUCT\_NAME :
    FTP ou, encore mieux, par SCP.
 
 -  De petits changements peuvent aussi être effectués depuis votre
-   compte Shell SYS\_PRODUCT\_NAME en utilisant un éditeur comme vi,
+   compte Shell Tuleap en utilisant un éditeur comme vi,
    emacs mais nous vous déconseillons d'effectuer des modifications
    lourdes par ce biais.
 
@@ -151,7 +151,7 @@ Saisissez les paramètres suivants dans la boîte de dialogue :
        ftp://nom_projet.SYS_DEFAULT_DOMAIN/home/groups/nom_projet/htdocs/
 
 -  Login and Password : tapez votre nom d'utilisateur et votre mot de
-   passe SYS\_PRODUCT\_NAME. Cliquez sur la case à  cocher pour éviter
+   passe Tuleap. Cliquez sur la case à  cocher pour éviter
    d'avoir à  taper le mot de passe à  chaque opération de sauvegarde.
 
 Macromedia Dreamweaver
@@ -166,7 +166,7 @@ access' comme méthode d'accès et indiquez
 ``nom_projet.SYS_DEFAULT_DOMAIN`` en tant que serveur hôte et
 ``/home/groups/nom_projet/htdocs`` pour le répertoire de publication .
 Le nom d'utilisateur et le mot de passe sont les mêmes que ceux de votre
-compte SYS\_PRODUCT\_NAME.
+compte Tuleap.
 
 Édition locale et transfert à distance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,10 +176,10 @@ fonctionnalité d'exportation des fichiers à distance, il est possible de
 transférer vos fichiers HTML par d'autres moyens.
 
 -  **FTP** : c'est le moyen le plus simple de transférer vos pages Web
-   vers l'emplacement SYS\_PRODUCT\_NAME distant. Utilisez un client ftp
+   vers l'emplacement Tuleap distant. Utilisez un client ftp
    de votre choix pour vous connecter au serveur
    ``nom_projet.SYS_DEFAULT_DOMAIN`` et utilisez votre nom d'utilisateur
-   et mot de passe SYS\_PRODUCT\_NAME. Une fois connecté, utilisez la
+   et mot de passe Tuleap. Une fois connecté, utilisez la
    commande suivante :
 
    ::
@@ -198,29 +198,29 @@ transférer vos fichiers HTML par d'autres moyens.
 
        scp -r * nom_utilisateurSYS_SHELL_HOST:/home/groups/nom_projet/htdocs/
 
-   où nom\_utilisateur est votre nom d'utilisateur SYS\_PRODUCT\_NAME.
+   où nom\_utilisateur est votre nom d'utilisateur Tuleap.
    L'option -r déclenche une copie récursive et copie donc tous les
    fichiers dans le répertoire ainsi que tous les autres fichiers dans
    les sous-répertoires tout en préservant la même structure
    arborescente.
 
-Référencer le site SYS\_PRODUCT\_NAME
+Référencer le site Tuleap
 =====================================
 
-L'équipe SYS\_PRODUCT\_NAME demande à ce que tous les sites Web des
-projets affichent le logo SYS\_PRODUCT\_NAME sur leur page d'accueil.
+L'équipe Tuleap demande à ce que tous les sites Web des
+projets affichent le logo Tuleap sur leur page d'accueil.
 Ceci pour deux raisons :
 
--  Tout d'abord, en référençant le site SYS\_PRODUCT\_NAME sur votre
+-  Tout d'abord, en référençant le site Tuleap sur votre
    page Web vous permettez à vos utilisateurs d'être informé de
-   l'existence de SYS\_PRODUCT\_NAME et vous leur donnez une chance de
+   l'existence de Tuleap et vous leur donnez une chance de
    le visiter et de prendre connaissance d'autres projets hébergés sur
-   SYS\_PRODUCT\_NAME. Ce faisant vous augmentez les opportunités de
+   Tuleap. Ce faisant vous augmentez les opportunités de
    réutilisation.
 
 -  La seconde raison tient au fait que la présence du logo
-   SYS\_PRODUCT\_NAME sur votre site Web déclenchera l'incrémentation
-   automatique d'un compteur d'accès que SYS\_PRODUCT\_NAME maintient
+   Tuleap sur votre site Web déclenchera l'incrémentation
+   automatique d'un compteur d'accès que Tuleap maintient
    pour vous. Le nombre d'accès à votre site est consultable depuis la
    page de sommaire de votre projet en cliquant sur le lien
    "Statistiques" situé sous la description du projet (voir ?). Ceci
@@ -228,7 +228,7 @@ Ceci pour deux raisons :
    besoin de capacités d'hébergement plus importantes en raison de leur
    niveau d'activité.
 
-Pour afficher le logo SYS\_PRODUCT\_NAME sur votre page Web utilisez
+Pour afficher le logo Tuleap sur votre page Web utilisez
 l'URL suivant :
 
 ::

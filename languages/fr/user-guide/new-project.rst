@@ -1,10 +1,10 @@
 
-.. |SYSPRODUCTNAME| replace:: Tuleap
+.. Tuleap replace:: Tuleap
 
 Créer un nouveau projet
 =======================
 
-Vous êtes désormais un utilisateur |SYSPRODUCTNAME| fraîchement
+Vous êtes désormais un utilisateur Tuleap fraîchement
 enregistré et vous voulez vous simplifier la vie ainsi que celle de vos
 équipes de projet. En d'autre termes vous voulez :
 
@@ -23,7 +23,7 @@ enregistré et vous voulez vous simplifier la vie ainsi que celle de vos
    d'autre de ré-utiliser vos composants logiciels si vous le désirez.
 
 Si l'un de ces points vous paraît pertinent pour votre activité alors
-vous devriez absolument héberger vos projets sur |SYSPRODUCTNAME|.
+vous devriez absolument héberger vos projets sur Tuleap.
 Voyons comment faire.
 
 .. _enregistrer-un-projet:
@@ -34,14 +34,14 @@ Enregistrer un projet
 Avant de créer un nouveau projet vous devez avoir le statut
 d'utilisateur enregistré (voir :ref:`les-groupes-d'utilisateurs`). Vous pouvez alors vous connecter et
 sélectionner le lien "Enregistrer un projet" dans le menu de
-|SYSPRODUCTNAME|.
+Tuleap.
 
 L'enregistrement d'un projet est un processus qui prend moins de 10
 minutes :
 
 -  **Enregistrement d'un projet**
 
-   Il s'agit d'informations à propos des services |SYSPRODUCTNAME|.
+   Il s'agit d'informations à propos des services Tuleap.
    Lisez les attentivement.
 
    N'oubliez pas de lire et d'accepter les Conditions générales
@@ -56,7 +56,7 @@ minutes :
 
 -  **Patron de projet**
 
-   Vous avez déjà soumis un projet |SYSPRODUCTNAME| et voudriez
+   Vous avez déjà soumis un projet Tuleap et voudriez
    réutiliser la même configuration (services, outils de suivi,
    documents, références, ...) ? Vous pouvez convertir votre ancien
    projet en patron de projet (voir :ref:`type-de-projet`) et vous le retrouverez sur cette
@@ -64,7 +64,7 @@ minutes :
    ancien projet comme patron et votre nouveau projet aura les mêmes
    services configurés de la même manière que votre ancien projet. Si
    vous ne voulez pas réutiliser un patron spécifique gardez simplement
-   le Patron |SYSPRODUCTNAME| par défault coché et continuez
+   le Patron Tuleap par défault coché et continuez
    l'enregistrement.
 
 -  **Description du projet**
@@ -102,7 +102,7 @@ minutes :
    NOTE : cette étape ne s'applique que si vous créez un projet public.
    Si c'est le cas, le choix par défaut est celui que vous devez
    conserver à savoir la "Politique d'Echange de SYS\_ORG\_NAME". Comme
-   expliqué plus haut, l'équipe |SYSPRODUCTNAME| assistée du
+   expliqué plus haut, l'équipe Tuleap assistée du
    département légal de SYS\_ORG\_NAME ont créé et validé ces règles
    d'échange. Un certain nombre de licences Open Source sont aussi
    mentionnées. Enfin vous pouvez aussi spécifier vos propres termes de
@@ -116,7 +116,7 @@ minutes :
    fois votre projet approuvé.
 
 Après validation de l'enregistrement du projet, l'équipe
-|SYSPRODUCTNAME| doit le revoir et l'approuver, le rejeter ou vous
+Tuleap doit le revoir et l'approuver, le rejeter ou vous
 demander plus d'information. Ce processus ne prend pas plus de 24 heures
 dans le pire des cas et moins d'une heure la plupart du temps. Rares
 sont les projets rejetés donc il y a peu de crainte à avoir... Après
@@ -154,12 +154,12 @@ configuration. Il y au minimum deux actions à prendre :
 
     Plutôt que de mettre en place une hiérarchie de valeurs lourdes et
     complexes pour chacun des sept critères de classification de l'arbre
-    des projets, l'équipe |SYSPRODUCTNAME| a décidé de faire évoluer
+    des projets, l'équipe Tuleap a décidé de faire évoluer
     cette hiérarchie au fur et à mesure de l'apparition de nouveaux
     projets. Si vous ne trouvez pas la valeur qui vous convient dans
     l'un des critères de catégorisation, n'hésitez pas à contacter
-    l'équipe |SYSPRODUCTNAME| via le lien "Contactez-nous" situé dans
-    la section Aide du menu principal de |SYSPRODUCTNAME| ou en
+    l'équipe Tuleap via le lien "Contactez-nous" situé dans
+    la section Aide du menu principal de Tuleap ou en
     soumettant une demande dans l'un des forums de discussion du site.
 
 .. [#f1]

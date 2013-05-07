@@ -1,10 +1,10 @@
 
-.. |SYSPRODUCTNAME| replace:: Tuleap
+.. Tuleap replace:: Tuleap
 
-Vue d'ensemble de |SYSPRODUCTNAME|
+Vue d'ensemble de Tuleap
 ====================================
 
-Page d'accueil |SYSPRODUCTNAME|
+Page d'accueil Tuleap
 -------------------------------
 
 La Page d'accueil de Tuleap est la page générale d'accueil de la forge.
@@ -15,15 +15,15 @@ pouvez personnaliser certains espaces tel que le logo par exemple.
 
 .. figure:: ../images/screenshots/sc_homepage.png
    :align: center
-   :alt: La page d'accueil de |SYSPRODUCTNAME|
-   :name: La page d'accueil de |SYSPRODUCTNAME|
+   :alt: La page d'accueil de Tuleap
+   :name: La page d'accueil de Tuleap
 
-   La page d'accueil de |SYSPRODUCTNAME|
+   La page d'accueil de Tuleap
 
 Menu principal
 --------------
 
-Le menu principal de |SYSPRODUCTNAME| est présent sur l'ensemble des
+Le menu principal de Tuleap est présent sur l'ensemble des
 pages du site. Son contenu peut varier selon les pages visitées et
 suivant les droits qui vous sont octroyés. En d'autres termes il dépend
 du contexte. En voici deux exemples :
@@ -45,17 +45,17 @@ document.
 
 .. figure:: ../images/screenshots/Sitemap.png
    :align: center
-   :alt: Vue d'ensemble du site |SYSPRODUCTNAME|
-   :name: Vue d'ensemble du site |SYSPRODUCTNAME|
+   :alt: Vue d'ensemble du site Tuleap
+   :name: Vue d'ensemble du site Tuleap
 
-   Vue d'ensemble du site |SYSPRODUCTNAME|
+   Vue d'ensemble du site Tuleap
 
 .. _arbre-des-projets:
 
 Arbre des projets
 ``````````````````
 
-L'arbre des projets est un important service de |SYSPRODUCTNAME| que
+L'arbre des projets est un important service de Tuleap que
 vous pouvez (ou devez !) utiliser pour déterminer si certains logiciels
 développés sur le site peuvent présenter un intérêt pour vos propres
 activités. L'arbre des projets est l'une des deux façons de chercher des
@@ -81,7 +81,7 @@ Quand un projet est créé il est classé suivant 7 critères :
    utilisateurs finaux, administrateurs système,…)
 
 -  **Licence** : la licence de distribution du logiciel. Dans la plupart
-   des cas il s'agira de la licence d'échange de |SYSPRODUCTNAME| de
+   des cas il s'agira de la licence d'échange de Tuleap de
    SYS\_ORG\_NAME
 
 -  **Système d'exploitation** : Le ou les systèmes d'exploitation sur
@@ -98,7 +98,7 @@ Chaque critère peut recevoir jusqu'à trois valeurs pour un projet donné
 choisies parmi une liste prédéfinie par les administrateurs du site. Le
 critère "Domaine" (ou "Topic" en anglais) reflète le domaine dont traite
 votre projet et se présente sous la forme d'une hiérarchie de domaines
-et de sous-domaines que l'équipe d'administration de |SYSPRODUCTNAME|
+et de sous-domaines que l'équipe d'administration de Tuleap
 affine au fur et à mesure de l'enregistrement des projets.
 
 En utilisant l'arbre des projets il est possible de visualiser les
@@ -136,14 +136,14 @@ cliquer sur le lien [Supprimer ce filtre] situé à côté du critère.
     vous pouvez enregistrer l'étape finale de ce parcours dans votre
     Page personnelle. Pour se faire, effectuez vos manipulations sur
     l'arbre comme expliqué ci-dessus puis cliquez sur le lien "Cette
-    page en signet" dans le menu principal |SYSPRODUCTNAME|. Une
+    page en signet" dans le menu principal Tuleap. Une
     nouvelle entrée apparaîtra alors dans votre page personnelle que
     vous pouvez éditez afin de lui donner une description plus parlante.
 
 La boîte à outils
 ``````````````````
 
-Un projet hébergé sur |SYSPRODUCTNAME| a la possibilité d'utiliser de
+Un projet hébergé sur Tuleap a la possibilité d'utiliser de
 nombreux outils et services. Toutefois tous les logiciels ne nécessitent
 pas un environnement aussi riche. Pour partager ou sauvegarder un court
 échantillon de code comme une macro, une fonction, un script shell un
@@ -151,8 +151,8 @@ outil simple paraît plus adapté. C'est précisément le rôle de la boîte à
 outils.
 
 La boîte à outils est accessible depuis le menu principal de
-|SYSPRODUCTNAME| sur la partie gauche ou la partie supérieure de
-l'écran (voir `La page d'accueil de |SYSPRODUCTNAME|`_)
+Tuleap sur la partie gauche ou la partie supérieure de
+l'écran (voir `La page d'accueil de Tuleap`_)
 
 Navigation dans les échantillons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -190,10 +190,10 @@ Pour soumettre un nouvel échantillon, cliquez sur le bouton "Créer un
 nouvel échantillon" dans le menu de la boîte à outils situé en haut de
 la page. Remplissez les champs titre et description (tout pointeur Web -
 ou URL - tapé dans le champ description sera automatiquement transformé
-en hyperlien par |SYSPRODUCTNAME|), le type de l'échantillon, sa
+en hyperlien par Tuleap), le type de l'échantillon, sa
 catégorie et son langage de programmation. Si une catégorie ou un
 langage de programmation venait à manquer, veuillez contacter l'équipe
-|SYSPRODUCTNAME|.
+Tuleap.
 
 Il est vivement recommandé de fournir également un numéro de version. Il
 s'agit d'un champ de texte libre qui peut prendre n'importe quelle
@@ -236,7 +236,7 @@ correspondant.
     **Note**
 
     Veuillez noter que bien qu'il s'agisse du même échantillon,
-    |SYSPRODUCTNAME| assigne un nouvel indentifiant à chaque nouvelle
+    Tuleap assigne un nouvel indentifiant à chaque nouvelle
     version. Ainsi pour référencer la nouvelle version d'un échantillon
     dans un paquet d'échantillons (voir la section concernant le
     regroupement d'échantillons plus loin) vous devrez supprimer
@@ -290,11 +290,11 @@ Aide
 Index de l'aide
 ~~~~~~~~~~~~~~~
 
-|SYSPRODUCTNAME| est livré avec un guide de l'utilisateur très complet
+Tuleap est livré avec un guide de l'utilisateur très complet
 décrivant l'ensemble des outils et services. Un clic sur le lien "Index
 de l'aide" dirige l'utilisateur vers la table des matières du guide de
-l'utilisateur de |SYSPRODUCTNAME|. Ce même guide est utilisé sur
-l'ensemble du site |SYSPRODUCTNAME| par les liens "Aide" apparaissant
+l'utilisateur de Tuleap. Ce même guide est utilisé sur
+l'ensemble du site Tuleap par les liens "Aide" apparaissant
 dans quasiment tous les menus. Une version PDF de l'intégralité du guide
 de l'utilisateur est disponible dans la section "Documentation Site".
 
@@ -302,31 +302,31 @@ Documentation Site
 ~~~~~~~~~~~~~~~~~~
 
 Le lien "Documentation Site" est le point d'entrée vers l'ensemble de la
-documentation relative à l'ensemble du site |SYSPRODUCTNAME|. Son
+documentation relative à l'ensemble du site Tuleap. Son
 contenu est variable mais il comporte en général le guide utilisateur,
 des présentations et d'autres documents importants maintenus par
-l'équipe |SYSPRODUCTNAME|. Lisez-les attentivement.
+l'équipe Tuleap. Lisez-les attentivement.
 
 Canaux développeurs
 ~~~~~~~~~~~~~~~~~~~
 
-L'un des objectifs prioritaires du site |SYSPRODUCTNAME| est de
+L'un des objectifs prioritaires du site Tuleap est de
 devenir le forum d'échange des développeurs logiciels quelle que soit
 l'organisation à laquelle ils appartiennent.
 
-C'est pour cette raison que |SYSPRODUCTNAME| propose une série de
+C'est pour cette raison que Tuleap propose une série de
 listes de distribution (appelée Canaux Développeurs) auxquelles toute
-personne, y compris un utilisateur non enregistré de |SYSPRODUCTNAME|,
+personne, y compris un utilisateur non enregistré de Tuleap,
 peut souscrire. Chaque canal est dédié à un sujet particulier. La
 création de nouveaux canaux est sous la responsabilité des
-administrateurs du site |SYSPRODUCTNAME|.
+administrateurs du site Tuleap.
 
-Les Canaux Développeurs de |SYSPRODUCTNAME| présentent un certain
+Les Canaux Développeurs de Tuleap présentent un certain
 nombre de caractéristiques intéressantes :
 
 -  Les opérations d'abonnement et le désabonnement au canal peuvent être
    effectués par l'utilisateur lui-même à travers l'interface Web de
-   |SYSPRODUCTNAME|.
+   Tuleap.
 
 -  Tous les messages adressés au canal sont archivés et sont donc
    consultables à tout moment. (Dans le futur, il sera aussi possible
@@ -335,19 +335,19 @@ nombre de caractéristiques intéressantes :
 -  Les abonnés peuvent demander à recevoir une version condensée des
    échanges plutôt que chaque message individuellement.
 
-Forums de discussion |SYSPRODUCTNAME|
+Forums de discussion Tuleap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Les forums de discussion |SYSPRODUCTNAME| proposent une alternative au
+Les forums de discussion Tuleap proposent une alternative au
 Canaux Développeurs. Il s'agit de forums d'échange dont l'objectif est
 d'améliorer la communication entre les utilisateurs de
-|SYSPRODUCTNAME| et l'équipe en charge de l'administration du site. On
+Tuleap et l'équipe en charge de l'administration du site. On
 y trouve des forums où il est possible de demander de l'aide, d'envoyer
 des suggestions, des demandes de nouvelles fonctionnalités ou de
 nouvelles catégories pour l'arbre des projets par exemple, etc…
 
 Ces forums sont entièrement basés web ce qui implique d'utiliser
-l'interface web de |SYSPRODUCTNAME| pour lire ou poster un message.
+l'interface web de Tuleap pour lire ou poster un message.
 Toutefois l'utilisateur a la possibilité de placer un forum sous
 surveillance afin de recevoir par email tous les échanges qui ont lieu
 sur le forum.
@@ -356,7 +356,7 @@ Contactez-nous
 ~~~~~~~~~~~~~~
 
 En plus des forums de discussion, vous pouvez toujours utiliser le lien
-"Contactez-nous" pour contacter l'équipe |SYSPRODUCTNAME|.
+"Contactez-nous" pour contacter l'équipe Tuleap.
 
 N'hésitez pas à faire usage de ce lien dès que vous en ressentez le
 besoin. Nous sommes là pour vous aider.
@@ -364,9 +364,9 @@ besoin. Nous sommes là pour vous aider.
 La fonction de recherche
 `````````````````````````
 
-|SYSPRODUCTNAME| vous permet d'effectuer une recherche par mots-clés
+Tuleap vous permet d'effectuer une recherche par mots-clés
 sur quasiment toutes les informations disponibles sur le site. Lorsque
-vous vous trouvez sur la page d'accueil de |SYSPRODUCTNAME| vous
+vous vous trouvez sur la page d'accueil de Tuleap vous
 pouvez rechercher des informations dans les ressources suivantes :
 
 -  **Les projets logiciels** : les mots-clés sont recherchés dans le nom
@@ -375,7 +375,7 @@ pouvez rechercher des informations dans les ressources suivantes :
 
 -  **Boîte à outils** : vous pouvez effectuer une recherche par
    mots-clés dans les échantillons de code disponibles dans la boîte à
-   outils de |SYSPRODUCTNAME| (voir `La boîte à outils`_). La recherche porte sur le nom
+   outils de Tuleap (voir `La boîte à outils`_). La recherche porte sur le nom
    et la description. Vous pouvez ainsi trouver facilement des
    échantillons de code qui répondent à vos besoins.
 
@@ -387,7 +387,7 @@ pouvez rechercher des informations dans les ressources suivantes :
    Vous pouvez effectuer une recherche en texte intégral dans les wikis.
 
 -  **Cet outil de suivi** : si vous utilisez un outil de suivi de
-   |SYSPRODUCTNAME|, l'entrée "Cet outil de suivi" apparaît dans la
+   Tuleap, l'entrée "Cet outil de suivi" apparaît dans la
    boîte de recherche, permettant ainsi d'effectuer une recherche par
    mots-clés dans les artefacts de cet outil de suivi.
 
@@ -398,7 +398,7 @@ La page d'accueil donne une vue d'ensemble de l'activité de la forge à
 travers plusieurs indicateurs :
 
 -  **Statistiques Tuleap** : indique le nombre total de
-   projets hébergés sur |SYSPRODUCTNAME| (à part ceux qui ont le
+   projets hébergés sur Tuleap (à part ceux qui ont le
    statut privé ainsi que les projets modèles et les projets de test),
    le nombre d'utilisateurs enregistrés, le nombre total de
    téléchargements et le nombre de pages visitées depuis l'ouverture du
@@ -412,7 +412,7 @@ travers plusieurs indicateurs :
 -  **Dernières Versions** : donne une liste des versions de logiciels
    les plus récentes postées sur le site par les différents projets. Si
    vous souhaitez connaître les dernières versions disponibles vous
-   pouvez visiter la page d'accueil régulièrement. |SYSPRODUCTNAME|
+   pouvez visiter la page d'accueil régulièrement. Tuleap
    vous offre aussi le moyen de surveiller l'apparition de nouvelles
    versions pour un projet donné. Pour ce faire vous devez vous rendre
    sur la page de Sommaire du Projet (ou page d'accueil) et sélectionner
@@ -423,14 +423,14 @@ travers plusieurs indicateurs :
 
 -  **Derniers Projets** : les 10 derniers projets enregistrés. En
    affichant cette liste de façon régulière vous pouvez être tenu
-   informé de la création de tout nouveau projet |SYSPRODUCTNAME|.
+   informé de la création de tout nouveau projet Tuleap.
 
 Nous vous recommandons vivement de visiter la page d'accueil de
-|SYSPRODUCTNAME| de façon régulière. Ce faisant vous aurez un
+Tuleap de façon régulière. Ce faisant vous aurez un
 excellent aperçu de ce qui se passe en matière de développement logiciel
 chez SYS\_ORG\_NAME.
 
-*En un mot comme en cent* : Faites de |SYSPRODUCTNAME| la page par
+*En un mot comme en cent* : Faites de Tuleap la page par
 défaut de votre navigateur :-)
 
 .. |image4| image:: ../images/icons/trash.png

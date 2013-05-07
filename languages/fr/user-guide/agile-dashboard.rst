@@ -1,17 +1,17 @@
-.. |SYSPRODUCTNAME| replace:: Tuleap
+.. Tuleap replace:: Tuleap
 
 .. _agile-dashboard:
 
 Agile Dashboard
 ===============
 
-L'Agile Dashboard de |SYSPRODUCTNAME|  est un nouveau service basé sur les trackers (see :ref:`trackers-and-real-time-reports`).
+L'Agile Dashboard de Tuleap  est un nouveau service basé sur les trackers (see :ref:`trackers-and-real-time-reports`).
 Il s'adapte à la plupart des équipes agile.
 
 Features
 --------
 
-L' Agile Dashboard de |SYSPRODUCTNAME| comporte de nombreuses fonctionnalités, dont un cardwall, un burndown ainsi
+L' Agile Dashboard de Tuleap comporte de nombreuses fonctionnalités, dont un cardwall, un burndown ainsi
 qu'un outil de planification et de gestion des différents backlogs.
 
 Le cardwall permet de gérer les tâches au quotidien, d'avoir un aperçu des personnes travaillant sur ces dernières et de
@@ -23,7 +23,7 @@ L'outil de planification et de gestion du backlog permet d'organiser les différ
 Création d'un Agile Dashboard
 ---------------------------
 
-Création à partir d'un template de |SYSPRODUCTNAME|
+Création à partir d'un template de Tuleap
 ```````````````````````````````````````````````````
 Etant donné les nombreuses configurations pour mettre en place un agile dashboard, nous vous conseillons d'importer un
 template puis de l'adapter aux besoins de votre équipe.
@@ -31,7 +31,7 @@ template puis de l'adapter aux besoins de votre équipe.
 En premier lieu, les plugins "tracker" et "agile dashboard" doivent être installés et activés sur votre projet.
 
 Importer un agile dashboard n'est actuellement possible qu'en ligne de commande.
-Assurez vous d'avoir les accès nécessaires au répertoire sur lequel |SYSPRODUCTNAME| est installé.
+Assurez vous d'avoir les accès nécessaires au répertoire sur lequel Tuleap est installé.
 
 Un template "Agile Dashboard" est téléchargeable ici : https://tuleap.net/plugins/docman/?group_id=101&action=show&id=438
 

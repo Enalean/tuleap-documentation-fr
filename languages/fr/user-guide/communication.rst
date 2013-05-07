@@ -5,14 +5,14 @@
 Outils de communication
 =======================
 
-L'un des objectifs de SYS\_PRODUCT\_NAME est de fournir aux développeurs
+L'un des objectifs de Tuleap est de fournir aux développeurs
 des outils de développement et de gestion de projets efficaces. D'autre
-part, SYS\_PRODUCT\_NAME doit aussi devenir le canal de communication
+part, Tuleap doit aussi devenir le canal de communication
 favori de tous les utilisateurs puisqu'une collaboration et une
 communication efficace est capitale pour les équipes de projets et leurs
 communautés.
 
-A cette fin, SYS\_PRODUCT\_NAME propose un ensemble de services de
+A cette fin, Tuleap propose un ensemble de services de
 communication intégrés, que l'équipe de projet peut personnaliser. Cela
 inclut les listes de diffusion, le service d'annonces (news), les forums
 Web et un plug-in de messagerie instantanée.
@@ -57,12 +57,12 @@ Où :
     liste de diffusion. Il s'agit d'un message important contenant des
     URLs vers les pages d'information et d'administration de la liste de
     diffusion ainsi que le mot de passe par défaut généré par
-    SYS\_PRODUCT\_NAME permettant d'accéder aux fonctions
+    Tuleap permettant d'accéder aux fonctions
     d'administration. Gardez-le dans un endroit sûr !
 
     **Tip**
 
-    Un projet hébergé sur SYS\_PRODUCT\_NAME devrait toujours créer au
+    Un projet hébergé sur Tuleap devrait toujours créer au
     moins une liste de diffusion (ou un forum Web) où les utilisateurs
     peuvent poster leurs questions et leurs commentaires. Cette liste
     est typiquement appelée ``nomprojet-interest@SYS_LISTS_HOST``. Nous
@@ -85,7 +85,7 @@ La page d'administration vous permet de régler de nombreux paramètres de
 la liste de diffusion, de gérer les membres, les administrateurs, la
 confidentialité, le message de bienvenue aux nouveaux inscrits, etc.
 GNU/Mailman, le gestionnaire de liste de diffusion utilisé par
-SYS\_PRODUCT\_NAME, est un logiciel très riche et nous vous invitons à
+Tuleap, est un logiciel très riche et nous vous invitons à
 visiter la page d'administration au moins une fois pour avoir une idée
 de l'éventail des fonctionnalités.
 
@@ -94,18 +94,18 @@ de l'éventail des fonctionnalités.
     Veuillez noter que les administrateurs d'un projet ne sont pas
     automatiquement administrateurs des listes de diffusion et le mot de
     passe d'administration d'une liste de diffusion est différent de
-    tout autre mot de passe d'utilisateurs SYS\_PRODUCT\_NAME.
+    tout autre mot de passe d'utilisateurs Tuleap.
 
 (Dés)Inscription, archive et préférences
 ----------------------------------------
 
 A moins qu'une liste de diffusion ne soit privée, tout utilisateur
-SYS\_PRODUCT\_NAME peut s'y inscrire. Pour ce faire il suffit de cliquer
+Tuleap peut s'y inscrire. Pour ce faire il suffit de cliquer
 sur le lien "Listes" dans la barre de services du projet, puis sur le
 lien "(Dés)Abonnement/Préférences" de la liste de diffusion concernée.
 Ensuite suivez les instructions affichées à l'écran.
 
-Le gestionnaire de liste de diffusion de SYS\_PRODUCT\_NAME
+Le gestionnaire de liste de diffusion de Tuleap
 (GNU/Mailman) archive aussi l'ensemble des messages échangés sur la
 liste de diffusion. En suivant le lien "Archive" sur la même page que
 précédemment vous pourrez consulter les messages archivés regroupés par
@@ -132,17 +132,17 @@ page. Ensuite tapez le titre et le contenu de l'annonce. Les URLs
 présents dans le message seront automatiquement transformés en hyperlien
 dans la version publiée. Vous pouvez aussi choisir de rendre votre
 annonce publique c'est à dire visible sur votre page de sommaire du
-projet par tous les utilisateurs SYS\_PRODUCT\_NAME ou privée c'est à
+projet par tous les utilisateurs Tuleap ou privée c'est à
 dire visible seulement par vos membres de projet.
 
-N'importe quel utilisateur SYS\_PRODUCT\_NAME peut attacher un
+N'importe quel utilisateur Tuleap peut attacher un
 commentaire aux annonces visibles pour lui sur votre page de sommaire de
 projet, ce qui signifie que chaque annonce est un forum de discussion en
 puissance [1]_. De plus, l'équipe d'administration du site
-SYS\_PRODUCT\_NAME a une vue sur l'ensemble des annonces publiques
+Tuleap a une vue sur l'ensemble des annonces publiques
 publiées par les différents projets et peut décider de faire apparaître
 certaines d'entre elles sur la page d'accueil principale du site
-SYS\_PRODUCT\_NAME si elles présentent un intérêt pour l'ensemble des
+Tuleap si elles présentent un intérêt pour l'ensemble des
 utilisateurs. Une belle publicité en vérité !! Lors de la soumission
 d'une annonce, vous pouvez d'ailleurs demander aux administrateurs que
 votre annonce soit mise en avant sur la page d'accueil principale du
@@ -152,21 +152,21 @@ Forums Web
 ==========
 
 Il s'agit là de la troisième forme de communication offert par
-SYS\_PRODUCT\_NAME. Les forums Web sont plus ou moins équivalents aux
+Tuleap. Les forums Web sont plus ou moins équivalents aux
 listes de diffusion si ce n'est que l'envoi d'un message se fait via
 l'interface Web plutôt que par e-mail. Vous devez donc être connecté au
 site pour participer à la discussion car vous ne pouvez pas préparer vos
 messages en étant déconnecté comme vous le feriez avec une liste de
 diffusion.
 
-Pour accéder aux forums Web d'un projet SYS\_PRODUCT\_NAME, cliquez sur
+Pour accéder aux forums Web d'un projet Tuleap, cliquez sur
 le lien "Forums" dans la barre de service du projet. Lorsqu'un projet
-SYS\_PRODUCT\_NAME est créé il est pourvu de trois forums : Open
+Tuleap est créé il est pourvu de trois forums : Open
 Discussions, Help and Developers. Ces forums et tous les autres sont
 accessibles en lecture et en écriture à tous les utilisateurs
-SYS\_PRODUCT\_NAME à moins que vous ne décidiez de les rendre privés
+Tuleap à moins que vous ne décidiez de les rendre privés
 (voir ci-dessous). Un utilisateur peut aussi surveiller un forum. Dans
-ce cas SYS\_PRODUCT\_NAME lui fera suivre automatiquement par e-mail
+ce cas Tuleap lui fera suivre automatiquement par e-mail
 tous les messages postés sur le forum, ce qui lui évitera des visites
 répétées à la page Web du forum.
 
@@ -182,14 +182,14 @@ ou sa description ou même de le détruire.
 Plug-in de messagerie instantanée
 =================================
 
-SYS\_PRODUCT\_NAME est associé à un serveur Jabber et contient un
+Tuleap est associé à un serveur Jabber et contient un
 plug-in de messagerie instantanée (IM) permettant un niveau
 d'interaction entre eux.
 
 Si le plug-in est actif, un compte de messagerie instantanée sera
-automatiquement disponible pour chaque utilisateur SYS\_PRODUCT\_NAME,
+automatiquement disponible pour chaque utilisateur Tuleap,
 et ceux-ci pourront se connecter sur le serveur Jabber en utilisant
-leurs identifiants SYS\_PRODUCT\_NAME. De plus, les utilisateurs membres
+leurs identifiants Tuleap. De plus, les utilisateurs membres
 d'un même projet seront regroupés ensembles sur le serveur Jabber, qui
 ajoutera automatiquement ce groupe dans la liste de contacts de chacun
 des membres.
@@ -200,7 +200,7 @@ ensemble. Seuls les membres d'un projet peuvent rejoindre le salon lui
 correspondant, mais un membre présent dans un salon peut inviter des
 utilisateurs externes au projet.
 
-Le plug-in IM de SYS\_PRODUCT\_NAME contient un client Jabber intégré à
+Le plug-in IM de Tuleap contient un client Jabber intégré à
 l'interface web de votre projet. Ce client vous permet uniquement de
 dialoguer dans le salon de discussion du projet (voir ?). Bien entendu,
 chaque utilisateur est libre d'utiliser le client qui correspond le
@@ -211,13 +211,13 @@ Notons toutefois que certains clients, comme Coccinella par exemple,
 permettent de faire du tableau blanc partagé.
 
 Le status d'un utilisateur utilisant un client Jabber (en ligne, occupé,
-absent) est affiché dans SYS\_PRODUCT\_NAME.
+absent) est affiché dans Tuleap.
 
-Intégration de la messagerie instantanée dans SYS\_PRODUCT\_NAME
+Intégration de la messagerie instantanée dans Tuleap
 ----------------------------------------------------------------
 
 Un certain nombre d'informations concernant la messagerie instantanée
-sont disponibles directement depuis SYS\_PRODUCT\_NAME. Ainsi, chaque
+sont disponibles directement depuis Tuleap. Ainsi, chaque
 utilisateur peut voir sa liste de contact ainsi que leur status
 directement depuis son espace personnel. Pour ce faire, il suffit de se
 rendre sur la page "Ma Page Personnelle". Si le widget affichant la
@@ -225,7 +225,7 @@ liste de contact n'est pas visible, il faut l'ajouter. Pour ce faire,
 cliquez sur le lien "Ajouter des widgets" , et ajouter le widget
 correspondant à "Ma liste de contact IM".
 
-Chaque nom d'utilisateur affiché dans SYS\_PRODUCT\_NAME s'accompagne
+Chaque nom d'utilisateur affiché dans Tuleap s'accompagne
 d'une icone de couleur (gris,vert, jaune ou rouge) indiquant le status
 de l'utilisateur : gris pour "non connecté", vert pour "en ligne", jaune
 pour "absent" et rouge pour "occupé". Les utilisateurs peuvent modifier
@@ -253,7 +253,7 @@ Configuration d'un client Jabber
 --------------------------------
 
 La configuration d'un client Jabber pour utiliser votre compte
-SYS\_PRODUCT\_NAME est simple. Si vous utilisez un client qui accèpte
+Tuleap est simple. Si vous utilisez un client qui accèpte
 plusieurs protocoles de communication, la première chose à faire est de
 choisir le protocole Jabber (ou XMPP). Trois autres informations sont
 nécessaires pour vous connecter : votre nom d'utilisateur, votre mot de
@@ -263,13 +263,13 @@ fait simplement référence au nom d'utilisateur associé à l'adresse du
 serveur par un symbole @ (i.e. nomd'utilisateur@serveurJabber.com),
 d'autres demandent explicitement le nom et l'adresse du serveur. Votre
 JID est disponible dans votre espace personnel sur le site web
-SYS\_PRODUCT\_NAME en vous authentifiant, et en cliquant sur le lien
+Tuleap en vous authentifiant, et en cliquant sur le lien
 "Mon compte" sur la page "Ma page personnelle", ou tout simplement en
 accedant à votre "Profil développeur". Vous pourrez ainsi trouver votre
 "Login Messagerie Instantanée" qui est composé de votre nom
 d'utilisateur et de l'adresse du serveur Jabber associé à
-SYS\_PRODUCT\_NAME. Utilisez le même mot de passe pour vous authentifier
-sur le serveur Jabber que pour vous connecter à SYS\_PRODUCT\_NAME.
+Tuleap. Utilisez le même mot de passe pour vous authentifier
+sur le serveur Jabber que pour vous connecter à Tuleap.
 
 En plus de ces paramètres, le client peut vous demander le nom de la
 ressource que vous utilisez pour vous connecter sur votre compte Jabber.
@@ -371,7 +371,7 @@ L'interface du salon de discussion se compose de plusieurs zones :
    couper ou d'activer le son. Pour disposer du son, vous devez avoir un
    plugin Flash pour votre navigateur.
 
-|Salon de discussion dans l'interface web de SYS\_PRODUCT\_NAME|
+|Salon de discussion dans l'interface web de Tuleap|
 
     **Tip**
 
@@ -479,7 +479,7 @@ fin signifie "jusqu'à maintenant".
 Les archives des conversations sont classées par jour. Elles vous
 renseignent sur l'heure des messages (heure et minutes), l'auteur du
 message (identifiant de l'utilisateur sur le serveur
-SYS\_PRODUCT\_NAME), et bien sûr le message lui-même. Les changements de
+Tuleap), et bien sûr le message lui-même. Les changements de
 peudos ne sont pas consignés dans les archives. Les messages systèmes
 sont présents, ce qui aide à savoir qui était présent lorsque telle
 chose a été dite. Les URL et les références apparaîtront comme des
@@ -496,6 +496,6 @@ de date (voir ?).
 
 .. [1]
    En arrière plan, chaque annonce est en fait gérée exactement comme un
-   forum Web SYS\_PRODUCT\_NAME.
+   forum Web Tuleap.
 
-.. |Salon de discussion dans l'interface web de SYS\_PRODUCT\_NAME| image:: ../../screenshots/fr_FR/sc_webmucrooms.png
+.. |Salon de discussion dans l'interface web de Tuleap| image:: ../../screenshots/fr_FR/sc_webmucrooms.png

@@ -5,8 +5,8 @@
 Wiki
 ====
 
-SYS\_PRODUCT\_NAME offre un service Wiki à chaque projet. Le wiki
-utilisé dans SYS\_PRODUCT\_NAME s'appuie sur l'outil
+Tuleap offre un service Wiki à chaque projet. Le wiki
+utilisé dans Tuleap s'appuie sur l'outil
 `phpWiki <http://phpwiki.sourceforge.net>`__.
 
 Présentation d'un Wiki
@@ -22,20 +22,20 @@ Un Wiki permet de rédiger un document de façon collaborative à l'aide
 d'un langage de balises simple et en utilisant uniquement un navigateur
 Web. Une page d'un wiki est appelée "page wiki" alors que l'ensemble des
 pages interconnectées par le biais d'hyperliens sont collectivement
-baptisées "le wiki". SYS\_PRODUCT\_NAME offre en complément la notion de
+baptisées "le wiki". Tuleap offre en complément la notion de
 "Document Wiki" : il s'agit d'une page wiki directement accessible
 depuis la page d'accueil du service Wiki du projet.
 
 Une propriété caractéristique de la technologie Wiki est la facilité
 avec laquelle des pages peuvent être créées ou modifiées. Il n'y pas de
 mécanisme de revue ou d'approbation des modifications effectuées et les
-Wikis SYS\_PRODUCT\_NAME sont ouverts à tous les utilisateurs
+Wikis Tuleap sont ouverts à tous les utilisateurs
 enregistrés.
 
 Wiki Page Formatting
 --------------------
 
-Dans les Wikis de SYS\_PRODUCT\_NAME, une page possède trois
+Dans les Wikis de Tuleap, une page possède trois
 représentations : le code HTML, la page résultant du rendu par le
 navigateur et le code source de la page éditable par l'utilisateur à
 partir duquel la version HTML est générée. Le format du code source,
@@ -58,7 +58,7 @@ navigation non linéaire. Chaque page contient des liens vers d'autres
 pages. Les liens sont automatiquement créés en utilisant une syntaxe
 particulière appelée "patron de lien".
 
-Les wikis SYS\_PRODUCT\_NAME utilisent le "patron de lien" appelé
+Les wikis Tuleap utilisent le "patron de lien" appelé
 CasseChameau (CamelCase en anglais), qui consiste à considérer comme
 hyperlien une série de mots collés ensemble dont la première lettre est
 une majuscule (les mots "CamelCase", "RéférencesBibliographiques" en
@@ -90,13 +90,13 @@ référencées nulle part dans le Wiki.
 Rechercher
 ----------
 
-Les Wikis SYS\_PRODUCT\_NAME permettent d'effectuer des recherches par
+Les Wikis Tuleap permettent d'effectuer des recherches par
 mots-clés aussi bien dans le titre que dans le contenu des pages.
 
-Les Wikis de SYS\_PRODUCT\_NAME
+Les Wikis de Tuleap
 ===============================
 
-Les Wikis de SYS\_PRODUCT\_NAME sont spécifiques à chaque projet. Ainsi
+Les Wikis de Tuleap sont spécifiques à chaque projet. Ainsi
 deux projets distincts peuvent utiliser les mêmes noms de pages sans
 risque de conflit.
 
@@ -121,12 +121,12 @@ documentation PhpWiki, etc…
 Permissions du Wiki
 -------------------
 
-Par défaut, les Wikis de SYS\_PRODUCT\_NAME sont lisibles et modifiables
+Par défaut, les Wikis de Tuleap sont lisibles et modifiables
 par n'importe quel utilisateur enregistré.
 
 Bien que cette politique d'accès soit en général la meilleure, certains
 Wikis ne doivent pas être publics. Pour répondre à ce besoin,
-SYS\_PRODUCT\_NAME offre un mécanisme de gestion des permissions basés
+Tuleap offre un mécanisme de gestion des permissions basés
 sur les groupes d'utilisateurs comme pour le gestionnaire de fichiers
 (voir ? et ?). Les droits d'accès peuvent être définis au niveau du Wiki
 et s'appliquer à toutes les pages, ou bien au niveau de la page
@@ -135,7 +135,7 @@ permettant ainsi de protéger uniquement certaines pages bien choisies.
 Exemples de pages Wiki
 ----------------------
 
-Les Wikis de projets hébergés sur SYS\_PRODUCT\_NAME peuvent être
+Les Wikis de projets hébergés sur Tuleap peuvent être
 utilisés de maintes façons. Les exemples qui suivent sont juste des
 suggestions :
 
@@ -145,7 +145,7 @@ suggestions :
    rapport de réunion. De plus, n'importe quel utilisateur peut modifier
    ou corriger le contenu par la suite.
 
--  **Calendrier de projet** : les pages Wikis de SYS\_PRODUCT\_NAME
+-  **Calendrier de projet** : les pages Wikis de Tuleap
    peuvent inclure un calendrier partagé accessible et modifiable par
    tous les membres du projet (voir la page CalendarPlugin).
 
@@ -158,7 +158,7 @@ suggestions :
 En savoir plus
 --------------
 
-Tous les Wikis de SYS\_PRODUCT\_NAME sont initialisés avec un jeu de
+Tous les Wikis de Tuleap sont initialisés avec un jeu de
 pages par défaut dont la documentation PhpWiki. Consultez la page
 PhpWikiDocumentation pour une description de toutes les fonctionnalités
 de PhpWiki : syntaxe du langage de marquage, plugins, etc…

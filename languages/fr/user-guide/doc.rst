@@ -6,10 +6,10 @@ Gestionnaire de Documents
 =========================
 
 La documentation est probablement le délivrable le plus important d'un
-projet après le logiciel lui-même. SYS\_PRODUCT\_NAME propose un service
+projet après le logiciel lui-même. Tuleap propose un service
 spécifique pour la gestion de la documentation.
 
-Bien que le gestionnaire de documents de SYS\_PRODUCT\_NAME ne soit pas
+Bien que le gestionnaire de documents de Tuleap ne soit pas
 comparable à un système de gestion documentaire dédié, il est cependant
 extrêmement pratique pour gérer les documents critiques pour votre
 communauté d'utilisateurs. Quelques exemples : manuel d'installation,

@@ -1,11 +1,11 @@
 
-.. |SYSPRODUCTNAME| replace:: Tuleap
+.. Tuleap replace:: Tuleap
 
 Tableau de bord Projet
 ======================
 
 Le Tableau de bord Projet est le point d'entrée d'un projet hébergé sur
-|SYSPRODUCTNAME| et c'est une page très importante que vous pouvez
+Tuleap et c'est une page très importante que vous pouvez
 conserver dans vos signets. A partir de cette page les utilisateurs
 enregistrés, les membres du projet ou les administrateurs peuvent suivre
 en temps réel l'avancement du projet et accéder aux ressources et
@@ -31,7 +31,7 @@ Vous pouvez explorer l'arbre des projets si vous savez dans quelles
 catégories se trouve le projet.
 
 Vous pouvez aussi cliquer sur le nom du projet s'il apparaît dans la
-page d'accueil de |SYSPRODUCTNAME|.
+page d'accueil de Tuleap.
 
 Et enfin vous pouvez aussi indiquer explicitement l'URL à votre
 navigateur sous la forme :
@@ -42,8 +42,8 @@ navigateur sous la forme :
 
 Si vous devez consulter régulièrement des projets dont vous n'êtes pas
 membre, nous vous conseillons de faire apparaître l'URL du tableau de
-bord dans votre page personnelle |SYSPRODUCTNAME| en utilisant la
-fonction "Cette page en signet" du menu de |SYSPRODUCTNAME| (voir :ref:`connexion-et-page-personnelle`).
+bord dans votre page personnelle Tuleap en utilisant la
+fonction "Cette page en signet" du menu de Tuleap (voir :ref:`connexion-et-page-personnelle`).
 
     **Tip**
 
@@ -52,7 +52,7 @@ fonction "Cette page en signet" du menu de |SYSPRODUCTNAME| (voir :ref:`connexio
     et des délivrables du projet alors que la page d'accueil est le
     point d'entrée du site Web de votre projet. Le site Web d'un projet
     peut être utilisé pour accueillir vos visiteurs, les informer et les
-    orienter vers les différents services de |SYSPRODUCTNAME|. (voir ?
+    orienter vers les différents services de Tuleap. (voir ?
     pour plus d'information sur l'élaboration du site Web de votre
     projet).
 
@@ -87,7 +87,7 @@ divise en plusieurs zones :
 
    Un exemple de Tableau de bord du Projet Playground
 
-|SYSPRODUCTNAME| permet aux administrateurs du projet de personnaliser
+Tuleap permet aux administrateurs du projet de personnaliser
 le Tableau de bord du projet. Le contenu de la page est constitué de
 *widgets*. Tous les widgets peuvent être déplacés, fermés ou supprimés.
 Certains d'entre eux peuvent fournir un flux rss ou des préférences
@@ -106,7 +106,7 @@ Voici une liste non-exhaustive de widgets disponible pour les projets :
    version ainsi qu'un résumé des changements (Changelog). A proximité
    se situe l'icône de surveillance de ce paquet (|image2|). La
    sélection de cette icône active la surveillance automatique de ce
-   paquet logiciel par |SYSPRODUCTNAME|. A chaque fois que l'équipe de
+   paquet logiciel par Tuleap. A chaque fois que l'équipe de
    projet dépose une nouvelle version du logiciel, un message de
    notification vous est envoyé. Tous les paquets sous surveillance se
    trouvent sur votre Page Personnelle et la surveillance peut être
@@ -122,7 +122,7 @@ Voici une liste non-exhaustive de widgets disponible pour les projets :
 
 -  **Dernières annonces** : les dix dernières annonces publiées par les
    membres du projet. Certaines de ces annonces peuvent aussi apparaître
-   sur le page d'accueil du site si l'équipe |SYSPRODUCTNAME| en
+   sur le page d'accueil du site si l'équipe Tuleap en
    décide ainsi.
 
 -  **RSS Reader** vous permet d'inclure dans votre page personnelle des

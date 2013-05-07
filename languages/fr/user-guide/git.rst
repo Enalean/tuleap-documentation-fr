@@ -6,7 +6,7 @@ Contrôle de version avec Git
 ============================
 
 Ce chapitre n'est pas un tutoriel Git. Il a pour objectif d'expliquer
-comment utiliser les fonctionnalitées proposées par SYS\_PRODUCT\_NAME
+comment utiliser les fonctionnalitées proposées par Tuleap
 Si vous n'êtes pas familier avec Git nous vous conseillons de vous
 référer à la documentation (voir ?).
 
@@ -145,7 +145,7 @@ contenant :
 -  les fichiers modifiés (+diffstats),
 
 -  pour chaque commit, un lien vers diff dans l'interface gitweb de
-   SYS\_PRODUCT\_NAME,
+   Tuleap,
 
 -  pour chaque référence (dans un message de commit par exemple),
    l'automagic link correspondant.

@@ -51,7 +51,7 @@ certain nombre d'avantages. Parmis ceux-ci, nous pouvons citer :
 -  Il existe toujours une version des livrables opérationnelle et
    disponible pour test, démonstration ou distribution.
 
-Nous avons choisi d'intégrer à SYS\_PRODUCT\_NAME l'outil d'intégration
+Nous avons choisi d'intégrer à Tuleap l'outil d'intégration
 continue **Hudson/Jenkins**, qui est l'un des meilleurs outils
 actuellement. Jenkins est un fork d'Hudson. Ainsi dans ce chapitre nous
 employerons le nom d'Hudson pour les 2 outils. Le paramétrage d'Hudson
@@ -81,7 +81,7 @@ nombre de termes spécifiques. En voici la définition :
 | **Artéfact**     | Item généré lors du build, et mis à disposition par      |
 |                  | l'outil d'intégration continue. Attention à ne pas       |
 |                  | confondre un artefact d'un build et un artefact          |
-|                  | SYS\_PRODUCT\_NAME (qui est un item suivi dans l'outil   |
+|                  | Tuleap (qui est un item suivi dans l'outil   |
 |                  | de suivi).                                               |
 +------------------+----------------------------------------------------------+
 | **Espace de      | Répertoire dans lequel le projet va être dépoyé pour     |
@@ -195,7 +195,7 @@ permettre la notification, vous devez indiquer un serveur de messagerie
 serveur de messagerie par défault (localhost).
 
 Vous pouvez également spécifier le suffixe par défaut des emails des
-utilisateurs. Par défaut, tous les utilisateurs SYS\_PRODUCT\_NAME ont
+utilisateurs. Par défaut, tous les utilisateurs Tuleap ont
 une adresse email du type **login@SYS\_DEFAULT\_DOMAIN** qui sera
 redirigée vers l'adresse réelle de l'utilisateur. Vous pouvez donc
 renseigner dans ce champ la valeur **@SYS\_DEFAULT\_DOMAIN** et les
@@ -214,7 +214,7 @@ Notification Jabber
 Si vous avez installé le plugin Jabber pour hudson (voir ?), vous
 trouverez également dans la section "Administrer Hudson" -> "Configurer
 le système" une partie dédiée aux notifications Jabber. Si le plugin
-Jabber pour SYS\_PRODUCT\_NAME est installé et activé, chaque
+Jabber pour Tuleap est installé et activé, chaque
 utilisateur dispose d'un compte Jabber (Voir ?) et chaque projet dispose
 d'un salon de discussion. Le plugin Jabber pour Hudson vous permet alors
 de notifier les utilisateurs (ou les salons) des résultats des builds.
@@ -264,7 +264,7 @@ CVS et Subversion
 -----------------
 
 Par défaut, Hudson propose les deux même gestionnaire de code source que
-SYS\_PRODUCT\_NAME : CVS et Subversion. Sélectionnez le gestionnaire que
+Tuleap : CVS et Subversion. Sélectionnez le gestionnaire que
 vous utilisez pour votre projet, puis entrez les informations concernant
 les chemins vers le dépôt de votre projet.
 
@@ -284,7 +284,7 @@ Subversion
 ~~~~~~~~~~
 
 Pour Subversion, vous devez aussi renseigner l'URL du dépôt SVN. Cette
-information est disponible sur l'interface web de SYS\_PRODUCT\_NAME en
+information est disponible sur l'interface web de Tuleap en
 cliquant sur l'onglet SVN de votre projet. Il s'agit d'une chaîne de
 type **http://SYS\_DEFAULT\_DOMAIN/svnroot/[projectname]**
 
@@ -317,7 +317,7 @@ options principales s'offrent à vous :
    scruter les changements dans l'outil de gestion de version. Vous
    pouvez définir la fréquence suivant la syntaxe cron (voir aide Hudson
    en ligne). Notez toutefois que cette opération est consommatrice de
-   ressources pour le serveur SYS\_PRODUCT\_NAME. Envisagez d'utiliser
+   ressources pour le serveur Tuleap. Envisagez d'utiliser
    la méthode de type 'push' pour éviter cette surcharge (voir
    ci-dessous).
 
@@ -326,7 +326,7 @@ options principales s'offrent à vous :
    Pour éviter que n'importe qui déclenche le build, vous pouvez
    spécifier un jeton (token) qui servira de protection. Pour que le
    build soit effectivement déclenché après chaque modification de code
-   source, il faudra le paramétrer dans SYS\_PRODUCT\_NAME dans l'onglet
+   source, il faudra le paramétrer dans Tuleap dans l'onglet
    'Build' de votre projet (Voir ?). Vous pourrez également spécifier le
    jeton si vous en avez défini un.
 
@@ -427,29 +427,29 @@ citer parmis elle :
    soient automatiquement reconnus par Hudson, il faut vérifier que le
    serveur soit correctement configuré (voir ?).
 
-Intégration dans SYS\_PRODUCT\_NAME
+Intégration dans Tuleap
 ===================================
 
 Parce que l'intégration continue fait partie des bonnes pratiques de
 développement logiciel, et pas seulement dans des projets mettant en
-oeuvre les méthodologies Agiles, SYS\_PRODUCT\_NAME intègre l'outil
+oeuvre les méthodologies Agiles, Tuleap intègre l'outil
 Hudson. Nous avons vu plus haut comment installer (voir ?) et configurer
 (voir ?) Hudson. Nous avons également vu comment créer et configurer ses
 jobs Hudson (voir ?). Voyons maintenant comment Hudson est intégré à
-SYS\_PRODUCT\_NAME.
+Tuleap.
 
 Service Hudson
 --------------
 
 Si le plugin Hudson est installé et activé sur votre serveur
-SYS\_PRODUCT\_NAME, chaque projet peut activer le service Hudson (voir ?
+Tuleap, chaque projet peut activer le service Hudson (voir ?
 pour activer des services dans votre projet).
 
 Une fois le service activé, vous verrez apparaître un nouvel onglet
 "Build" dans la barre des services. Il s'agit de l'onglet correspondant
 à l'intégration continue avec Hudson.
 
-Lier un job Hudson à votre projet SYS\_PRODUCT\_NAME
+Lier un job Hudson à votre projet Tuleap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Pour lier un job Hudson à votre projet, sélectionnez l'onglet Build de
@@ -467,7 +467,7 @@ déclenchera un build du job lié, via un hook de pré-commit (vous n'avez
 rien d'autre à faire).
 
 Il est possible de lier plusieurs Jobs Hudson à un même projet
-SYS\_PRODUCT\_NAME.
+Tuleap.
 
 Parcourir les jobs et les builds Hudson
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -490,7 +490,7 @@ afin de permettre les références.
 Le nom du job et les derniers builds sont des liens hypertextes qui
 ouvriront la section Hudson correspondante dans une fenêtre juste en
 dessous. Ceci est très pratique pour naviguer dans l'interface de Hudson
-tout en restant dans l'interface de SYS\_PRODUCT\_NAME. Si vous
+tout en restant dans l'interface de Tuleap. Si vous
 souhaitez visualiser la page Hudson en grand, vous pouvez cliquer sur le
 lien 'voir seulement cette fenêtre' en haut à droite.
 
@@ -554,7 +554,7 @@ Références Hudson
 -----------------
 
 Il est possible de créer des références vers certains objets Hudson dans
-SYS\_PRODUCT\_NAME. Certaines références sont prédéfinies (job, build),
+Tuleap. Certaines références sont prédéfinies (job, build),
 mais vous pouvez tout à fait définir vos propres références si besoin
 (voir ? pour plus de détails sur les références)
 

@@ -11,7 +11,7 @@ suivi actuel (v5), se référer à ?.
 
 Les outils de suivi (ou trackers) représentent l'un des services les
 plus puissants et les plus flexibles mis à la disposition des projets
-hébergés sur SYS\_PRODUCT\_NAME. Ils assurent le suivi d'artefacts aussi
+hébergés sur Tuleap. Ils assurent le suivi d'artefacts aussi
 variés que des bugs, des tâches, des fiches d'assistance, etc... et un
 projet peut créer autant d'outils de suivi que nécessaire.
 
@@ -85,8 +85,8 @@ l'outil de suivi en haut de l'écran (voir ?).
 |Un exemple d'écran de soumission d'artefact (ici de type "bug")|
 
 La ? montre un exemple de soumission d'écran provenant d'un projet
-SYS\_PRODUCT\_NAME. En raison du très haut niveau de personnalisation de
-service de l'outil de suivi de SYS\_PRODUCT\_NAME, les écrans de
+Tuleap. En raison du très haut niveau de personnalisation de
+service de l'outil de suivi de Tuleap, les écrans de
 soumission d'artefact varient énormément d'un outil de suivi à l'autre.
 Suivant les cas les champs affichés et le nom des artefacts diffèrent.
 
@@ -101,7 +101,7 @@ identifiant unique (ID) lui est automatiquement assigné.
 
 Les valeurs proposées par un champ peuvent dépendre d'une valeur d'un
 autre champ. Si le javascript est activé dans votre navigateur, les
-champs seront alors filtrés dynamiquement. Sinon, SYS\_PRODUCT\_NAME
+champs seront alors filtrés dynamiquement. Sinon, Tuleap
 s'assurera que les valeurs que vous soumettez sont correctes.
 
 Comme expliqué plus haut, le formulaire de soumission d'un artefact peut
@@ -124,17 +124,17 @@ lorsque vous en avez terminé avec le formulaire !
     **Tip**
 
     Vous êtes sur le point de soumettre un bug ou une demande
-    d'assistance à un projet SYS\_PRODUCT\_NAME ? Avant de vous lancer,
+    d'assistance à un projet Tuleap ? Avant de vous lancer,
     assurez-vous qu'un artefact similaire n'est pas déjà présent. Pour
     ce faire, vous pouvez effectuer une recherche dans la base des
     artefacts soit par l'écran de sélection, soit en utilisant la boîte
     de recherche par mots-clés située dans le menu principal de
-    SYS\_PRODUCT\_NAME.
+    Tuleap.
 
 Naviguer dans les artefacts
 ===========================
 
-SYS\_PRODUCT\_NAME permet de naviguer dans la base des artefacts selon
+Tuleap permet de naviguer dans la base des artefacts selon
 un nombre de critères variables.
 
 Critère de sélection
@@ -294,7 +294,7 @@ Requêtes favorites ou prédéfinies pour les outils de suivi
     critères de sélection et cliquez sur le bouton "Afficher" pour
     lancer la requête. Après exécution et affichage des résultats, il
     suffit de cliquez sur le lien "Cette page en signet" figurant dans
-    le menu principal de SYS\_PRODUCT\_NAME pour faire apparaître un
+    le menu principal de Tuleap pour faire apparaître un
     nouveau signet dans votre page personnelle. En sélectionnant ce
     signet vous pouvez à tout moment relancer la même requête.
 
@@ -309,9 +309,9 @@ de service. Il s'agit de :
 -  **Mes Artefacts** : affiche tous les artefacts qui vous sont assignés
    (sur la base du compte utilisateur que vous êtes en train d'utiliser)
 
-Vous noterez aussi que SYS\_PRODUCT\_NAME garde toujours la trace de la
+Vous noterez aussi que Tuleap garde toujours la trace de la
 dernière requête effectuée. Lorsque vous vous présenterez à nouveau sur
-l'écran de recherche et de navigation, SYS\_PRODUCT\_NAME effectuera la
+l'écran de recherche et de navigation, Tuleap effectuera la
 même requête pour vous et vous présentera les résultats correspondants.
 
 Mode de recherche avancé
@@ -327,7 +327,7 @@ assignés aux utilisateurs A ou B.
 Résultats de la recherche dans un outil de suivi
 ------------------------------------------------
 
-Sur la base de vos critères de sélection, SYS\_PRODUCT\_NAME effectue
+Sur la base de vos critères de sélection, Tuleap effectue
 une requête dans la base de données, sélectionne les artefacts
 correspondants et les affiche juste au dessous des critères de
 sélection. Le choix des colonnes affichées par la liste de résultat est
@@ -355,7 +355,7 @@ Tri de la liste des artefacts
 
 Par défaut, les artefacts sont triés par identifiant (ID) ce qui
 correspond à l'ordre chronologique de création des artefacts dans la
-base de données de SYS\_PRODUCT\_NAME.
+base de données de Tuleap.
 
 La liste des artefacts peut être triée selon n'importe quelle colonne
 affichée à l'écran en cliquant sur l'entête de la colonne. Deux clics
@@ -382,7 +382,7 @@ fonctionnalité vous pouvez aisément tester plusieurs stratégies de tri.
 
     Note : les critères de tri, comme les critères de sélection, sont
     aussi sauvegardés dans vos préférences utilisateurs et
-    SYS\_PRODUCT\_NAME appliquera les mêmes critères de tri lors de
+    Tuleap appliquera les mêmes critères de tri lors de
     votre prochaine requête.
 
 Exporter les résultats d'une requête
@@ -392,7 +392,7 @@ Au bas de la liste des résultats renvoyés par la requête figure un
 bouton qui permet d'exporter les artefacts sélectionné au format CSV. En
 utilisant cette fonctionnalité vous pouvez aisément sélectionner les
 artefacts auxquels vous souhaitez appliquer des traitements
-supplémentaires avec des outils externes à SYS\_PRODUCT\_NAME.
+supplémentaires avec des outils externes à Tuleap.
 
 Version imprimable
 ~~~~~~~~~~~~~~~~~~
@@ -423,7 +423,7 @@ prévue à cet effet en haut de la page de recherche. Si aucun rapport
 spécifique n'a été défini, le rapport appelé 'Défault' est le seul
 disponible.
 
-Tout utilisateur SYS\_PRODUCT\_NAME ayant accès à l'outil de suivi peut
+Tout utilisateur Tuleap ayant accès à l'outil de suivi peut
 définir son propre rapport de recherche. Dans ce cas, le rapport est
 personnel et il est uniquement visible par l'utilisateur qui l'a créé. A
 l'inverse, les administrateurs du tracker peuvent définir des rapports
@@ -441,7 +441,7 @@ boîte de sélection prévue à cet effet en haut de la page de recherche.
 Si aucun rapport spécifique n'a été défini, le rapport appelé 'Défault'
 est le seul disponible.
 
-Tout utilisateur SYS\_PRODUCT\_NAME ayant accès à l'outil de suivi peut
+Tout utilisateur Tuleap ayant accès à l'outil de suivi peut
 définir son propre rapport graphique de recherche. Dans ce cas, le
 rapport est personnel et il est uniquement visible par l'utilisateur qui
 l'a créé. A l'inverse, les administrateurs du tracker peuvent définir
@@ -499,7 +499,7 @@ Les commentaires présentent plusieurs caractéristiques intéressantes :
    l'artefact, une demande concernant des informations manquantes comme
    un numéro de version ou le type de la machine, sont autant d'exemples
    de commentaires utilisés fréquemment. Plutôt que de retaper sans
-   cesse le même texte, SYS\_PRODUCT\_NAME permet de créer un ensemble
+   cesse le même texte, Tuleap permet de créer un ensemble
    de réponses prédéfinies appelées réponses-type. Chaque réponse-type
    se compose d'un nom et d'un contenu.
 
@@ -511,7 +511,7 @@ Les commentaires présentent plusieurs caractéristiques intéressantes :
 
 -  **Types de commentaire** : dans le but d'éviter la croissance
    exponentielle du nombre de champs texte d'un outil de suivi destinés
-   à recevoir du texte libre, SYS\_PRODUCT\_NAME offre un mécanisme de
+   à recevoir du texte libre, Tuleap offre un mécanisme de
    typage des commentaires. L'équipe de projet peut définir un certain
    nombre de labels qui peuvent servir à étiqueter un commentaire. C'est
    une fonctionnalité intéressante pour définir la nature de
@@ -539,7 +539,7 @@ Destinataires en copie
 ----------------------
 
 Comme nous le verrons plus loin dans ce chapitre (voir ?) les outils de
-suivi de SYS\_PRODUCT\_NAME offrent un puissant mécanisme de
+suivi de Tuleap offrent un puissant mécanisme de
 notification par email aux utilisateurs qui, à un moment ou à un autre,
 ont été impliqués dans le cycle de vie de l'artefact que se soit comme
 soumetteur, comme responsable ou simplement pour avoir poster un
@@ -560,10 +560,10 @@ Noms des destinataires en copie
 
 Les noms des destinataires en copie peuvent être fournis soit sous la
 forme d'une adresse email soit comme un nom d'utilisateur
-SYS\_PRODUCT\_NAME.
+Tuleap.
 
--  **Nom d'utilisateur SYS\_PRODUCT\_NAME** : lorsque la personne que
-   vous souhaitez notifier dispose d'un compte SYS\_PRODUCT\_NAME il est
+-  **Nom d'utilisateur Tuleap** : lorsque la personne que
+   vous souhaitez notifier dispose d'un compte Tuleap il est
    recommandé d'utiliser ce nom plutôt que son adresse email. En
    utilisant son nom d'utilisateur vous permettez à l'utilisateur de
    définir finement le type de modification qui doit faire l'objet d'une
@@ -593,7 +593,7 @@ certaines permissions :
 
 -  Ajout d'un destinataire : les utilisateurs anonymes ne peuvent
    ajouter de destinataire. Tout autre utilisateur possédant un compte
-   sur SYS\_PRODUCT\_NAME peut ajouter un destinataire et la liste des
+   sur Tuleap peut ajouter un destinataire et la liste des
    destinataires indiquera clairement qui a ajouté cette entrée et
    quand.
 
@@ -603,7 +603,7 @@ certaines permissions :
    Tous les autres utilisateurs peuvent détruire les destinataires
    ajoutés par leurs soins ou les entrées où le destinataire correspond
    à leur adresse email ou à leur nom d'utilisateur. En d'autres termes,
-   un utilisateur SYS\_PRODUCT\_NAME a le droit de défaire ce qu'il a
+   un utilisateur Tuleap a le droit de défaire ce qu'il a
    fait ou de s'enlever lui-même de la liste des destinataires dans
    n'importe quel outil de suivi.
 
@@ -627,13 +627,13 @@ Dépendances entre artefact
 
 La section qui suit les fichiers attachés sur l'écran de modification
 d'un artefact, concerne les dépendances entre artefacts.(voir la ?). Les
-utilisateurs de SYS\_PRODUCT\_NAME ont la possibilité d'établir un lien
+utilisateurs de Tuleap ont la possibilité d'établir un lien
 de dépendance depuis un artefact vers un ou plusieurs autres artefacts
 appartenant à n'importe quel outil de suivi de n'importe quel projet.
 Ceci est rendu possible par le fait que les artefacts possèdent un
-identifiant (ID) unique sur l'ensemble du système SYS\_PRODUCT\_NAME.
+identifiant (ID) unique sur l'ensemble du système Tuleap.
 
-SYS\_PRODUCT\_NAME n'attache aucune sémantique aux liens qui unissent
+Tuleap n'attache aucune sémantique aux liens qui unissent
 des artefacts. Votre équipe de projet est donc libre de s'entendre sur
 la signification d'un tel lien. Il peut s'agir d'une dépendance causale,
 d'une duplication de l'information ou d'une dépendance temporel dans le
@@ -660,9 +660,9 @@ Références croisées entre artefact
 ----------------------------------
 
 En complément de la façon plutôt formelle d'exprimer une dépendence
-entre deux artefacts présentée dans la ?, SYS\_PRODUCT\_NAME permet de
+entre deux artefacts présentée dans la ?, Tuleap permet de
 créer une référence sur n'importe quel artefact ou autre objet
-SYS\_PRODUCT\_NAME dans un commentaire.
+Tuleap dans un commentaire.
 
 Lorsque vous tapez du text dans n'importe quel champ texte ou
 commentaire d'un artefact, tout morceau de texte qui suit le patron "XXX
@@ -672,17 +672,17 @@ une révision svn...) et NNN l'identifiant unique (ID) (exemple : "bug
 #123", "tache #321", "req #12", etc...). Si vous ne connaissez pas le
 nom court de l'outil de suivi ou si vous souhaitez ne pas le spécifier
 vous pouvez utiliser le patron générique "art #NNN". Lorsque
-SYS\_PRODUCT\_NAME affiche un commentaire contenant une référence, elle
+Tuleap affiche un commentaire contenant une référence, elle
 est automatiquement transformée en hyperlien vers la page de
-SYS\_PRODUCT\_NAME donnant toutes les informations sur cet artefact.
+Tuleap donnant toutes les informations sur cet artefact.
 
 Un commentaire peut contenir un référence à un artefact de n'importe
 quel type appartenant à n'importe quel projet. Ce mécanisme **n'est**
 pas limité aux artefact appartenant aux outils de suivi du même projet.
 Cela est rendu possible par le fait qu'un artefact dispose d'un
-identifiant unique sur tout le site SYS\_PRODUCT\_NAME.
+identifiant unique sur tout le site Tuleap.
 
-Les patrons de référence de SYS\_PRODUCT\_NAME peuvent etre utilisees
+Les patrons de référence de Tuleap peuvent etre utilisees
 pour référencer des artifacts, mais aussi des commits CVS, des révision
 Subversion, des documents, des fichiers, etc. Voir la ? pour plus
 d'information sur les Références.
@@ -721,7 +721,7 @@ faite.
 Mise à jour massive d'artefacts
 ===============================
 
-SYS\_PRODUCT\_NAME permet aux administrateurs d'un outil de suivi ou du
+Tuleap permet aux administrateurs d'un outil de suivi ou du
 projet d'effectuer la même modification sur un ensemble d'artefacts en
 une seule étape. Il est ainsi possible d'ajouter le même destinataire en
 copie ou le même fichier attaché à un ensemble d'artefacts, d'assigner
@@ -802,7 +802,7 @@ Seuls les membres du projet sont autorisés à dupliquer les artefacts.
 Notification email
 ==================
 
-Les outil de suivi de SYS\_PRODUCT\_NAME sont munis d'un mécanisme de
+Les outil de suivi de Tuleap sont munis d'un mécanisme de
 notification d'évènements par email puissant et flexible. A moins que
 l'administrateur de projet ou les utilisateurs eux-mêmes n'en décident
 autrement, le système de notification par email adopte un comportement
@@ -821,7 +821,7 @@ aux acteurs suivants :
    artefact.
 
 En plus de ces règles simples, le module d'administration de l'outil de
-suivi permet aux utilisateurs SYS\_PRODUCT\_NAME de personnaliser le
+suivi permet aux utilisateurs Tuleap de personnaliser le
 processus de notification email. Pour plus d'information reportez-vous à
 la ?).
 
@@ -830,17 +830,17 @@ première partie montrant les changements récemment intervenus dans
 l'artefact à l'occasion de la dernière mise à jour. A la suite se trouve
 un récapitulatif complet de l'artefact. Des pointeurs Web sont aussi
 présents dans le message pour vous permettre d'accéder facilement et
-rapidement à l'artefact sur SYS\_PRODUCT\_NAME.
+rapidement à l'artefact sur Tuleap.
 
 Importation d'artefacts
 =======================
 
 Les administrateurs d'un projet ont la possibilité d'importer des
-artefacts dans un outil de suivi de SYS\_PRODUCT\_NAME en utilisant des
+artefacts dans un outil de suivi de Tuleap en utilisant des
 fichiers au format CSV (Comma Separated Values) qui est supporté par
 toutes les applications bureautiques du marché. L'importation d'artefact
 facilite énormément la migration de données en provenance d'autres
-outils de suivi dans les outils de suivi de SYS\_PRODUCT\_NAME.
+outils de suivi dans les outils de suivi de Tuleap.
 
 L'importation d'artefacts se déroule en trois étapes :
 
@@ -870,12 +870,12 @@ fonction d'importation de l'outil de suivi :
 
 -  Importation des données en provenance d'un logiciel de gestion de
    projet externe vers un outil de suivi de tâches de
-   SYS\_PRODUCT\_NAME.
+   Tuleap.
 
 -  Migration des données de votre ancien système de suivi dans le nouvel
-   outil de suivi de SYS\_PRODUCT\_NAME.
+   outil de suivi de Tuleap.
 
--  Migration d'artefact d'un outil de suivi SYS\_PRODUCT\_NAME vers un
+-  Migration d'artefact d'un outil de suivi Tuleap vers un
    autre.
 
 Exporter une feuille de calcul Excel au format CSV
@@ -946,7 +946,7 @@ points :
 -  Omission des commentaires déjà soumis
 
 D'autres erreurs peuvent être détectées à l'occasion de l'inspection
-visuelle du rapport d'importation fourni par SYS\_PRODUCT\_NAME.
+visuelle du rapport d'importation fourni par Tuleap.
 
 Mise à jour de la base de données
 ---------------------------------
@@ -983,9 +983,9 @@ l'opération d'importation.
     chariot ainsi que des virgules ajoutées à certaines lignes.
 
     Les changements de format de date effectués par Excel peuvent être
-    incompatibles avec le format attendu par SYS\_PRODUCT\_NAME et
+    incompatibles avec le format attendu par Tuleap et
     causer des erreurs durant l'importation des données. A l'inverse,
-    des fichiers CSV exportés depuis SYS\_PRODUCT\_NAME peuvent ne pas
+    des fichiers CSV exportés depuis Tuleap peuvent ne pas
     s'ouvrir correctement sous Excel avec certaines valeurs des
     paramètres régionaux.
 
@@ -998,7 +998,7 @@ l'opération d'importation.
     pose problème, ajustez la largeur d'une colonne quelconque,
     sauvegardez le fichier et fermez Excel. Remettez les paramètres
     régionaux à leur ancienne valeur et importez le fichier CSV
-    "corrigé" dans SYS\_PRODUCT\_NAME.
+    "corrigé" dans Tuleap.
 
 Permissions d'accès par défaut aux outils de suivi
 ==================================================
@@ -1017,7 +1017,7 @@ table ci-dessous :
 | Tracker Feature                  | Access Permission                        |
 +==================================+==========================================+
 | `Soumission d'un nouvel          | Par défaut tout visiteur, connecté à     |
-| artefact <#ArtifactSubmission>`_ | SYS\_PRODUCT\_NAME ou pas, peut          |
+| artefact <#ArtifactSubmission>`_ | Tuleap ou pas, peut          |
 | _                                | soumettre un nouvel artefact.            |
 |                                  | L'administrateur de l'outil de suivi     |
 |                                  | peut limiter l'usage de cette fonction   |
@@ -1027,7 +1027,7 @@ table ci-dessous :
 +----------------------------------+------------------------------------------+
 | `Navigation/Recherche            | La recherche et la navigation dans la    |
 | d'artefact <#ArtifactBrowsing>`_ | base d'artefacts est accessible à tous   |
-| _                                | les visiteurs SYS\_PRODUCT\_NAME sauf si |
+| _                                | les visiteurs Tuleap sauf si |
 |                                  | l'outil de suivi est privé auquel cas    |
 |                                  | seuls les membres de l'équipe y ont      |
 |                                  | accès.                                   |
@@ -1101,7 +1101,7 @@ dans celui de la partie administration.
 
     **Tip**
 
-    Quand un projet est créé sur SYS\_PRODUCT\_NAME un certain nombre
+    Quand un projet est créé sur Tuleap un certain nombre
     d'outils de suivi sont automatiquement créés pour ce projet. Il
     s'agit typiquement d'outils de suivi pour les bugs, les tâches et
     les demandes de support. Si votre projet est amené à gérer ce genre
@@ -1114,7 +1114,7 @@ informations suivantes (voir ?) :
 
 -  **Nom** : il s'agit du nom de l'outil de suivi. Le nom d'un outil de
    suivi est classiquement calqué sur le nom des artefacts qui sont
-   gérés. Ce nom est utilisé par SYS\_PRODUCT\_NAME dans le titre de
+   gérés. Ce nom est utilisé par Tuleap dans le titre de
    plusieurs écrans de l'outil de suivi. Quelques exemples de noms
    d'outils de suivi : Demandes de fonctionnalités, Tâches, Anomalies,…
 
@@ -1136,7 +1136,7 @@ L'étape suivante consiste à prendre une décision concernant les champs à
 utiliser dans l'outil de suivi. Pour vous éviter d'avoir à redéfinir
 sans cesse les outils de suivi les plus fréquemment utilisés (par
 exemple un outil de suivi d'anomalies, de tâches, de demandes
-d'assistance, etc...) SYS\_PRODUCT\_NAME offre un certain nombre de
+d'assistance, etc...) Tuleap offre un certain nombre de
 patrons d'outils de suivi prédéfinis à partir desquels vous pouvez créer
 votre propre outil de suivi. Ces patrons sont définis soit au niveau du
 site (patrons-site) soit au niveau du projet.
@@ -1147,7 +1147,7 @@ d'ajouter, de supprimer ou de modifier des champs en partant du patron
 initial.
 
 -  **Patrons-site** : il s'agit de patrons définis par les
-   administrateurs du site SYS\_PRODUCT\_NAME qui sont en général utiles
+   administrateurs du site Tuleap qui sont en général utiles
    à de nombreux projets. C'est aussi un moyen d'assurer une certaine
    harmonie d'un projet à l'autre tout en facilitant la vie des équipes
    de projet. La liste des patrons-site disponibles varie d'un site à
@@ -1185,10 +1185,10 @@ Chacun de ces outils de suivi possède des champs prédéfinis qui
 correspondent à un processus de travail spécifique autour des
 correctifs, des bugs, etc... Dans les paragraphes qui suivent, nous
 donnons une présentation très générale de ces processus de travail. Pour
-chaque outil de suivi, l'équipe SYS\_PRODUCT\_NAME a essayé de maintenir
+chaque outil de suivi, l'équipe Tuleap a essayé de maintenir
 un équilibre entre sophistication et facilité d'utilisation. En
 conséquence, les patrons proposés aux projets hébergés sur
-SYS\_PRODUCT\_NAME sont simples. Les membres du projet sont ensuite
+Tuleap sont simples. Les membres du projet sont ensuite
 libres de décider par eux-mêmes des informations qu'un artefact doit
 comporter et de personnaliser la définition des champs en conséquence.
 
@@ -1202,7 +1202,7 @@ précisément été conçu dans cet objectif.
 
 L'outil de suivi Bug est pré-configuré avec un ensemble de champs
 (utilisés ou pas) qui sont probablement suffisant pour une grande
-majorité des projets hébergés sur SYS\_PRODUCT\_NAME. Vous pouvez bien
+majorité des projets hébergés sur Tuleap. Vous pouvez bien
 sûr décider que certains champs critiques doivent être créés ou, au
 contraire, passez le statut de certains champs à "Inutilisé" pour
 simplifier l'outil de suivi.
@@ -1252,7 +1252,7 @@ l'ensemble de ces activités de support technique.
 L'outil de suivi de tâches
 --------------------------
 
-L'outil de suivi de tâches de SYS\_PRODUCT\_NAME est un gestionnaire de
+L'outil de suivi de tâches de Tuleap est un gestionnaire de
 tâches et pas un logiciel de gestion de projet comme CA-SuperProject,
 MS-Project ou d'autres logiciels puissants et complexes qu'on peut
 trouver sur le marché. L'outil de suivi de tâches n'est pas capable de
@@ -1266,7 +1266,7 @@ Malgré sa simplicité, l'outil de suivi de tâches offre un certain nombre
 de fonctionnalités qui en font un outil très complémentaire des
 logiciels de gestion et de planification de projets :
 
--  Comme tous les autres outils SYS\_PRODUCT\_NAME, l'outil de suivi de
+-  Comme tous les autres outils Tuleap, l'outil de suivi de
    tâches est entièrement basé Web. Ainsi n'importe quel membre du
    projet peut mettre à jour ses tâches où qu'il se trouve.
 
@@ -1280,14 +1280,14 @@ logiciels de gestion et de planification de projets :
 
 -  Les données concernant les tâches peuvent être collectées à tout
    moment par le chef de projet en utilisant la fonction d'exportation
-   des données de SYS\_PRODUCT\_NAME (voir ?). Ceci permet de générer
+   des données de Tuleap (voir ?). Ceci permet de générer
    très facilement des rapports d'activité et de progression des
    projets.
 
 L'outil de suivi des besoins de la méthodologie Scrum (Scrum Backlog)
 ---------------------------------------------------------------------
 
-SYS\_PRODUCT\_NAME facilite le déploiement de la méthodologie Scrum en
+Tuleap facilite le déploiement de la méthodologie Scrum en
 permettant de gérer le "backlog Scrum" (cahier de suivi des besoin) dans
 un outil de suivi dédié. Vous pourrez trouver une description de la
 méthodologie sur `Wikipedia <http://fr.wikipedia.org/wiki/Scrum>`__.
@@ -1372,7 +1372,7 @@ cette page de configuration :
 
 -  **Nom** : il s'agit du nom de l'outil de suivi. Le nom d'un outil de
    suivi est classiquement calqué sur le nom des artefacts qui sont
-   gérés. Ce nom est utilisé par SYS\_PRODUCT\_NAME dans le titre de
+   gérés. Ce nom est utilisé par Tuleap dans le titre de
    plusieurs écrans de l'outil de suivi. Quelques exemples de noms
    d'outils de suivi : Demandes de fonctionnalités, Tâches, Anomalies,
    ...
@@ -1443,9 +1443,9 @@ Gestion des permissions
 
 En pénétrant dans ce module, une liste de groupes d'utilisateurs
 apparaît ainsi que leur permissions d'accès. La liste des groupes montre
-tout d'abord les groupes définis au niveau du système SYS\_PRODUCT\_NAME
+tout d'abord les groupes définis au niveau du système Tuleap
 comme l'ensemble des utilisateurs, les utilisateurs enregistrés, les
-membres du projet, etc... Il s'agit de groupes que SYS\_PRODUCT\_NAME
+membres du projet, etc... Il s'agit de groupes que Tuleap
 gère pour vous de telle façon que vous n'avez pas à les modifier
 lorsqu'un utilisateur crée un compte ou qu'il devient membre du projet.
 La seconde partie de la liste est constituée de groupes d'utilisateurs
@@ -1587,7 +1587,7 @@ Pour configurer les groupes de champs de l'outil de suivi, sélectionnez
 l'item "Gérer les groupes de champs" sur la page d'accueil du module
 d'administration d'un outil de suivi. L'écran de gestion des groupes de
 champs (?) montre un exemple de groupes de champs disponibles dans un
-outil de suivi de SYS\_PRODUCT\_NAME. Cet écran se divise en deux
+outil de suivi de Tuleap. Cet écran se divise en deux
 sections :
 
 la liste des groupes de champs de l'outil de suivi en cours
@@ -1655,11 +1655,11 @@ Gestion de l'utilisation des champs
 
 Lorsqu'un outil de suivi est créé, il comprend un ensemble de champs
 préconfigurés qui proviennent du patron utilisé pour sa création. Pour
-la majorité des projets hébergés sur SYS\_PRODUCT\_NAME il est très
+la majorité des projets hébergés sur Tuleap il est très
 probable que les patrons standards (bugs, tâches, demandes d'assistance)
 répondent à la plupart des besoins.
 
-Toutefois SYS\_PRODUCT\_NAME vous permet de personnaliser les champs
+Toutefois Tuleap vous permet de personnaliser les champs
 utilisés par vos outils de suivi. Il peut s'agir d'une variation autour
 d'un patron standard comprenant l'ajout ou la suppression de quelques
 champs mais cela peut aussi être une définition complète à partir d'un
@@ -1711,7 +1711,7 @@ Pour configurer les champs à utiliser ou à ne pas utiliser sélectionnez
 l'item "Gérer l'utilisation des champs" sur la page d'accueil du module
 d'administration d'un outil de suivi. L'écran d'utilisation des champs
 (?) montre un exemple de champs disponibles dans un outil de suivi de
-SYS\_PRODUCT\_NAME. Cet écran se divise en trois sections :
+Tuleap. Cet écran se divise en trois sections :
 
 la liste des champs de l'outil de suivi en cours d'utilisation
 
@@ -1940,12 +1940,12 @@ La table des valeurs fournit les informations suivantes :
 La ? montre la liste des valeurs pour le champ Resolution d'un outil de
 suivi de "Bugs". Le champ Resolution est proposé avec un certain nombre
 de valeurs prédéfinies qui sont communes à tous les projets
-SYS\_PRODUCT\_NAME. Par défaut 8 valeurs sont disponibles (Accepted,
+Tuleap. Par défaut 8 valeurs sont disponibles (Accepted,
 Analyzed, etc.).
 
 Vous avez bien sûr la possibilité d'ajouter vos propres valeurs au champ
 Resolution. Cependant dans le but de conserver une certaine harmonie
-entre les différents outils de suivi de SYS\_PRODUCT\_NAME, nous vous
+entre les différents outils de suivi de Tuleap, nous vous
 recommandons vivement d'utiliser la liste des valeurs prédéfinies autant
 que vous le pouvez avant d'en créer de nouvelles.
 
@@ -1970,13 +1970,13 @@ se trouve sous la liste des valeurs existantes (invisible sur ?).
 Association d'un champ avec une liste de valeurs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-SYS\_PRODUCT\_NAME vous permet non seulement de créer une liste de
+Tuleap vous permet non seulement de créer une liste de
 valeurs pour un champ de type boîte de sélection mais il offre aussi la
 possibilité d'associer un champ avec une liste de valeurs prédéfinies
-générées dynamiquement par SYS\_PRODUCT\_NAME. L'exemple le plus
+générées dynamiquement par Tuleap. L'exemple le plus
 classique consiste à montrer la liste des membres du projet dans une
 boîte de sélection. Au lieu d'avoir à la créer et à la maintenir
-manuellement, SYS\_PRODUCT\_NAME construit cette liste pour vous et vous
+manuellement, Tuleap construit cette liste pour vous et vous
 permet de l'associer à un champ.
 
 Notez que si vous décidez d'associer un champ à une liste de valeurs
@@ -2130,7 +2130,7 @@ demande d'information complémentaire comme un numéro de version ou le
 type de machine utilisée, etc...(voir ?).
 
 Plutôt que de retaper sans cesse les mêmes commentaires,
-SYS\_PRODUCT\_NAME permet aux membres du projet de définir un ensemble
+Tuleap permet aux membres du projet de définir un ensemble
 de commentaires prédéfinis appelés réponses-type. Après avoir défini ces
 réponses-type, poster le commentaire correspondant nécessite simplement
 de choisir la réponse-type dans la boîte de sélection située à proximité
@@ -2148,7 +2148,7 @@ Gestion des rapports de recherche
 
 Sachant que les administrateurs d'un projet, les membres ou les autres
 utilisateurs peuvent avoir des besoins très différents en matière de
-recherche dans la base des artefacts, SYS\_PRODUCT\_NAME permet de
+recherche dans la base des artefacts, Tuleap permet de
 définir des rapports de recherche valables pour l'ensemble du projet ou
 par un utilisateur en particulier.
 
@@ -2172,14 +2172,14 @@ personnel.
     pas les valeurs à mettre dans ces champs pour la recherche. La
     définition de la structure d'un rapport et le remplissage des
     critères de recherche sont deux opérations distinctes sur
-    SYS\_PRODUCT\_NAME. Une fois le rapport de recherche défini dans le
+    Tuleap. Une fois le rapport de recherche défini dans le
     module d'administration (par exemple : 'Rapport simple', 'Rapport
     Qualité', 'Rapport quotidien',…) vous pouvez vous rendre sur l'écran
     de recherche et de navigation, sélectionner le rapport de recherche
     qui vous convient, remplir les valeurs des critères de recherche et
     lancer la requête. Ensuite vous pouvez sauvegarder la totalité de
     cette recherche (choix du rapport et des valeurs des critères) à
-    l'aide du mécanisme de signets de SYS\_PRODUCT\_NAME (voir le coup
+    l'aide du mécanisme de signets de Tuleap (voir le coup
     de pouce de la ?). Et voila !
 
 Afficher les rapports de recherche
@@ -2210,7 +2210,7 @@ outil de suivi affiche la liste des rapports de recherche disponibles
       qui l'a créé.
 
    -  *Système* : ce type de rapport est défini au niveau du système
-      SYS\_PRODUCT\_NAME et ne peut être supprimé. Le rapport de
+      Tuleap et ne peut être supprimé. Le rapport de
       recherche par défaut qui est préconfiguré à la création de l'outil
       de suivi est un rapport de type Système.
 
@@ -2414,7 +2414,7 @@ qualification et leur assignation.
 
     Si vous souhaitez notifier de nombreuses personnes, nous vous
     suggérons d'utiliser les listes de distributions de
-    SYS\_PRODUCT\_NAME (voir ?). Une fois la liste de distribution en
+    Tuleap (voir ?). Une fois la liste de distribution en
     place, il vous suffit de taper l'adresse de la liste dans le champ
     de notification globale pour que toutes les personnes concernées
     soient informées.
@@ -2428,7 +2428,7 @@ qualification et leur assignation.
 Utilisateurs à suivre
 ~~~~~~~~~~~~~~~~~~~~~
 
-Les outils de suivi de SYS\_PRODUCT\_NAME offrent à tous les membres du
+Les outils de suivi de Tuleap offrent à tous les membres du
 projet la possibilité de recevoir une copie de toutes les notifications
 envoyées à certaines autres personnes.
 
@@ -2456,7 +2456,7 @@ particulièrement utile :
 
     Remarque : le but de cette fonctionnalité n'est pas de vous
     espionner. Ainsi, pour être sûr que personne ne suit vos
-    notifications email sans votre consentement, SYS\_PRODUCT\_NAME
+    notifications email sans votre consentement, Tuleap
     montre sur cette page le nom des utilisateurs qui ont demandé à
     suivre vos notifications email.
 

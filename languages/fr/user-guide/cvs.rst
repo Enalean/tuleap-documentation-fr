@@ -6,7 +6,7 @@ Contrôle de version avec CVS
 ============================
 
 Ce chapitre n'est pas un tutoriel CVS. Il couvre l'intégration de CVS
-avec SYS\_PRODUCT\_NAME et comment l'utiliser de façon optimale dans ce
+avec Tuleap et comment l'utiliser de façon optimale dans ce
 contexte. Si vous n'êtes pas familier avec le système de contrôle de
 version CVS, nous vous recommandons de consulter les références CVS
 (voir ?).
@@ -46,7 +46,7 @@ les changements intervenus dans l'historique du projet.
 Aucun projet de développement logiciel digne de ce nom ne devrait
 démarrer sans avoir choisi au préalable un outil de contrôle de version.
 CVS et Subversion (voir ?) sont les deux choix proposés par
-SYS\_PRODUCT\_NAME.  [1]_ Bien que Subversion soit un système de
+Tuleap.  [1]_ Bien que Subversion soit un système de
 contrôle de version plus moderne que CVS, ce dernier reste un choix
 parfaitement valable pour les raisons suivantes :
 
@@ -78,9 +78,9 @@ Clients CVS
 -----------
 
 CVS suit une architecture client-serveur. En d'autres termes, les
-développeurs SYS\_PRODUCT\_NAME qui souhaitent interagir avec le dépôt
+développeurs Tuleap qui souhaitent interagir avec le dépôt
 CVS de leur projet doivent installer CVS sur leur machine que nous
-appellerons client dans la suite. Le serveur SYS\_PRODUCT\_NAME quant à
+appellerons client dans la suite. Le serveur Tuleap quant à
 lui fait fonctionner en arrière plan un serveur CVS qui communique avec
 les clients pour agir sur le dépôt. Il existe plusieurs types de clients
 CVS pour toutes les plateformes (Windows, Mac et tous les Unix) : ligne
@@ -115,14 +115,14 @@ intégré du marché (MS Visual Studio, Visual Age, IntelliJ IDEA,
 Eclipse,…) dispose d'un plugins CVS soit de façon native soit par le
 biais de tierces parties.
 
-Configurer WinCVS pour SYS\_PRODUCT\_NAME
+Configurer WinCVS pour Tuleap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Comme indiqué précédemment, WinCVS est l'un des clients CVS les plus
 populaires sur MS Windows. Vous trouverez ci-dessous toutes les
 instructions nécessaires au bon fonctionnement de WinCVS dans le cadre
-d'un projet SYS\_PRODUCT\_NAME. Dans les exemples ci-dessous,
-"nom\_utilisateur" est le nom d'utilisateur SYS\_PRODUCT\_NAME (login)
+d'un projet Tuleap. Dans les exemples ci-dessous,
+"nom\_utilisateur" est le nom d'utilisateur Tuleap (login)
 et "nom\_projet", le nom court du projet.
 
 -  Téléchargez WinCVS depuis http://www.wincvs.org et installez-le sur
@@ -130,7 +130,7 @@ et "nom\_projet", le nom court du projet.
 
 -  Lancez WinCVS : ``Démarrer->Programmes->WinCvs``
 
--  Configurer la connexion vers le projet SYS\_PRODUCT\_NAME :
+-  Configurer la connexion vers le projet Tuleap :
    ``Admin->Preferences``
 
    Indiquez la valeur de CVSROOT :
@@ -143,13 +143,13 @@ et "nom\_projet", le nom court du projet.
    Ensuite cliquez sur OK.
 
 -  Connectez-vous au dépôt CVS : ``Admin->Login...`` et saisissez votre
-   mot de passe SYS\_PRODUCT\_NAME.
+   mot de passe Tuleap.
 
 -  Identifiez l'endroit où vous allez placer le code source de votre
    projet : ``View->Browse Location->Change...``
 
 -  Récupérez (checkout) le code source de votre projet
-   SYS\_PRODUCT\_NAME depuis le dépôt CVS.
+   Tuleap depuis le dépôt CVS.
 
    ``Create->Check out module``
 
@@ -190,8 +190,8 @@ Références CVS
 
 Comme indiqué précédemment, ce chapitre n'est pas un manuel
 d'utilisation de CVS. Il se concentre sur l'intégration de CVS dans
-SYS\_PRODUCT\_NAME et comment utiliser CVS dans le contexte de
-SYS\_PRODUCT\_NAME. Si vous souhaitez en savoir plus sur CVS,
+Tuleap et comment utiliser CVS dans le contexte de
+Tuleap. Si vous souhaitez en savoir plus sur CVS,
 référez-vous aux documents suivants :
 
 -  Open Source Development with CVS : un livre excellent (en anglais)
@@ -209,7 +209,7 @@ référez-vous aux documents suivants :
 
 -  Le site Web officiel de CVS. Voir http://www.cvshome.org/.
 
-Intégration de CVS dans SYS\_PRODUCT\_NAME
+Intégration de CVS dans Tuleap
 ==========================================
 
 Le dépôt CVS
@@ -225,10 +225,10 @@ personnalisation complète des dépôts CVS projet par projet.
     **Note**
 
     Les dépôts CVS sont accessibles sous le répertoire
-    ``/cvsroot/nom_projet`` sur le serveur SYS\_PRODUCT\_NAME. Toutes
+    ``/cvsroot/nom_projet`` sur le serveur Tuleap. Toutes
     les interactions avec un dépôt CVS se font normalement via le client
     CVS de votre poste de travail. En cas de besoin et si cette fonction
-    est activée sur votre serveur SYS\_PRODUCT\_NAME, vous pouvez
+    est activée sur votre serveur Tuleap, vous pouvez
     utiliser votre compte Shell (voir ?) pour interagir directement avec
     votre dépôt. Cependant nous vous recommandons de n'avoir recours à
     cette possibilité que si vous savez exactement ce que vous faites.
@@ -253,7 +253,7 @@ suivantes :
 
 -  **Utilisateurs anonymes** : les utilisateurs non enregistrés (ou non
    connectés) n'ont *aucun accès* aux dépôts CVS. Selon la configuration
-   du serveur SYS\_PRODUCT\_NAME, il est même possible que les
+   du serveur Tuleap, il est même possible que les
    utilisateurs anonymes n'aient aucun accès au site d'une façon
    générale.
 
@@ -266,15 +266,15 @@ suivantes :
 
        **Note**
 
-       **Note** : tous les accès au code source sur SYS\_PRODUCT\_NAME
+       **Note** : tous les accès au code source sur Tuleap
        sont enregistrés. Les administrateurs des projets peuvent à tout
        moment consulter la liste des utilisateurs qui ont accédé au code
        source (voir ?).
 
 -  **Membres du projet** : les membres d'un projet hébergé sur
-   SYS\_PRODUCT\_NAME ont un droit d'accès en lecture et en écriture au
+   Tuleap ont un droit d'accès en lecture et en écriture au
    dépôt après s'être authentifié à l'aide de leur nom d'utilisateur
-   SYS\_PRODUCT\_NAME et leur mot de passe. Comme expliqué plus haut
+   Tuleap et leur mot de passe. Comme expliqué plus haut
    dans le paragraphe concernant les projets privés, il est là aussi
    possible de restreindre l'accès en lecture seule pour les membres du
    projets.
@@ -285,7 +285,7 @@ suivantes :
 L'interface de navigation Web de CVS
 ====================================
 
-SYS\_PRODUCT\_NAME vous permet d'interagir avec votre dépôt CVS via
+Tuleap vous permet d'interagir avec votre dépôt CVS via
 l'interface Web. Il ne s'agit pas de remplacer le véritable client CVS
 que vous utilisez normalement sur votre poste de travail. L'interface
 Web de CVS se concentre sur certaines fonctionnalités que n'offrent pas
@@ -309,7 +309,7 @@ les fonctionnalités suivantes :
    activée pour votre projet (c'est toujours le cas par défaut) tous les
    évènements concernant la modification du dépôt (commit, ajout ou
    suppression de fichiers) sont consignés dans la base de données de
-   SYS\_PRODUCT\_NAME. Il est ensuite possible d'effectuer des
+   Tuleap. Il est ensuite possible d'effectuer des
    recherches dans l'historique des changements selon différents
    critères.
 
@@ -324,9 +324,9 @@ Voyons plus en détail certaines de ces fonctionnalités :
 Naviguer dans le dépôt CVS
 --------------------------
 
-Pour interagir avec le dépôt CVS d'un projet SYS\_PRODUCT\_NAME, il est
+Pour interagir avec le dépôt CVS d'un projet Tuleap, il est
 normalement nécessaire d'installer un client CVS sur votre poste de
-travail. Cependant SYS\_PRODUCT\_NAME vous permet de naviguer dans le
+travail. Cependant Tuleap vous permet de naviguer dans le
 dépôt, de visualiser le code source, de le télécharger, de consulter
 l'historique d'un fichier ou de comparer deux révisions du même fichier.
 
@@ -342,7 +342,7 @@ les développeurs :
 -  **Commits CVS atomiques et identifiés de façon unique** : tous les
    changements (modification, ajout ou suppression de fichiers) commités
    en une seule opération depuis votre poste client se verront assignés
-   un identifiant unique de la part de SYS\_PRODUCT\_NAME. Toutes les
+   un identifiant unique de la part de Tuleap. Toutes les
    révisions de fichiers associés à cette modification sont stockées de
    façon atomique dans la base de suivi de CVS sous cet identifiant
    unique.
@@ -352,7 +352,7 @@ les développeurs :
    opérations de commits ou dans les commentaires associés aux artefacts
    des différents outils de suivi (tâches, anomalies, demande
    d'assistance...) simplement en utilisant le patron ``commit #XXXX``
-   (où XXXX est l'identifiant unique généré par SYS\_PRODUCT\_NAME).
+   (où XXXX est l'identifiant unique généré par Tuleap).
    Toute référence de ce type est automatiquement transformé en
    hyperlien vers la base de suivi de CVS. Ce mécanisme permet de
    naviguer facilement depuis un changement dans le code jusqu'à
@@ -385,13 +385,13 @@ code ou la documentation. Et inversement, à la lecture d'un artefact il
 est très utile de voir quels changements il a engendré dans le code
 source.
 
-L'intégration de CVS avec SYS\_PRODUCT\_NAME fournit précisément ce
+L'intégration de CVS avec Tuleap fournit précisément ce
 mécanisme de références croisées. Ceci est rendu possible par
 l'utilisation de 'références', patrons de texte prédéfinis à utiliser
 dans les commentaires des artefacts ou dans les messages de commits de
-CVS et que SYS\_PRODUCT\_NAME reconnaît automatiquement.
+CVS et que Tuleap reconnaît automatiquement.
 
-Les patrons de texte reconnus automatiquement par SYS\_PRODUCT\_NAME
+Les patrons de texte reconnus automatiquement par Tuleap
 dans les messages de commit ou dans les commentaires des artefacts sont
 les suivants :
 
@@ -401,19 +401,19 @@ les suivants :
    #123", "tâche #321", "DA #12", etc.). Si vous ne connaissez pas le
    nom court de l'outil de suivi ou que vous ne souhaitez pas le
    préciser vous pouvez utiliser le terme générique "art #NNN". Lorsque
-   SYS\_PRODUCT\_NAME affiche un message contenant ce genre de patron,
+   Tuleap affiche un message contenant ce genre de patron,
    il le transforme automatiquement en hyperlien vers la description de
    l'artefact référencé.
 
 -  **commit #YYY** : ce patron référence le commit YYY où YYY est
    l'identifiant unique du commit tel qu'il apparaît dans la base de
-   suivi CVS. Lorsque SYS\_PRODUCT\_NAME affiche un message contenant ce
+   suivi CVS. Lorsque Tuleap affiche un message contenant ce
    genre de patron, il le transforme automatiquement en hyperlien vers
    la description du commit référencé (message, fichiers impactés et
    leur révisions, auteur de la modification).
 
--  Le mécanisme de références de SYS\_PRODUCT\_NAME permet les
-   références croisées entre tous les objets de SYS\_PRODUCT\_NAME:
+-  Le mécanisme de références de Tuleap permet les
+   références croisées entre tous les objets de Tuleap:
    artefacts, documents, messages de commit, fichiers, etc. Voir la ?
    pour plus de détails sur la gestion des Références.
 
@@ -430,7 +430,7 @@ les suivants :
 Administration CVS
 ------------------
 
-SYS\_PRODUCT\_NAME vous permet de configurer les paramètres suivants de
+Tuleap vous permet de configurer les paramètres suivants de
 CVS depuis l'interface Web :
 
 -  **Suivi CVS** : étant donné que CVS est un système de contrôle de
@@ -440,9 +440,9 @@ CVS depuis l'interface Web :
    soit depuis votre client CVS soit depuis l'interface Web de
    navigation dans le dépôt CVS.
 
-   Si vous activez le suivi CVS pour votre projet SYS\_PRODUCT\_NAME
+   Si vous activez le suivi CVS pour votre projet Tuleap
    conserve aussi une trace de tous les changements intervenus dans la
-   base de données SYS\_PRODUCT\_NAME. Ceci vous donne des possibilités
+   base de données Tuleap. Ceci vous donne des possibilités
    supplémentaires qui sont expliquées dans la ?
 
 -  **Mode CVS Watch**: Dans CVS les "watches" fonctionnent comme un
@@ -472,7 +472,7 @@ CVS depuis l'interface Web :
    d'administration CVS.
 
 -  **Notification e-mail de CVS** : En complément des fonctions de
-   suivi, SYS\_PRODUCT\_NAME peut aussi expédier un courrier
+   suivi, Tuleap peut aussi expédier un courrier
    électronique proprement formaté à des individus ou à une liste de
    diffusion à chaque modification de code. Le courrier électronique
    contient le message expliquant la nature du changement, son auteur,
@@ -482,8 +482,8 @@ CVS depuis l'interface Web :
 
 -  **Préambule CVS** : dans certains cas (par ex. pour des projets
    existants), il se peut que le dépôt CVS d'un projet ne soit pas
-   hébergé sur SYS\_PRODUCT\_NAME. Dans ce cas, les informations
-   affichées sur la page d'accueil du service CVS de SYS\_PRODUCT\_NAME
+   hébergé sur Tuleap. Dans ce cas, les informations
+   affichées sur la page d'accueil du service CVS de Tuleap
    sont incorrectes. Fort heureusement, l'administrateur du projet peut
    personnaliser le message d'accueil en tapant le texte de son choix
    dans cette zone de saisie.
@@ -493,10 +493,10 @@ CVS depuis l'interface Web :
     Si vous avez l'intention d'envoyer des emails pour notifier certains
     utilisateurs de changements intervenus dans le dépôt CVS, nous vous
     recommandons de créer une liste de diffusion spécifique appelée
-    ``nom_projet-cvsevents``. Ainsi, les utilisateurs SYS\_PRODUCT\_NAME
+    ``nom_projet-cvsevents``. Ainsi, les utilisateurs Tuleap
     et les membres du projet intéressés par les notifications pourront
     s'inscrire sur la liste de diffusion. De plus, le gestionnaire de
-    liste de diffusion de SYS\_PRODUCT\_NAME se charge d'archiver tous
+    liste de diffusion de Tuleap se charge d'archiver tous
     les messages ce qui peut servir de référence ultérieurement. Voir ?
     pour la création de liste de diffusion.
 
@@ -515,15 +515,15 @@ paragraphes qui suivent tous les exemples sont donnés sous la forme de
 lignes de commande mais leur transposition dans une interface graphique
 ne devrait pas poser de problèmes.
 
-|Un cycle de développement logiciel typique sur SYS\_PRODUCT\_NAME|
+|Un cycle de développement logiciel typique sur Tuleap|
 
 Se connecter
 ------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 La première étape à franchir lorsque vous travaillez avec un dépôt CVS
-consiste à vous connecter au serveur CVS. Sur SYS\_PRODUCT\_NAME, les
+consiste à vous connecter au serveur CVS. Sur Tuleap, les
 utilisateurs anonymes ne peuvent accéder au code source d'aucun projet
 que ce soit par CVS ou par le service de publication de fichiers et ceci
 même si le projet est public. Il faut donc vous assurer que vous
@@ -548,7 +548,7 @@ Où :
 
 -  ``nom_projet`` est le nom court du projet
 
--  ``nom_utilisateur`` est votre nom d'utilisateur SYS\_PRODUCT\_NAME
+-  ``nom_utilisateur`` est votre nom d'utilisateur Tuleap
 
 CVS conserve le mot de passe associé à un chemin d'accès donné. Tant que
 vous ne vous déconnectez pas explicitement du dépôt, vous n'aurez pas à
@@ -561,7 +561,7 @@ Importer du code source existant
 
 *Audience : membres du projet*
 
-En tant qu'administrateur d'un tout nouveau projet SYS\_PRODUCT\_NAME,
+En tant qu'administrateur d'un tout nouveau projet Tuleap,
 la première chose à faire consiste à peupler votre tout nouveau dépôt
 CVS avec votre code source. Pour ce faire créez d'abord un répertoire
 ``racine`` sur votre poste de travail et placez y votre code source en
@@ -583,7 +583,7 @@ Où :
 
 -  ``nom_projet`` est le nom court du projet
 
--  ``nom_utilisateur`` est votre nom d'utilisateur SYS\_PRODUCT\_NAME
+-  ``nom_utilisateur`` est votre nom d'utilisateur Tuleap
 
 -  ``racine`` est le nom du répertoire de plus haut niveau à importer
 
@@ -596,13 +596,13 @@ Où :
     source dans un nouveau dépôt CVS. Placer les répertoires au mauvais
     niveau ou avec un mauvais nom est une erreur typique. Ne vous en
     faites pas... Si vous souhaitez recommencer avec un dépôt CVS vierge
-    contactez simplement l'équipe SYS\_PRODUCT\_NAME et nous
+    contactez simplement l'équipe Tuleap et nous
     réinitialiserons votre dépôt.
 
     **Note**
 
     Notez que si vous disposez déjà d'un dépôt CVS, l'équipe
-    SYS\_PRODUCT\_NAME peut vous aider à le transférer en préservant la
+    Tuleap peut vous aider à le transférer en préservant la
     totalité de l'historique. Nous avons juste besoin d'une archive (zip
     ou tar) de votre dépôt actuel y compris le répertoire CVSROOT. A
     partir de là nous réinstallerons votre dépôt CVS pour vous.
@@ -611,10 +611,10 @@ Où :
 Créer une copie de travail (checkout)
 -------------------------------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Une fois le dépôt CVS en place, les membres du projet (ou plus
-généralement les utilisateurs SYS\_PRODUCT\_NAME si l'accès leur est
+généralement les utilisateurs Tuleap si l'accès leur est
 permis) peuvent créer une copie de travail sur leur propre poste. A
 noter que cette opération dite "checkout" ne permet pas à l'utilisateur
 de verrouiller quelque fichier que ce soit. Le paradigme CVS est le
@@ -654,7 +654,7 @@ Où :
 
 -  ``nom_projet`` est le nom court du projet
 
--  ``nom_utilisateur`` est votre nom d'utilisateur SYS\_PRODUCT\_NAME
+-  ``nom_utilisateur`` est votre nom d'utilisateur Tuleap
 
 -  ``répertoire`` est le chemin du répertoire que vous souhaitez
    extraire du dépôt. Pour en savoir plus sur la structure arborescente
@@ -664,7 +664,7 @@ Où :
 Mettre à jour le code source (update)
 -------------------------------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Lancer la commande "``cvs update``\ " depuis une copie de travail a pour
 effet de mettre à jour la copie de travail (ou une sous-partie) avec les
@@ -757,7 +757,7 @@ travail..
 Proposer des modifications à l'équipe de projet
 -----------------------------------------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Il s'agit d'une variante de la section précédente pour les utilisateurs
 qui n'ont pas d'accès en écriture au dépôt CVS d'un projet et qui ne
@@ -878,7 +878,7 @@ Livrez cette archive via la service de publication de fichiers (voir ?.
 
 C'est fini ! Joli travail... Accordez-vous une pause. Et n'oubliez pas
 d'annoncer la disponibilité de cette nouvelle version en utilisant le
-service d'annonces de SYS\_PRODUCT\_NAME (voir ?).
+service d'annonces de Tuleap (voir ?).
 
 CVS pour les administrateurs de projet
 ======================================
@@ -894,7 +894,7 @@ en écriture est accordé à tous les membres du projet et à eux seuls.
 
 Un administrateur de projet peut cependant interdire l'accès en écriture
 à certains membres du projet. Ce n'est actuellement pas faisable depuis
-l'interface Web de SYS\_PRODUCT\_NAME. Vous devez utiliser votre compte
+l'interface Web de Tuleap. Vous devez utiliser votre compte
 Shell pour vous connecter au serveur (voir ?) et suivre les étapes
 suivantes :
 
@@ -916,7 +916,7 @@ dans le répertoire CVSROOT. Ces fichiers offrent toutes sortes de
 possibilités aux administrateurs d'un projet comme la possibilité de
 créer des modules virtuels à partir d'une collection de répertoires et
 de fichiers dispersés, de provoquer l'envoi d'email sur certaines
-opérations comme commit ou add (note : SYS\_PRODUCT\_NAME le fait déjà
+opérations comme commit ou add (note : Tuleap le fait déjà
 pour vous - voir ci-dessous), vérifier le format d'un tag CVS avant de
 l'accepter, etc... (Voir la documentation CVS mentionnée dans la ? pour
 plus d'information sur les fichiers d'administration de CVS).
@@ -935,7 +935,7 @@ plus d'information sur les fichiers d'administration de CVS).
 
     Si vous modifiez les fichiers d'administration de CVS, assurez-vous
     de garder intact les instructions spécifiques déjà mises en place
-    par SYS\_PRODUCT\_NAME dans les fichiers ``config``, ``writers`` et
+    par Tuleap dans les fichiers ``config``, ``writers`` et
     ``loginfo``. Veillez aussi à ne pas modifier les permissions du
     possesseur de ces fichiers à moins que vous ne sachiez exactement ce
     que vous faites.
@@ -948,4 +948,4 @@ plus d'information sur les fichiers d'administration de CVS).
 .. |Un exemple de navigation dans le dépôt CVS| image:: ../../slides/fr_FR/CVS_Web_Session.png
 .. |Interrogation de la base de suivi CVS d'un projet| image:: ../../screenshots/fr_FR/sc_cvssearch.png
 .. |Détails concernant une opération de commit CVS| image:: ../../screenshots/fr_FR/sc_cvsshowcommit.png
-.. |Un cycle de développement logiciel typique sur SYS\_PRODUCT\_NAME| image:: ../../slides/fr_FR/CVS_Life_Cycle.png
+.. |Un cycle de développement logiciel typique sur Tuleap| image:: ../../slides/fr_FR/CVS_Life_Cycle.png

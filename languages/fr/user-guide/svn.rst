@@ -6,7 +6,7 @@ Contrôle de version avec Subversion
 ===================================
 
 Ce chapitre n'est pas un tutoriel Subversion. Il couvre l'intégration de
-Subversion avec SYS\_PRODUCT\_NAME et comment l'utiliser de façon
+Subversion avec Tuleap et comment l'utiliser de façon
 optimale dans ce contexte. Si vous n'êtes pas familier avec le système
 de contrôle de version Subversion, nous vous recommandons de consulter
 les références Subversion (voir ?).
@@ -72,7 +72,7 @@ Subversion présente aussi un nombre important d'amélioration par rapport
    et de copier des fichiers ou des répertoires entiers sans pour autant
    compromettre le nommage des fichiers et leur historique.
 
--  **Commits atomiques** : bien que SYS\_PRODUCT\_NAME offre une
+-  **Commits atomiques** : bien que Tuleap offre une
    surcouche au dessus de CVS qui donne une vue atomique des opérations
    de commits, CVS en lui-même ne conserve aucune trace du fait que vous
    avez fait remonter des modifications sur une douzaine de fichiers en
@@ -112,11 +112,11 @@ Subversion présente aussi un nombre important d'amélioration par rapport
    que la durée de ces opérations est indépendante de la taille du
    dépôt.
 
--  **Contrôle d'accès fin** : tel qu'intégré dans SYS\_PRODUCT\_NAME,
+-  **Contrôle d'accès fin** : tel qu'intégré dans Tuleap,
    votre dépôt Subversion communique à travers le protocole HTTP (ou
    HTTPS) et il tire donc parti de la richesse des méthodes
    d'authentification proposées par HTTP. Il en ressort que
-   SYS\_PRODUCT\_NAME vous permet de définir finement les droits d'accès
+   Tuleap vous permet de définir finement les droits d'accès
    a votre dépôt Subversion que ce soit pour autoriser la lecture,
    l'écriture ou au contraire interdire l'accès.
 
@@ -131,9 +131,9 @@ Les clients Subversion
 ----------------------
 
 Subversion repose sur une architecture client-serveur. En d'autres
-termes, Les développeurs SYS\_PRODUCT\_NAME qui souhaitent interagir
+termes, Les développeurs Tuleap qui souhaitent interagir
 avec un dépôt Subversion doivent installer Subversion sur leur poste de
-travail (appelé poste client). SYS\_PRODUCT\_NAME fait fonctionner un
+travail (appelé poste client). Tuleap fait fonctionner un
 serveur Subversion de façon permanente en tâche de fond. Les clients
 Subversion s'adressent à ce serveur pour agir sur le dépôt. Les clients
 Subversion sont disponibles sous plusieurs formes pour toutes les
@@ -162,15 +162,15 @@ plateformes. Avec le temps, la liste des frontaux graphiques ne cessera
 de s'allonger. Référez-vous à la ? pour plus d'information sur les
 frontaux graphiques.
 
-Configurer rapidSVN pour SYS\_PRODUCT\_NAME
+Configurer rapidSVN pour Tuleap
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Comme indiqué précédemment, rapidSVN est le frontal graphique livré avec
 Subversion pour Linux et Windows. Vous trouverez ci-dessous toutes les
 instructions pour faire fonctionner rapidSVn avec le dépôt Subversion de
-vos projets SYS\_PRODUCT\_NAME. Dans les paramètres utilisés ci-dessous,
-"nom\_utilisateur" est le nom d'utilisateur SYS\_PRODUCT\_NAME et
-"nom\_projet" le nom court du projet SYS\_PRODUCT\_NAME sur lequel
+vos projets Tuleap. Dans les paramètres utilisés ci-dessous,
+"nom\_utilisateur" est le nom d'utilisateur Tuleap et
+"nom\_projet" le nom court du projet Tuleap sur lequel
 travaille l'utilisateur.
 
 -  Téléchargez rapidSVN depuis le site Web de Subversion et installez
@@ -226,7 +226,7 @@ Subversion, référez-vous à l'un des documents suivants :
 -  jSVN. Un frontal graphique 100% Java. Voir
    http://jsvn.alternatecomputing.com/.
 
-Intégration de Subversion dans SYS\_PRODUCT\_NAME
+Intégration de Subversion dans Tuleap
 =================================================
 
 Le dépôt Subversion
@@ -245,7 +245,7 @@ personnalisation complète des dépôts Subversion projet par projet.
     Toutes les interactions avec un dépôt Subversion se font normalement
     via le client Subversion de votre poste de travail. En cas de besoin
     et si cette fonction est activée sur votre serveur
-    SYS\_PRODUCT\_NAME, vous pouvez utiliser votre compte Shell (voir ?)
+    Tuleap, vous pouvez utiliser votre compte Shell (voir ?)
     pour interagir directement avec votre dépôt. Une fois votre session
     Shell activée, vous trouverez votre dépôt Subversion dans le
     répertoire ``/svnroot/projectname``.Cependant nous vous recommandons
@@ -255,7 +255,7 @@ personnalisation complète des dépôts Subversion projet par projet.
 La structure du dépôt Subversion
 --------------------------------
 
-Lorsqu'un nouveau projet SYS\_PRODUCT\_NAME est créé, il est pourvu d'un
+Lorsqu'un nouveau projet Tuleap est créé, il est pourvu d'un
 dépôt Subversion totalement vierge que l'équipe de projet doit remplir
 et structurer. Étant donné que Subversion gère les branches et les
 étiquettes via son système de fichiers virtuel (et non pas par des
@@ -304,7 +304,7 @@ vous aux ouvrages cités dans la ?.
 L'interface de navigation Web de Subversion
 ===========================================
 
-SYS\_PRODUCT\_NAME vous permet d'interagir avec votre dépôt Subversion
+Tuleap vous permet d'interagir avec votre dépôt Subversion
 via l'interface Web. Il ne s'agit pas de remplacer le véritable client
 Subversion que vous utilisez normalement sur votre poste de travail.
 L'interface Web de Subversion se concentre sur certaines fonctionnalités
@@ -332,23 +332,23 @@ propose les fonctionnalités suivantes :
    Subversion est activée pour votre projet (c'est toujours le cas par
    défaut) tous les évènements concernant la modification du dépôt
    (commit, ajout ou suppression de fichiers) sont consignés dans la
-   base de données de SYS\_PRODUCT\_NAME. Il est ensuite possible
+   base de données de Tuleap. Il est ensuite possible
    d'effectuer des recherches dans l'historique des changements selon
    différents critères.
 
 -  **Administration Subversion** : ce service permet aux administrateurs
    du projet d'effectuer les tâches d'administration et de configuration
    du dépôt Subversion les plus courantes depuis l'interface Web de
-   SYS\_PRODUCT\_NAME (pour plus d'information voir ?).
+   Tuleap (pour plus d'information voir ?).
 
 Voyons plus en détail quelques unes de ces fonctionnalités :
 
 Naviguer dans le dépôt Subversion
 ---------------------------------
 
-Pour interagir avec le dépôt Subversion d'un projet SYS\_PRODUCT\_NAME,
+Pour interagir avec le dépôt Subversion d'un projet Tuleap,
 il est normalement nécessaire d'installer un client Subversion sur votre
-poste de travail. Cependant SYS\_PRODUCT\_NAME vous permet de naviguer
+poste de travail. Cependant Tuleap vous permet de naviguer
 dans le dépôt, de visualiser le code source, de le télécharger, de
 consulter l'historique d'un fichier ou de comparer deux révisions du
 même fichier.
@@ -365,7 +365,7 @@ intéressantes pour les développeurs :
 -  **Commits Subversion atomiques et identifiés de façon unique** : tous
    les changements (modification, ajout ou suppression de fichiers)
    commités en une seule opération depuis votre poste client se verront
-   assignés un identifiant unique de la part de SYS\_PRODUCT\_NAME qui
+   assignés un identifiant unique de la part de Tuleap qui
    correspond au numéro de révision Subversion.
 
 -  **Références croisées entre commits** : L'identifiant unique affecté
@@ -409,13 +409,13 @@ modifier le code ou la documentation. Et inversement, à la lecture d'un
 artefact il est très utile de voir quels changements il a engendré dans
 le code source.
 
-L'intégration de Subversion avec SYS\_PRODUCT\_NAME fournit précisément
+L'intégration de Subversion avec Tuleap fournit précisément
 ce mécanisme de références croisées. Ceci est rendu possible par
 l'utilisation des 'références', patrons de texte prédéfinis à utiliser
 dans les commentaires des artefacts ou dans les messages de commits de
-Subversion et que SYS\_PRODUCT\_NAME reconnaît automatiquement.
+Subversion et que Tuleap reconnaît automatiquement.
 
-Les patrons de référence reconnus automatiquement par SYS\_PRODUCT\_NAME
+Les patrons de référence reconnus automatiquement par Tuleap
 dans les messages de commit ou dans les commentaires des artefacts sont
 les suivants :
 
@@ -425,20 +425,20 @@ les suivants :
    #123", "tâche #321", "DA #12", etc.). Si vous ne connaissez pas le
    nom court de l'outil de suivi ou que vous ne souhaitez pas le
    préciser vous pouvez utiliser le terme générique "art #NNN". Lorsque
-   SYS\_PRODUCT\_NAME affiche un message contenant ce genre de patron,
+   Tuleap affiche un message contenant ce genre de patron,
    il le transforme automatiquement en hyperlien vers la description de
    l'artefact référencé.
 
 -  **commit #YYY or revision #YYY or rev #YYY** : ce patron référence le
    commit YYY où YYY est l'identifiant unique du commit tel qu'il
-   apparaît dans la base de suivi Subversion. Lorsque SYS\_PRODUCT\_NAME
+   apparaît dans la base de suivi Subversion. Lorsque Tuleap
    affiche un message contenant ce genre de patron, il le transforme
    automatiquement en hyperlien vers la description du commit référencé
    (message, fichiers impactés et leur révisions, auteur de la
    modification).(Voir ?).
 
--  Le mécanisme de références de SYS\_PRODUCT\_NAME permet les
-   références croisées entre tous les objets de SYS\_PRODUCT\_NAME:
+-  Le mécanisme de références de Tuleap permet les
+   références croisées entre tous les objets de Tuleap:
    artefacts, documents, messages de commit, fichiers, etc. Voir la ?
    pour plus de détails sur la gestion des Références.
 
@@ -459,7 +459,7 @@ Interface d'administration de Subversion
 
 Les administrateurs de projets peuvent effectuer les tâches les plus
 courantes d'administration et de configuration du dépôt Subversion via
-l'interface Web de SYS\_PRODUCT\_NAME. Les fonctions d'administration
+l'interface Web de Tuleap. Les fonctions d'administration
 sont accessibles par l'entrée ``SVN
     Admin`` située dans la barre de menu du service Subversion.
 
@@ -474,15 +474,15 @@ Options générales
    l'interface Web de navigation dans le dépôt Subversion.
 
    Si vous activez le suivi Subversion pour votre projet,
-   SYS\_PRODUCT\_NAME conserve aussi une trace de tous les changements
-   intervenus dans la base de données SYS\_PRODUCT\_NAME. Ceci vous
+   Tuleap conserve aussi une trace de tous les changements
+   intervenus dans la base de données Tuleap. Ceci vous
    donne des possibilités supplémentaires qui sont expliquées dans la ?
 
 -  **Préambule Subversion** : dans certains cas (par ex. pour des
    projets existants), il se peut que le dépôt Subversion d'un projet ne
-   soit pas hébergé sur SYS\_PRODUCT\_NAME. Dans ce cas, les
+   soit pas hébergé sur Tuleap. Dans ce cas, les
    informations affichées sur la page d'accueil du service Subversion de
-   SYS\_PRODUCT\_NAME sont incorrectes. Fort heureusement,
+   Tuleap sont incorrectes. Fort heureusement,
    l'administrateur du projet peut personnaliser le message d'accueil en
    tapant le texte de son choix dans cette zone de saisie.
 
@@ -492,9 +492,9 @@ Contrôle des accès au dépôt Subversion
 Permissions d'accès par défaut
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Lorsque SYS\_PRODUCT\_NAME crée le dépôt Subversion d'un projet,
+Lorsque Tuleap crée le dépôt Subversion d'un projet,
 différents niveaux de permissions sont octroyés aux différentes classes
-d'utilisateurs de SYS\_PRODUCT\_NAME (voir ?).
+d'utilisateurs de Tuleap (voir ?).
 
 Pour les projets privés, seuls les membres du projet ont accès au dépôt
 Subversion. Par défaut ils ont accès en lecture et en écriture. Ceci
@@ -506,7 +506,7 @@ suivantes :
 
 -  **Utilisateurs anonymes** : les utilisateurs non enregistrés (ou non
    connectés) n'ont *aucun accès* aux dépôts Subversion. Selon la
-   configuration du serveur SYS\_PRODUCT\_NAME, il est même possible que
+   configuration du serveur Tuleap, il est même possible que
    les utilisateurs anonymes n'aient aucun accès au site d'une façon
    générale.
 
@@ -526,15 +526,15 @@ suivantes :
 
        **Note**
 
-       **Note** : tous les accès au code source sur SYS\_PRODUCT\_NAME
+       **Note** : tous les accès au code source sur Tuleap
        sont enregistrés. Les administrateurs des projets peuvent à tout
        moment consulter la liste des utilisateurs qui ont accédé au code
        source (voir ?).
 
 -  **Membres du projet** : les membres d'un projet hébergé sur
-   SYS\_PRODUCT\_NAME ont un droit d'accès en lecture et en écriture au
+   Tuleap ont un droit d'accès en lecture et en écriture au
    dépôt après s'être authentifié à l'aide de leur nom d'utilisateur
-   SYS\_PRODUCT\_NAME et leur mot de passe. Comme expliqué plus haut
+   Tuleap et leur mot de passe. Comme expliqué plus haut
    dans le paragraphe concernant les projets privés, il est là aussi
    possible de restreindre l'accès en lecture seule pour les membres du
    projets.
@@ -546,9 +546,9 @@ Personnalisation des permissions d'accès
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Grâce à l'intégration de Subversion dans l'environnement
-SYS\_PRODUCT\_NAME, les administrateurs de projet peuvent redéfinir les
+Tuleap, les administrateurs de projet peuvent redéfinir les
 permissions d'accès pour tout ou partie des utilisateurs de
-SYS\_PRODUCT\_NAME.
+Tuleap.
 
 Pour ce faire, il suffit de spécifier des règles d'accès qui complètent
 ou même remplacent les règles par défaut. La syntaxe des permissions
@@ -566,7 +566,7 @@ où :
    (relativement à ``/svnroot/nom_projet``) du dépôt pour lequel vous
    souhaitez (re)définir les permissions d'accès.
 
--  ``nom`` est soit un nom d'utilisateur SYS\_PRODUCT\_NAME soit un nom
+-  ``nom`` est soit un nom d'utilisateur Tuleap soit un nom
    de groupe. Le nom \* (astérisque) couvre tous les utilisateurs
    enregistrés.
 
@@ -648,7 +648,7 @@ empèchera effectivement aux utilisateurs non membres du projet d'accéder
 au repertoire '/secret'.
 
 Si vous souhaitez néanmoins interdire l'accès à la totalité du dépôt,
-vous devrez contacter un administrateur SYS\_PRODUCT\_NAME.
+vous devrez contacter un administrateur Tuleap.
 
 Pour plus d'information concernant le format de ce fichier référez-vous
 aux ouvrages sur Subversion (voir ?).
@@ -656,7 +656,7 @@ aux ouvrages sur Subversion (voir ?).
 Notification e-mail de Subversion
 ---------------------------------
 
-En complément des fonctions de suivi, SYS\_PRODUCT\_NAME peut aussi
+En complément des fonctions de suivi, Tuleap peut aussi
 expédier un courrier électronique proprement formaté à des individus ou
 à une liste de diffusion à chaque modification de code. Le courrier
 électronique contient le message expliquant la nature du changement, son
@@ -688,9 +688,9 @@ suivants concernant la notification par e-mail :
     utilisateurs de changements intervenus dans le dépôt Subversion ou
     un chemin spécifique, nous vous recommandons de créer une liste de
     diffusion spécifique appelée ``nom_projet-cvsevents``. Ainsi, les
-    utilisateurs SYS\_PRODUCT\_NAME et les membres du projet intéressés
+    utilisateurs Tuleap et les membres du projet intéressés
     par les notifications pourront s'inscrire sur la liste de diffusion.
-    De plus, le gestionnaire de liste de diffusion de SYS\_PRODUCT\_NAME
+    De plus, le gestionnaire de liste de diffusion de Tuleap
     se charge d'archiver tous les messages ce qui peut servir de
     référence ultérieurement. Voir ? pour la création de liste de
     diffusion.
@@ -710,12 +710,12 @@ paragraphes qui suivent tous les exemples sont donnés sous la forme de
 lignes de commande mais leur transposition dans une interface graphique
 ne devrait pas poser de problèmes.
 
-|Un cycle de développement logiciel typique sur SYS\_PRODUCT\_NAME|
+|Un cycle de développement logiciel typique sur Tuleap|
 
 Se connecter
 ------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Contrairement à Subversion lorsqu'il est utilisé avec le protocole
 pserver, il n'est pas nécessaire de se connecter explicitement pour
@@ -728,7 +728,7 @@ Importer du code source existant
 
 *Audience : membres du projet*
 
-En tant qu'administrateur d'un tout nouveau projet SYS\_PRODUCT\_NAME,
+En tant qu'administrateur d'un tout nouveau projet Tuleap,
 la première chose à faire consiste à peupler votre tout nouveau dépôt
 Subversion avec votre code source. Pour ce faire créez d'abord un
 répertoire ``racine`` sur votre poste de travail et placez y votre code
@@ -748,9 +748,9 @@ Où :
 
 -  ``nom_projet`` est le nom court du projet
 
--  ``nom_utilisateur`` est votre nom d'utilisateur SYS\_PRODUCT\_NAME
+-  ``nom_utilisateur`` est votre nom d'utilisateur Tuleap
    (en minuscules). L'option --username est nécessaire uniquement si
-   votre nom d'utilisateur SYS\_PRODUCT\_NAME est différent de votre
+   votre nom d'utilisateur Tuleap est différent de votre
    login Unix ou Windows sous lequel vous êtes en train de travailler.
 
     **Note**
@@ -767,13 +767,13 @@ Où :
     source dans un nouveau dépôt Subversion. Placer les répertoires au
     mauvais niveau ou avec un mauvais nom est une erreur typique. Ne
     vous en faites pas... Si vous souhaitez recommencer avec un dépôt
-    Subversion vierge contactez simplement l'équipe SYS\_PRODUCT\_NAME
+    Subversion vierge contactez simplement l'équipe Tuleap
     et nous réinitialiserons votre dépôt.
 
     **Note**
 
     Notez que si vous disposez déjà d'un dépôt Subversion, l'équipe
-    SYS\_PRODUCT\_NAME peut vous aider à le transférer en préservant la
+    Tuleap peut vous aider à le transférer en préservant la
     totalité de l'historique. Nous avons juste besoin d'une archive (zip
     ou tar) de votre dépôt actuel. A partir de là nous réinstallerons
     votre dépôt Subversion. Contactez-nous pour plus d'information à ce
@@ -782,10 +782,10 @@ Où :
 Créer une copie de travail (checkout)
 -------------------------------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Une fois le dépôt Subversion en place, les membres du projet (ou plus
-généralement les utilisateurs SYS\_PRODUCT\_NAME si l'accès leur est
+généralement les utilisateurs Tuleap si l'accès leur est
 permis) peuvent créer une copie de travail sur leur propre poste. A
 noter que cette opération dite "checkout" ne permet pas à l'utilisateur
 de verrouiller quelque fichier que ce soit. Le paradigme Subversion est
@@ -824,7 +824,7 @@ Où :
 Mettre à jour le code source (update)
 -------------------------------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Lancer la commande "``svn update``\ " depuis une copie de travail a pour
 effet de mettre à jour la copie de travail (ou une sous-partie) avec les
@@ -926,7 +926,7 @@ Où :
 Proposer des modifications à l'équipe de projet
 -----------------------------------------------
 
-*Audience : tous les utilisateurs SYS\_PRODUCT\_NAME*
+*Audience : tous les utilisateurs Tuleap*
 
 Il s'agit d'une variante de la section précédente pour les utilisateurs
 qui n'ont pas d'accès en écriture au dépôt Subversion d'un projet et qui
@@ -1050,7 +1050,7 @@ Livrez cette archive via le service de publications de fichiers (voir
 
 C'est fini ! Joli travail... Accordez-vous une pause. Et n'oubliez pas
 d'annoncer la disponibilité de cette nouvelle version en utilisant le
-service d'annonces de SYS\_PRODUCT\_NAME (voir ?).
+service d'annonces de Tuleap (voir ?).
 
 Subversion pour les administrateurs de projet
 =============================================
@@ -1058,7 +1058,7 @@ Subversion pour les administrateurs de projet
 Les scripts d'accrochage de Subversion (hook scripts)
 -----------------------------------------------------
 
-SYS\_PRODUCT\_NAME offre une interface Web facile d'utilisation
+Tuleap offre une interface Web facile d'utilisation
 permettant de définir les paramètres de configuration les plus
 fréquemment utilisés de votre dépôt Subversion comme les droits d'accès
 ou la notification par email. Les administrateurs de projet qui
@@ -1066,7 +1066,7 @@ souhaitent personnaliser davantage la configuration de leur dépôt
 peuvent avoir accès aux scripts d'accrochage de Subversion.
 
 Pour ce faire, vous devez avoir l'autorisation de vous connecter au
-serveur SYS\_PRODUCT\_NAME via votre compte Shell (voir ?) [1]_.
+serveur Tuleap via votre compte Shell (voir ?) [1]_.
 
 .
 Une fois connecté, tapez la commande suivante à l'invite du shell :
@@ -1087,7 +1087,7 @@ Une fois connecté, tapez la commande suivante à l'invite du shell :
 
     Si vous personnalisez les scripts d'accrochage de Subversion pour
     votre dépôt, veillez à ne pas altérer les instructions mises en
-    place par SYS\_PRODUCT\_NAME. Ces instructions sont clairement
+    place par Tuleap. Ces instructions sont clairement
     marquées à l'aide de lignes de début et de fin très reconnaissables.
 
 .. [1]
@@ -1097,4 +1097,4 @@ Une fois connecté, tapez la commande suivante à l'invite du shell :
 .. |Un exemple de navigation dans le dépôt Subversion| image:: ../../slides/fr_FR/SVN_Web_Session.png
 .. |Interrogation de la base de suivi Subversion d'un projet| image:: ../../screenshots/fr_FR/sc_svnsearch.png
 .. |Détails concernant une opération de commit Subversion| image:: ../../screenshots/fr_FR/sc_svnshowcommit.png
-.. |Un cycle de développement logiciel typique sur SYS\_PRODUCT\_NAME| image:: ../../slides/fr_FR/SVN_Life_Cycle.png
+.. |Un cycle de développement logiciel typique sur Tuleap| image:: ../../slides/fr_FR/SVN_Life_Cycle.png

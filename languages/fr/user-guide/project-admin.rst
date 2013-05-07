@@ -1,5 +1,5 @@
 
-.. |SYSPRODUCTNAME| replace:: Tuleap
+.. Tuleap replace:: Tuleap
 
 .. _administration-d'un-projet:
 
@@ -57,7 +57,7 @@ partir d'un fichier texte. Pour cela, cliquer sur le lien "Importer une
 liste d'utilisateurs". On vous proposera alors de choisir un fichier
 texte comportant la liste des utilisateurs à importer. Le fichier doit
 comporter un utilisateur par ligne, soit en spécifiant son adresse
-email, soit en spécifiant son nom de login |SYSPRODUCTNAME|.
+email, soit en spécifiant son nom de login Tuleap.
 
 ::
 
@@ -73,7 +73,7 @@ vérification du fichier est effectuée, qui donne lieu à un compte-rendu
 des utilisateurs détectés. Après validation, les utilisateurs sont
 effectivement ajoutés au projet. Le système n'effectuera pas l'import en
 cas d'erreur (utilisateur inconnu, non enregistré sur
-|SYSPRODUCTNAME|, utilisateur non actif, adresse mail inconnue,
+Tuleap, utilisateur non actif, adresse mail inconnue,
 etc...). Les doublons ne produisent pas d'erreur. Un seul utilisateur
 est ajouté dans ce cas.
 
@@ -131,7 +131,7 @@ C'est ici que vous pouvez définir la catégorisation de votre projet.
 Vous pouvez définir au plus trois valeurs pour chacun des sept critères
 de catégorisation utilisé dans l'arbre des projets. Si vous ne trouvez
 pas de valeur correspondant à votre projet, n'hésitez pas à contacter
-l'équipe |SYSPRODUCTNAME|.
+l'équipe Tuleap.
 
 .. type-de-projet:
 
@@ -140,10 +140,10 @@ Type de projet
 
 *Emplacement : contenu de la page d'administration*
 
-|SYSPRODUCTNAME| propose trois types de projets :
+Tuleap propose trois types de projets :
 
 -  **Projet** : C'est le type des projets standards sur
-   |SYSPRODUCTNAME|.
+   Tuleap.
 
 -  **Patron de projet** : Si vous utilisez ce type de projet, de
    nouveaux projets peuvent réutiliser la configuration des services de
@@ -187,14 +187,14 @@ Type de projet
    Remarquez que les membres du projet de patron ne seront pas
    automatiquement membres du nouveau projet. Un projet de patron
    n'apparaît plus dans l'arbre des projets et est exclu des
-   statistiques de projets du tableau de bord de |SYSPRODUCTNAME| (see
+   statistiques de projets du tableau de bord de Tuleap (see
    ?) comme les projets récents, les projets les plus actifs, etc...
 
 -  **Projet de test** : Si vous voulez juste essayer tout ce qui est
-   faisable avec un projet |SYSPRODUCTNAME| vous pouvez utiliser le
+   faisable avec un projet Tuleap vous pouvez utiliser le
    type projet de test. En utilisant ce type de projet votre projet
    n'apparaît plus dans l'arbre des projets ni dans les statistiques de
-   projets du tableau de bord de |SYSPRODUCTNAME|.
+   projets du tableau de bord de Tuleap.
 
 .. _configuration-des-services:
 
@@ -224,8 +224,8 @@ Il existe deux sortes de services :
 
 La seule exception concerne le service **Site Web**; il s'agit d'un
 service système mais il peut être personnalisé pour pointer sur l'URL de
-votre choix. Chaque projet hébergé sur |SYSPRODUCTNAME| possède son
-propre serveur Web virtuel sur le site |SYSPRODUCTNAME|. Par défaut le
+votre choix. Chaque projet hébergé sur Tuleap possède son
+propre serveur Web virtuel sur le site Tuleap. Par défaut le
 service "Site Web" de la barre de services pointe sur ce site (voir le :ref:`site-web-d'un-projet`
 pour plus de détails). Vous pouvez remplacer l'URL par défaut avec un
 pointeur vers votre propre site Web. Attention à ne pas confondre le
@@ -255,12 +255,12 @@ dans la barre de service :
 -  **$projectname** : le nom court du projet
 
 -  **$sys\_default\_domain** : le nom de domaine du serveur
-   |SYSPRODUCTNAME| (ici "SYS\_DEFAULT\_DOMAIN")
+   Tuleap (ici "SYS\_DEFAULT\_DOMAIN")
 
 -  **$group\_id** : l'identifiant du projet
 
 -  **$sys\_default\_protocol** : 'https' si le serveur
-   |SYSPRODUCTNAME| fonctionne en mode sécurisé, 'http' dans le cas
+   Tuleap fonctionne en mode sécurisé, 'http' dans le cas
    contraire.
 
 **Description du service** : Description courte du service. Elle est
@@ -323,14 +323,14 @@ Présentation des références
 `````````````````````````````
 
 Les patrons de référence sont un outils puissant permettant de créer des
-références croisées entre objets de |SYSPRODUCTNAME|. En fonction d'un
-patron de texte, |SYSPRODUCTNAME| peut créer automatiquement un
+références croisées entre objets de Tuleap. En fonction d'un
+patron de texte, Tuleap peut créer automatiquement un
 hyperlien vers l'objet souhaité.
 
 Lorsque vous tapez un commentaire, ou un message de commit, tout morceau
 de texte qui suit le patron "XXX #NNN" est interprété comme une
 référence à l'objet XXX numéro NNN. Ainsi, 'art #123' sera détecté comme
-une référence à l'artefact numéro 123, et |SYSPRODUCTNAME| créera
+une référence à l'artefact numéro 123, et Tuleap créera
 automatiquement un hyperlien qui pointe sur la page décrivant
 précisément cet artefact.
 
@@ -447,17 +447,17 @@ modifier le code ou la documentation. Et inversement, à la lecture d'un
 artefact il est très utile de voir quels changements il a engendré dans
 le code source.
 
-L'intégration de CVS et de Subversion avec |SYSPRODUCTNAME| fournit
+L'intégration de CVS et de Subversion avec Tuleap fournit
 précisément ce mécanisme de références croisées. Ceci est rendu possible
 par l'utilisation des références à utiliser dans les commentaires des
-artefacts ou dans les messages de commits que |SYSPRODUCTNAME|
+artefacts ou dans les messages de commits que Tuleap
 reconnaît automatiquement.
 
 Le système n'est pas limité aux références à des commits ou a des
 artefact, puisqu'il est également possible de référencer un message
 posté dans un forum, une documentation, ou un fichier. Le système est
 suffisament flexible pour permettre le référencement d'objets qui ne
-sont pas dans |SYSPRODUCTNAME|. Il vous suffit de créer vos propres
+sont pas dans Tuleap. Il vous suffit de créer vos propres
 patrons de référence pour relier vos messages à un gestionnaire de
 document externe comme Docushare, ou à un outil de gestion de code
 source comme ClearCase.
@@ -488,7 +488,7 @@ champs suivants :
 3. **Lien** : C'est l'URL vers lequel pointe la référence. L'utilisateur
    sera automatiquement redirigé vers cette adresse s'il clique sur la
    référence. L'URL ne pointe pas nécessairement vers le serveur
-   |SYSPRODUCTNAME| : on peut créer des patrons de référence qui pointent
+   Tuleap : on peut créer des patrons de référence qui pointent
    vers des pages externes. La nouvelle page sera chargée dans le fenêtre
    courante.
 
@@ -589,7 +589,7 @@ en revue chacune des colonnes :
 -  **Écriture CVS** : actuellement toujours positionné à Oui. Tous les
    membres du projet ont les droits d'accès en écriture sur le dépôt CVS
    [#f1]_ du projet et cela ne peut être modifié depuis l'interface
-   utilisateur de |SYSPRODUCTNAME|. Nous verrons cependant comment
+   utilisateur de Tuleap. Nous verrons cependant comment
    désactiver l'accès en écriture au dépôt CVS dans le chapitre qui lui
    est consacré (:ref:`contrôle-de-version-avec-CVS`).
 
@@ -646,7 +646,7 @@ Groupes d'utilisateurs
 *Emplacement : Menu d'administration*
 
 Un groupe d'utilisateurs, aussi appelé "ugroup", est tout simplement un
-regroupement d'utilisateurs |SYSPRODUCTNAME|. Les groupes
+regroupement d'utilisateurs Tuleap. Les groupes
 d'utilisateurs sont utilisés dans le but de définir des permissions
 spécifiques sur certaines données du projet (certains paquets ou
 versions de fichiers par exemple - voir :ref:`modification-d'un-paquet`). Un groupe d'utilisateurs est
@@ -673,7 +673,7 @@ Dans la liste figure deux types de groupes (voir par exemple `Page de gestion de
 automatiquement définis pour chaque projet. Il s'agit par exemple de :
 **membres\_projet, admins\_projet, utilisateurs\_enregistres, personne,
 admins\_gestionnaire\_fichier**, etc... Ces groupes sont dynamiques
-c'est à dire que |SYSPRODUCTNAME| maintient la liste des membres de ce
+c'est à dire que Tuleap maintient la liste des membres de ce
 groupe pour vous. Ainsi si un nouveau membre du projet se voit accorder
 les droits d'administrateur, il sera automatiquement ajouté au groupe
 'admins\_projet' et disposera des mêmes permissions que celles déjà
@@ -682,10 +682,10 @@ accordées à ce groupe.
 **Les groupes d'utilisateurs personnalisés** sont définis par les
 administrateurs du projet. Ils sont composés d'une liste statique
 d'utilisateurs qui doivent tous être des utilisateurs enregistrés de
-|SYSPRODUCTNAME|. Cette liste peut être modifiée à tout moment par
+Tuleap. Cette liste peut être modifiée à tout moment par
 l'administrateur. Elle n'est pas modifiée automatiquement sauf si un
 utilisateur est supprimé de la liste des membres du projet ou si son
-compte |SYSPRODUCTNAME| est supprimé.
+compte Tuleap est supprimé.
 
 Créer un groupe d'utilisateurs
 ```````````````````````````````
@@ -806,26 +806,26 @@ Exportation des données du projet
 
 *Emplacement : Menu d'administration*
 
-|SYSPRODUCTNAME| est particulièrement attractif pour de nombreuses
+Tuleap est particulièrement attractif pour de nombreuses
 équipes de projet car il offre une série d'outils complets pour le
 développement et la gestion de projet. Un projet peut-être géré
-quasiment intégralement depuis |SYSPRODUCTNAME|. Cependant il se peut
+quasiment intégralement depuis Tuleap. Cependant il se peut
 que l'équipe ressente le besoin d'effectuer certaines opérations sur les
-données du projet en dehors de |SYSPRODUCTNAME| comme par exemple
+données du projet en dehors de Tuleap comme par exemple
 rédiger un rapport sur l'état d'avancement du projet, ce qui se passe
 bien ou moins bien, actualiser la date de livraison prévue, dériver des
 données statistiques, etc...
 
-Il n'est pas du ressort de |SYSPRODUCTNAME| de fournir ces outils de
+Il n'est pas du ressort de Tuleap de fournir ces outils de
 reporting sophistiqués. Il existe de nombreux outils spécialisés sur le
 marché capable de générer des rapports d'activité et chaque équipe
 possède son outil préféré. Dans le but de satisfaire la grande diversité
-de ces besoins, |SYSPRODUCTNAME| offre un mécanisme très efficace qui
+de ces besoins, Tuleap offre un mécanisme très efficace qui
 permet d'exporter les données hors du projet pour les utiliser dans des
 outils comme MS Access, MS Excel, Crystal Report, Open Office ou tout
 autre outil adapté.
 
-|SYSPRODUCTNAME| offre 2 mécanismes d'exportation des données :
+Tuleap offre 2 mécanismes d'exportation des données :
 
 -  **Exportation au format texte** : ce mécanisme permet d'exporter les
    données au format CSV (Comma Separated Value), un format reconnu par
@@ -845,9 +845,9 @@ autre outil adapté.
 Données exportées
 ``````````````````
 
-|SYSPRODUCTNAME| exporte les données suivantes (le détail des champs
+Tuleap exporte les données suivantes (le détail des champs
 exportés et de leur format est disponible sur la page
-|SYSPRODUCTNAME|) :
+Tuleap) :
 
 -  **Outil de suivi** : toutes les données des artefacts, l'historique
    de leurs modifications et leurs dépendances peuvent être exportés
@@ -900,7 +900,7 @@ suivantes :
 -  Ensuite saisissez le nom et le type de chaque champ dans la partie
    inférieure de la boîte de dialogue. Souvenez-vous que ces
    informations sont disponibles sur la page d'exportation des données
-   de |SYSPRODUCTNAME|.
+   de Tuleap.
 
        **Note**
 
@@ -923,7 +923,7 @@ Specs... et rechargez vos paramètres d'importation.
 Accès direct à la base de données
 ``````````````````````````````````
 
-Dans le but d'offrir une flexibilité maximale |SYSPRODUCTNAME| offre
+Dans le but d'offrir une flexibilité maximale Tuleap offre
 aussi un accès direct aux données du projet via un connexion ODBC ou
 JDBC. Une fois installé sur votre PC, le pilote ODBC (ou JDBC) de MySQL
 permet un accès transparent aux tables de votre base de données
@@ -1068,7 +1068,7 @@ Journal des accès
 
 *Emplacement : Menu d'administration*
 
-Selon la configuration du site |SYSPRODUCTNAME| et la configuration de
+Selon la configuration du site Tuleap et la configuration de
 chaque projet, différentes populations d'utilisateurs sont susceptibles
 d'avoir accès au téléchargement de document, de code source et de
 fichiers.
@@ -1083,10 +1083,10 @@ informations suivantes :
 
 -  La liste des opérations de checkout ou d'update sur le dépôt CVS
    ainsi que la liste des personnes ayant navigué dans l'arbre CVS via
-   l'interface Web de |SYSPRODUCTNAME|.
+   l'interface Web de Tuleap.
 
 -  Quels utilisateurs ont accédé au dépôt Subversion soit via un client
-   Subversion soit via l'interface Web de |SYSPRODUCTNAME|.
+   Subversion soit via l'interface Web de Tuleap.
 
 -  Quels utilisateurs ont téléchargé des documents du gestionnaire de
    documentation du projet hormis ceux qui sont accessibles aux
@@ -1107,7 +1107,7 @@ l'historique.
 
 .. [#f1]
    CVS signifie Concurrent Version System. C'est l'un des systèmes de
-   contrôle de version offert par |SYSPRODUCTNAME|. CVS est utilisé
+   contrôle de version offert par Tuleap. CVS est utilisé
    par des centaines de milliers de projets à travers le monde. Voir
    http://www.cvshome.org pour plus d'information.
 
