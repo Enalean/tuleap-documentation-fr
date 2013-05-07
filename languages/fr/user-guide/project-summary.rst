@@ -38,7 +38,7 @@ navigateur sous la forme :
 
 ::
 
-    http://SYS_DEFAULT_DOMAIN/projects/nom_court_du_projet
+    http://tuleap.example.com/projects/nom_court_du_projet
 
 Si vous devez consulter régulièrement des projets dont vous n'êtes pas
 membre, nous vous conseillons de faire apparaître l'URL du tableau de

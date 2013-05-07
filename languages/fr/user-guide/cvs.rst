@@ -135,7 +135,7 @@ et "nom\_projet", le nom court du projet.
 
    Indiquez la valeur de CVSROOT :
 
-   ``:pserver:nom_utilisateur@cvs.nom_projet.SYS_DEFAULT_DOMAIN:/cvsroot/nom_projet``
+   ``:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet``
 
    Assurez vous que le mode d'authentification est positionné sur :
    ``"passwd" file on the cvs server``
@@ -535,7 +535,7 @@ faire, tapez la commande suivante (sur une seule ligne) :
 
 ::
 
-    cvs -d:pserver:nom_utilisateur@cvs.nom_projet.SYS_DEFAULT_DOMAIN:/cvsroot/nom_projet
+    cvs -d:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet
     login
             
 
@@ -571,7 +571,7 @@ Ensuite tapez les commandes suivantes (la seconde sur une seule ligne) :
 ::
 
     $ cd racine
-    $ cvs -d:pserver:nom_utilisateur@cvs.nom_projet.SYS_DEFAULT_DOMAIN:/cvsroot/nom_projet
+    $ cvs -d:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet
     import racine tag_vendeur start
             
 
@@ -644,7 +644,7 @@ Pour créer une copie de travail, tapez la commande suivante :
 
 ::
 
-    cvs -d:pserver:nom_utilisateur@cvs.nom_projet.SYS_DEFAULT_DOMAIN:/cvsroot/nom_projet
+    cvs -d:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet
     checkout répertoire
 
 Où :
@@ -869,7 +869,7 @@ commande à taper serait la suivante :
 
 ::
 
-    cvs -d:pserver:nom_utilisateur@cvs.nom_projet.SYS_DEFAULT_DOMAIN:/cvsroot/nom_projet
+    cvs -d:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet
     export nom_projet-1.2
 
 Créez une archive tar ou zip à partir du répertoire ``nom_projet-1.2/``

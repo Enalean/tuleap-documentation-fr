@@ -17,14 +17,14 @@ différentes :
 
    ::
 
-       http://nom_projet.SYS_DEFAULT_DOMAIN
+       http://nom_projet.tuleap.example.com
                  
 
    Ou si votre serveur Tuleap est en mode sécurisé :
 
    ::
 
-       https://nom_projet.SYS_DEFAULT_DOMAIN
+       https://nom_projet.tuleap.example.com
                  
 
 -  En cliquant sur le lien "Site Web" dans la barre de services du
@@ -148,7 +148,7 @@ Saisissez les paramètres suivants dans la boîte de dialogue :
 
    ::
 
-       ftp://nom_projet.SYS_DEFAULT_DOMAIN/home/groups/nom_projet/htdocs/
+       ftp://nom_projet.tuleap.example.com/home/groups/nom_projet/htdocs/
 
 -  Login and Password : tapez votre nom d'utilisateur et votre mot de
    passe Tuleap. Cliquez sur la case à  cocher pour éviter
@@ -163,7 +163,7 @@ publication à distance par FTP. Pour créer un nouveau site utilisez le
 menu Site -> New Site. Dans la boîte de dialogue renseignez le nom du
 site et le répertoire local pointant à la racine. Choisissez 'FTP
 access' comme méthode d'accès et indiquez
-``nom_projet.SYS_DEFAULT_DOMAIN`` en tant que serveur hôte et
+``nom_projet.tuleap.example.com`` en tant que serveur hôte et
 ``/home/groups/nom_projet/htdocs`` pour le répertoire de publication .
 Le nom d'utilisateur et le mot de passe sont les mêmes que ceux de votre
 compte Tuleap.
@@ -178,7 +178,7 @@ transférer vos fichiers HTML par d'autres moyens.
 -  **FTP** : c'est le moyen le plus simple de transférer vos pages Web
    vers l'emplacement Tuleap distant. Utilisez un client ftp
    de votre choix pour vous connecter au serveur
-   ``nom_projet.SYS_DEFAULT_DOMAIN`` et utilisez votre nom d'utilisateur
+   ``nom_projet.tuleap.example.com`` et utilisez votre nom d'utilisateur
    et mot de passe Tuleap. Une fois connecté, utilisez la
    commande suivante :
 
@@ -233,7 +233,7 @@ l'URL suivant :
 
 ::
 
-    http://SYS_DEFAULT_DOMAIN/sflogo.php?group_id=N&type=1
+    http://tuleap.example.com/sflogo.php?group_id=N&type=1
           
 
 utilisez "https" au lieu de "http" si votre serveur est configuré pour
@@ -245,8 +245,8 @@ directement sur la page de sommaire de votre projet :
 
 ::
 
-    <A href="http://SYS_DEFAULT_DOMAIN/projects/nom_projet">
-    <IMG src="http://SYS_DEFAULT_DOMAIN/sflogo.php?group_id=N&type=1 width="80"
+    <A href="http://tuleap.example.com/projects/nom_projet">
+    <IMG src="http://tuleap.example.com/sflogo.php?group_id=N&type=1 width="80"
          height="20" border="0" alt="Code source disponible !">
     </A>
             

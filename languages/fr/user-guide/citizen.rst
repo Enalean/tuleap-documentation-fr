@@ -163,7 +163,7 @@ Connexion et page personnelle
 ------------------------------
 
 Pour vous connecter au site Tuleap, rendez vous sur l'URL
-`http://SYS\_DEFAULT\_DOMAIN <http://&SYS_DEFAULT_DOMAIN;/>`__ et
+`http://tuleap.example.com <http://tuleap.example.com/>`__ et
 cliquez sur le lien "Se connecter". Après vous être authentifié,
 Tuleap vous présente votre Tableau de bord ou Page
 Personnelle (`La page personnelle d'un utilisateur Tuleap`_). Vous pouvez à tout moment retourner sur cette Page

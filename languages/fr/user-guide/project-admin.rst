@@ -255,7 +255,7 @@ dans la barre de service :
 -  **$projectname** : le nom court du projet
 
 -  **$sys\_default\_domain** : le nom de domaine du serveur
-   Tuleap (ici "SYS\_DEFAULT\_DOMAIN")
+   Tuleap (ici "tuleap.example.com")
 
 -  **$group\_id** : l'identifiant du projet
 
@@ -988,7 +988,7 @@ les utilisateurs de Windows :
       connexion. Vous pouvez indiquer quelque chose comme "Base de
       données du projet X" par exemple.
 
-   -  *MySQL Host(IP ou nom)* : SYS\_DEFAULT\_DOMAIN.
+   -  *MySQL Host(IP ou nom)* : tuleap.example.com.
 
    -  *MySQL Database Name* : le nom de la bases de données correspond
       au nom court de votre projet préfixé par 'cx\_'. Il vous a été

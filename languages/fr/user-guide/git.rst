@@ -48,7 +48,7 @@ exemple.
         git init
         git add .
         git commit -m 'initial commit'
-        git push gitolite@SYS_DEFAULT_DOMAIN:<nom_court_du_projet>/<nom_du_depot>.git master
+        git push gitolite@tuleap.example.com:<nom_court_du_projet>/<nom_du_depot>.git master
         
 
 Si vous avez un dépôt Git existant avec des branches et des tags, vous
@@ -56,7 +56,7 @@ pouvez l'importer de la façon suivante:
 
 ::
 
-        git push --mirror gitolite@SYS_DEFAULT_DOMAIN:<nom_court_du_projet>/<nom_du_depot>.git
+        git push --mirror gitolite@tuleap.example.com:<nom_court_du_projet>/<nom_du_depot>.git
         
 
 Fork

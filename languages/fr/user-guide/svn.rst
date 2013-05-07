@@ -182,7 +182,7 @@ travaille l'utilisateur.
    ``Bookmarks->Add Repository...``
 
    A l'invite, saisissez l'URL d'accès de votre dépôt :
-   ``http://svn.nom_projet.SYS_DEFAULT_DOMAIN/svnroot/nom_projet``
+   ``http://svn.nom_projet.tuleap.example.com/svnroot/nom_projet``
 
 -  Cliquez sur le signet qui vient juste d'être créé et indiquez votre
    nom d'utilisateur et votre mot de passe comme demandé. Vous devriez
@@ -740,7 +740,7 @@ suivantes (la seconde sur une seule ligne) :
 ::
 
     svn --username nom_utilissateur import . 
-    http://svn.projectname.SYS_DEFAULT_DOMAIN/svnroot/nom_projet 
+    http://svn.projectname.tuleap.example.com/svnroot/nom_projet 
     --message "Version initiale du répertoire"
             
 
@@ -756,9 +756,9 @@ Où :
     **Note**
 
     Si votre dépôt Subversion est configuré en mode sécurisé, vous devez
-    utiliser l'URL ``https://SYS_DEFAULT_DOMAIN/svnroot/nom_projet`` au
+    utiliser l'URL ``https://tuleap.example.com/svnroot/nom_projet`` au
     lieu de l'URL
-    ``http://svn.nom_projet.SYS_DEFAULT_DOMAIN/svnroot/nom_projet`` dans
+    ``http://svn.nom_projet.tuleap.example.com/svnroot/nom_projet`` dans
     tous les exemples qui suivent.
 
     **Tip**
@@ -815,7 +815,7 @@ Pour créer une copie de travail, tapez la commande suivante :
 
 ::
 
-    svn checkout http://svn.nom_projet.SYS_DEFAULT_DOMAIN/svnroot/nom_projet
+    svn checkout http://svn.nom_projet.tuleap.example.com/svnroot/nom_projet
 
 Où :
 
@@ -1030,8 +1030,8 @@ façon suivante :
 ::
 
     svn copy
-    http://svn.nom_projet.SYS_DEFAULT_DOMAIN/svnroot/nom_projet/trunk
-    http://svn.nom_projet.SYS_DEFAULT_DOMAIN/svnroot/nom_projet/tags/nom_projet-1.4
+    http://svn.nom_projet.tuleap.example.com/svnroot/nom_projet/trunk
+    http://svn.nom_projet.tuleap.example.com/svnroot/nom_projet/tags/nom_projet-1.4
     -m "Etiquettage de la version 1.4"
 
 Votre version est maintenant prête. Il ne reste plus qu'à exporter une
@@ -1041,7 +1041,7 @@ Subversion) de la version 1.4 de votre logiciel en tapant :
 ::
 
     svn export
-    http://svn.nom_projet.SYS_DEFAULT_DOMAIN/svnroot/nom_projet/tags/nom_projet-1.4
+    http://svn.nom_projet.tuleap.example.com/svnroot/nom_projet/tags/nom_projet-1.4
 
 Créez une archive tar ou zip à partir du répertoire ``nom_projet-1.4/``
 

@@ -83,7 +83,7 @@ pointeur Web (URL) comme celui-ci :
 
 ::
 
-    http://SYS_DEFAULT_DOMAIN/survey/survey.php?group_id=N&survey_id=X
+    http://tuleap.example.com/survey/survey.php?group_id=N&survey_id=X
 
 où N est l'identifiant (ID) de votre projet et X l'identifiant du
 sondage tel qu'il est présenté sur la liste des sondages affichés sur la

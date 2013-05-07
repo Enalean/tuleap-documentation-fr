@@ -196,9 +196,9 @@ serveur de messagerie par défault (localhost).
 
 Vous pouvez également spécifier le suffixe par défaut des emails des
 utilisateurs. Par défaut, tous les utilisateurs Tuleap ont
-une adresse email du type **login@SYS\_DEFAULT\_DOMAIN** qui sera
+une adresse email du type **login@tuleap.example.com** qui sera
 redirigée vers l'adresse réelle de l'utilisateur. Vous pouvez donc
-renseigner dans ce champ la valeur **@SYS\_DEFAULT\_DOMAIN** et les
+renseigner dans ce champ la valeur **@tuleap.example.com** et les
 emails seront alors automatiquement envoyées aux bons utilisateurs.
 
 Vous pouvez spécifier l'adresse email de l'administrateur système. Il
@@ -221,7 +221,7 @@ de notifier les utilisateurs (ou les salons) des résultats des builds.
 Il est également possible de lancer certaines action par message Jabber.
 
 Pour utiliser la notification Jabber, veuillez renseigner le champ
-serveur (par défaut SYS\_DEFAULT\_DOMAIN) ainsi que le JabberID de
+serveur (par défaut tuleap.example.com) ainsi que le JabberID de
 l'auteur des notifications.
 
 Plugins Hudson
@@ -276,7 +276,7 @@ attendu est **:protocol:user@host:path**
 
 Vous pouvez trouver le détail de cette chaîne en cliquant sur l'onglet
 CVS de votre projet. Typiquement, il s'agit de
-**:pserver:[username]@[projectname].SYS\_DEFAULT\_DOMAIN:/cvsroot/[projectname]**
+**:pserver:[username]@[projectname].tuleap.example.com:/cvsroot/[projectname]**
 
 Vous pouvez également préciser un ou plusieurs modules, une branche.
 
@@ -286,7 +286,7 @@ Subversion
 Pour Subversion, vous devez aussi renseigner l'URL du dépôt SVN. Cette
 information est disponible sur l'interface web de Tuleap en
 cliquant sur l'onglet SVN de votre projet. Il s'agit d'une chaîne de
-type **http://SYS\_DEFAULT\_DOMAIN/svnroot/[projectname]**
+type **http://tuleap.example.com/svnroot/[projectname]**
 
 Hudson vous demandera d'entrer une authentification Subversion afin de
 pouvoir accéder au dépôt de code. Vous avez plusieurs options pour gérer
@@ -302,7 +302,7 @@ Enfin, si vous souhaitez permettre à vos utilisateurs de naviguer dans
 la base de code source via l'interface d'Hudson, vous devez sélectionner
 "ViewSVN" dans le champ Navigateur de la base de code, puis entrer la
 chaîne suivante :
-**http://SYS\_DEFAULT\_DOMAIN/svn/viewvc.php?roottype=svn&root=[le\_nom\_court\_de\_votre\_projet]**
+**http://tuleap.example.com/svn/viewvc.php?roottype=svn&root=[le\_nom\_court\_de\_votre\_projet]**
 
 Déclenchement des builds
 ------------------------
