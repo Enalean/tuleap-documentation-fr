@@ -97,13 +97,13 @@ sessions (login/logout) et le service Outil de suivi sont disponibles
 via l'API.
 
 Une description des services est disponible à l'adresse
-`http://tuleap.example.com/soap/ <http://tuleap.example.com/soap/>`__.
+`http://tuleap.net/soap/ <http://tuleap.net/soap/>`__.
 Il s'agit d'une liste de services, avec pour chaque fonction, ses
 paramètres d'entrée, de sortie et une documentation.
 
 Une description plus détaillée des services est également disponible
 dans le language formel WSDL à l'adresse
-`http://tuleap.example.com/soap/?wsdl <http://tuleap.example.com/soap/?wsdl>`__
+`http://tuleap.net/soap/?wsdl <http://tuleap.net/soap/?wsdl>`__
 Le WSDL contient en plus la définition des type.
 
 Client en Ligne de Commande Tuleap (Command Line Interface, CLI)
@@ -121,4 +121,4 @@ n'est pas active.
 
 La documentation du client en ligne de commande est disponible à
 l'adresse :
-`http://tuleap.example.com/documentation/cli/html/fr\_FR/ <http://tuleap.example.com/documentation/cli/html/fr_FR/>`__
+`http://tuleap.net/documentation/cli/html/fr\_FR/ <http://tuleap.net/documentation/cli/html/fr_FR/>`__
