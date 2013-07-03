@@ -777,6 +777,43 @@ personnalisés peuvent être supprimés.
     du contrôle d'accès et son retour au comportement par défaut, c'est
     à dire un accès à tous les utilisateurs.
 
+Liens entre groupes d'utilsateurs
+`````````````````````````````````
+
+Ces liens permettent à des utilisateurs qui sont membres d'un projet d'avoir des
+droits dans en autre projet sans en devenir membre de celui-ci. Pour créer un lien
+il faut être administrateur des deux projets.
+
+Voyons cela avec un example. Supposons qu'il y ait un groupe d'utilisateurs
+'some_people' dans le projet 'my project'. Supposons ensuite que l'on veuille leur
+donner des droits dans un autre projet 'my software' dont ils ne sont pas membres.
+Dans le projet 'my_software', naviguer au panneau d'admin, cliquer sur
+**Administration des groupes utilisateurs** puis **Créer un nouveau groupe d'utilisateurs**.
+Appeler ce nouveau groupe 'my_project_users', par exemple, puis cliquer sur **Créer un groupe d'utilisateurs**.
+
+.. figure:: ../images/screenshots/user_group_binding2.png
+   :align: center
+   :alt: User Group Creation
+   :name: User Group Creation
+
+   User Group Creation
+
+Une fois créé, une page s'affichera avec des onglets à gauche. Cliquer sur **Liens**
+puis **Editer la liaison avec le groupe d'utilsateurs**. Il faudra préciser le
+projet source. Choisir 'my_project' et le groupe d'utilsateurs 'some people'.
+Valider la sélection avec **Modifier la liason**.
+
+.. figure:: ../images/screenshots/user_group_binding3.png
+   :align: center
+   :alt: User Group Binding
+   :name: User Group Binding
+
+   User Group Binding
+
+Voilà! Un groupe d'utilsateurs externes au projet a été créé et il est utilsable
+partout dans le projet comme n'importe quel autre groupe d'utilisateurs.   
+
+
 Informations complémentaires sur les groupes d'utilisateurs
 ````````````````````````````````````````````````````````````
 
