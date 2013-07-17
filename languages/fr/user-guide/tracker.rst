@@ -1868,6 +1868,19 @@ la souris sur la référence d'un artefact.
 Vous pouvez sélectionner tous les champs que vous voulez pour composer
 le tooltip.
 
+Effort Estimé (Agile Dashboard)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+L'effort estimé a la particularité de n'exister seulement quand le plugin Agile
+Dashboard est activé pour un projet. Dans le contexte agile, c'est un nombre utilisé
+par les équipes de développement pour déterminer la difficulté ou la quantité de
+travaille associée à l'effort estimé d'un task, story, sprint, release...
+
+Ce sémantique, doit être associé à un champ de type numérique dans le tracker.
+
+L'effort estimé est utilisé dans les onglets **content** et **planification** de
+l'Agile Dashboard.
+
 Dépendances entre champs
 ------------------------
 
