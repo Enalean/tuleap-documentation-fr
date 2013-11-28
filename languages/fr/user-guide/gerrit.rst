@@ -1,7 +1,7 @@
 ﻿Gerrit
 ======
 
-.. warning:: La traduction de cette page est incomplète et non maintenue. Veuillez vous rendre sur http://tuleap-documentation.readthedocs.org/en/latest/user-guide/gerrit.html
+.. warning:: La traduction de cette page est incomplète et non maintenue. Veuillez vous rendre sur http://doc-en.tuleap.net/en/latest/user-guide/gerrit.html
 
 
 
