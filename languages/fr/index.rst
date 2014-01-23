@@ -18,6 +18,7 @@ Bienvenue sur la documentation de Tuleap !
    user-guide/svn
    user-guide/git
    user-guide/gerrit
+   user-guide/mediawiki
    user-guide/doc
    user-guide/ci
    user-guide/wiki
