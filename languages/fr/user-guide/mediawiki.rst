@@ -59,6 +59,14 @@ une synchronisation est lancée lorsque les actions suivantes se produisent :
 
 -  Un utilisateur Tuleap est renommé
 
+Affichage en mode compatibilité
+-------------------------------
+
+Afin de permettre l'utilisation des plugins mediawiki qui produisent des conflits d'affichage au sein de Tuleap, il y a une option
+de passer en mode compatibilité. Si choisie et si les administrateurs de la forge l'ont activée, cette option passe l'affichage du
+mediawiki du projet en mode "par défaut". Néanmoins, on reste toujours au sein de son projet et des liens pour y revenir se trouvent
+sur la barre de gauche.
+
 Références pour Mediawiki
 -------------------------
 
