@@ -59,6 +59,19 @@ une synchronisation est lancée lorsque les actions suivantes se produisent :
 
 -  Un utilisateur Tuleap est renommé
 
+
+Mediawiki extensions
+--------------------
+Tuleap a intégré les extensions Mediawiki suivantes :
+-  SyntaxHighlight_GeSHi (http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi): cette extension permet d'afficher du code source formaté.
+
+-  PdfBook (http://www.mediawiki.org/wiki/Extension:PdfBook): cette extension permet de composer un ensemble d'articles d'une catégorie et de l'exporter au format pdf.
+
+-  ParserFunctions (http://www.mediawiki.org/wiki/Extension:ParserFunctions): cette extension améliore l'analyseur de wiki avec des fonctions principalement liés à la logique et la manipulation de chaîne de caractères.
+
+-  WikiEditor (http://www.mediawiki.org/wiki/Extension:WikiEditor): cette extension offre un éditeur de texte. Elle est seulement disponible avec l'affichage en mode compatibilité.
+
+
 Affichage en mode compatibilité
 -------------------------------
 
