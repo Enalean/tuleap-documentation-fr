@@ -5,6 +5,7 @@
 
 Agile Dashboard
 ===============
+Note: cette documentation n'a pas encore été traduite en français
 
 The Tuleap Agile Dashboard is a new service provided by Tuleap on top of trackers (see :ref:`trackers-and-real-time-reports`).
 It is highly configurable and adapts to almost any agile team.
