@@ -1,106 +1,116 @@
 
 
+
 .. _agile-dashboard:
 
 Agile Dashboard
 ===============
 
-L'Agile Dashboard de Tuleap  est un nouveau service basé sur les trackers (see :ref:`trackers-and-real-time-reports`).
-Il s'adapte à la plupart des équipes agile.
+The Tuleap Agile Dashboard is a new service provided by Tuleap on top of trackers (see :ref:`trackers-and-real-time-reports`).
+It is highly configurable and adapts to almost any agile team.
 
 Features
 --------
 
-L' Agile Dashboard de Tuleap comporte de nombreuses fonctionnalités, dont un cardwall, un burndown ainsi
-qu'un outil de planification et de gestion des différents backlogs.
+The Tuleap Agile Dashboard has many features including a cardwall, a burndown and a backlog planner.
 
-Le cardwall permet de gérer les tâches au quotidien, d'avoir un aperçu des personnes travaillant sur ces dernières et de
-connaître l'effort restant.
-Le burndown offre une représentation graphique du reste à faire tout au long d'un sprint.
-L'outil de planification et de gestion du backlog permet d'organiser les différents backlogs.
+The cardwall allows for the visual monitoring of an artifact's progress, the individuals who are working on it
+or the remaining effort.
+
+Interactive actions currently include on the fly assigning, edition of the remaining effort and
+the drag'n'drop within a workflow.
 
 
-Création d'un Agile Dashboard
+Creating an Agile Dashboard
 ---------------------------
 
-Création à partir d'un template de Tuleap
-```````````````````````````````````````````````````
-Etant donné les nombreuses configurations pour mettre en place un agile dashboard, nous vous conseillons d'importer un
-template puis de l'adapter aux besoins de votre équipe.
+Creating from Tuleap's template
+```````````````````````````````
 
-En premier lieu, les plugins "tracker" et "agile dashboard" doivent être installés et activés sur votre projet.
+You can create one from scratch but, given the sheer number of configurations, it is
+easier to import and tweak it.
+Before anything, you need to ensure that the trackers and Agile Dashboard services are installed and
+activated for your project.
 
-Importer un agile dashboard n'est actuellement possible qu'en ligne de commande.
-Assurez vous d'avoir les accès nécessaires au répertoire sur lequel Tuleap est installé.
+There is currently only one way to import an Agile Dashboard and that is via the command line.
+To do this, you must have access and permissions on the directory in which Tuleap is installed.
+You can download an xml Agile Dashboard template (https://tuleap.net/plugins/docman/?group_id=101&action=show&id=438)
+from the Tuleap website.
 
-Un template "Agile Dashboard" est téléchargeable ici : https://tuleap.net/plugins/docman/?group_id=101&action=show&id=438
+Let's assume you have an empty project with group_id = 123 in which you wish to create an Agile Dashboard.
 
-Imaginons que vous souhaitiez importer ce template dans un projet vide ayant pour un group_id = 123.
-
+First, shell into the box and navigate to the Tuleap directory- this is normally
 ::
 
     $> cd /usr/share/codendi/
+
+Then feed your template to the Agile Dashboard importer like so:
+::
+
     $> src/utils/php-launcher.sh src/utils/import_project_xml.php 123 admin /path/to/agiledashboard_template.xml
 
-    Notez que "admin" correspond à un utilisateur qui doit être administrateur du site.
+    please note that "admin" correspond to a valid site admin user name.
 
-De nouveaux trackers et un agile dashboard configuré sont crées dans le projet dont l'id est 123.
+This should create new trackers and an Agile Dashboard on top of them.
 
-Dupliquer un Agile Dashboard existant
-`````````````````````````````````````
-Un Agile Dashboard peut être copié d'un projet à un autre.
-Pour ce faire, vous devez exporter celui que vous souhaitez copier à la manière de l'import.
 
-Imaginons que vous souhaitiez exporter un agile dashboard dont le projet a pour group_id = 456.
+Duplicating an existing one
+```````````````````````````
 
+You can duplicate an Agile Dashboard from one project to another. To do this, you need to
+export the one you want to duplicate. This is done in a very similar way to the import (above).
+
+Let's assume the Agile Dashboard you wish to export is in the project has group_id = 456.
+
+First, shell into the box and navigate to the Tuleap directory- this is normally
 ::
 
     $> cd /usr/share/codendi/
+
+Then export your Agile Dashboard as an xml template:
+::
+
     $> src/utils/php-launcher.sh src/utils/export_project_xml.php 456 > my_agiledashboard_template.xml
 
-Un fichier xml contenant toutes les données nécessaires devrait être créé. Vous pouvez l'utiliser pour l'import
-(cf. Création à partir d'un template).
+This should create a new xml file that contains all the necessary data. Now use this file in the step above.
 
-Création d'un agile dashboard sans template
-```````````````````````````````````````````
+Creating your Agile Dashboard from scratch
+``````````````````````````````````````````
+You will have to create your own trackers and link them within the Agile Dashboard administration.
 
-Si vous ne souhaitez pas partir d'un template, une vidéo expliquant toutes les étapes  est diponible en anglais.
+Note that some field names are important to respect:
 
-.. raw:: html
+-  Remaining Effort: the field representing the remaining effort (mainly used in user stories or tasks) must have "remaining_effort" as field name
+-  Impediment: the field representing an impediment must have "impediment" as field in order to be displayed on the cards of the cardwall
+-  Start Date of a sprint: the field representing the start date must have "start_date" as field name
+-  Capacity of a sprint: the field representing the capacity must have "capacity" as field name
+-  Duration of a sprint: the field representing the duration must have "duration" as field name
+-  Type of a task: the field representing the type must have "type" as field name in order to display the color
+   representing the type of the task on the cards of the cardwall.
 
-   <iframe width="560" height="315" src="http://www.youtube.com/embed/sypv1C_yY_o" frameborder="0" allowfullscreen></iframe>
+Note also that the burndown field can be configured for including or not the week-ends (Saturday and Sundays can be excluded from burndown graph)
+
+Using an Agile Dashboard
+------------------------
+To enter the Agile Dashboard service of a given project, first go to the Project
+Dashboard (see :ref:`accessing-a-project-dashboard`) and click on the "Agile Dashboard" item in the Project
+Main Menu located in the upper part of the page.
+
+You will be directed to the agile dashboard homepage of your project
+(see `Agile Dashboard Homepage`_).
+
+The homepage lists and links to all the milestones in your project. they are sorted according to status and date.
+
+-  In the "Done" tab, you have all the milestones whose status is closed.
+-  In the "What's hot" tab, you have all the milestones whose status is open and whose start date and duration make them ongoing.
+-  In the "What's next" tab, you  have all the milestones whose status is open and whose start date and duration either places them in the future or are not set.
+If start_date and duration are not defined in the tracker, but status is open, you will have the milestones both in "What's hot" and "Next".
+If start_date and duration are defined but empty, you will have the milestones in the three tabs.
 
 
-Notez que la dénomination de certains champs doit être respectée :
+If configured, it provides links to cardwalls, so that the team can directly makes its daily stand up changes.
 
--  Effort restant : le field_name du champ représentant l'effort restant (utilisé dans les user stories et les tâches)
-doit être "remaining_effort"
--  Impediment/Obstacle : le field_name du champ représentant un obstacle à la réalisation d'une tâche, par exemple,
-doit être "impediment",
-afin d'être affiché sur les cartes.
--  Date de début d'un sprint : le field_name du champ représentant la date début doit être "start_date"
--  Capacité d'un sprint : le field_name du champ représentant la capacité doit être "capacity"
--  Durée d'un sprint : le field_name du champ représentant la durée doit être "duration"
--  Type de la tâche: the field_name représentant le type doit être "type" et être une select box dont les valeurs doivent
-avoir un decorateur. Ceci permettra d'afficher une couleur représentant le type de chaque carte, par exemple, une couleur
-bleu sera affichée sur le côté de la carte s'il s'agit d'une tâche de Développement, ou vert s'il s'agit d'une tâche de Test.
-
-Notez que le champ burndown peut⁻être configuré pour inclure ou non les week-ends, les samedis et dimanches seront exclus du burndown.
-
-Utiliser un Agile Dashboard
----------------------------
-Pour accéder au service "Agile Dashboard" d'un projet, allez sur la page d'accueil d'un projet (cf :ref:`accessing-a-project-dashboard`)
-et cliquez sur "Agile Dashboard" dans la barre des services.
-
-Vous serez dirigé sur la page d'accueil de l'agile dashboard de votre projet (see `Agile Dashboard Homepage`_).
-
-La page d'accueil est composée de raccourcis vers les 5 derniers items de chaque "planning" défini, par exemple, le planning des Sprints
-et celui des Releases.
-
-La page d'accueil fournit aussi le cardwall du dernier sprint. L'équipe agile peut ainsi directement faire ses changements
-sur cette page lors de la mélée quotidienne.
-
-.. figure:: ../images/screenshots/sc_agiledashboard_homepage.png
+.. figure:: ../images/screenshots/sc_ad_homepage_new.png
    :align: center
    :alt: Agile Dashboard Homepage
    :name: Agile Dashboard Homepage
@@ -110,100 +120,46 @@ sur cette page lors de la mélée quotidienne.
 
 .. _plan-releases-and-sprints:
 
-Planifier des releases and des sprints
-``````````````````````````````````````
-Pour créer une nouvelle release ou un nouveau sprint, cliquez sur la flèche dans les boîtes
-To create a new release or a new sprint, click on the arrow in the short access box (see `Create a new release or a new sprint`_).
+Plan releases and sprints
+````````````````````````
+Tuleap Agile Dashboard lets you plan easily your releases.
 
-You will reach the release tracker form to create a new release.
-
-.. figure:: ../images/screenshots/sc_agiledashboard_create_new_release.png
-   :align: center
-   :alt: Create a new release or a new sprint
-   :name: Create a new release or a new sprint
-   :width: 500px
-
-   Agile Dashboard: Create a new release or a new sprint
-
-Once created, you will be redirected to the release backlog in order to plan your release (see `Plan a release`_).
-
-The Agile Dashboard lets you add easily epics, for instance, from your backlog (on the left side) to your release plan (on the right side).
-
-Epics can also be splitted into user stories by clicking to the arrow next to the epic id.
-
-.. figure:: ../images/screenshots/sc_agiledashboard_release_plan.png
+.. figure:: ../images/screenshots/sc_plan_releases.png
    :align: center
    :alt: Plan a release
    :name: Plan a release
    :width: 800px
 
-   Agile Dashboard: Plan a release
+   Agile Dashboard: Plan your releases
 
-From the release planning view, you can either create new sprints or access the existing ones.
+From this view, you can drag'n'drop elements from top backlog to one of the planned releases on the right, or add a new releases.
 
-Plan a sprint (see `Plan a sprint`_) is as simple as the release plan.
+Plan a sprint is as simple as the release plan. Simply go to a release planning to fill your sprint or create a new sprint.
 
-User stories can be added using the right arrow to move it from the release backlog to the sprint.
+Moreover, a red indicator is automatically displayed when the capacity exceeds of the team capacity for the sprint, or release (if you have one).
 
-Moreover, a red indicator is automatically displayed when the capacity exceeds of the team capacity for the sprint.
-
-Splitting user stories in tasks is also possible directly from the sprint planning.
-
-Using the arrow next to story provides you a direct link to create a new task, but also lets you edit your story.
-
-.. figure:: ../images/screenshots/sc_agiledashboard_sprint_plan.png
-   :align: center
-   :alt: Plan a sprint
-   :name: Plan a sprint
-   :width: 800px
-
-   Agile Dashboard: Plan a sprint
 
 Populate backlog
 ````````````````
-A product owner can populate the backlog either going directly to the "Epics" and "User Stories" trackers or using the
-Agile Dashboard.
+A product owner can populate a backlog either going directly to the "Top Backlog planning" or to the release or sprint content.
 
-To populate backlog using the agile dashboard, one release, at least, would have to be defined (see :ref:`plan-releases-and-sprints`).
 
-Then access to the backlog by using the short access boxes available in the Agile Dashboard Homepage.
-(see `Access to the Backlog`_).
-
-.. figure:: ../images/screenshots/sc_agiledashboard_access_backlog.png
-   :align: center
-   :alt: Access to the Backlog
-   :name: Access to the Backlog
-   :width: 800px
-
-   Agile Dashboard: Access to the Backlog
-
-Then on the release backlog part on the left, click on "add" to add new epics to the backlog, or click on an epic to add
-a user story to it (see `Populate the Backlog`_).
-
-.. figure:: ../images/screenshots/sc_agiledashboard_populate_backlog.png
+.. figure:: ../images/screenshots/sc_ad_backlog.png
    :align: center
    :alt: Populate the Backlog
    :name: Populate the Backlog
    :width: 800px
 
-   Agile Dashboard: Populate the Backlog
+   Agile Dashboard: Populate the backlog
 
-The agile dashboard also provides the possibility to prioritize the backlog, by using the bottom and up arrows on your
-elements (see `Rank the Backlog elements`_).
 
-.. figure:: ../images/screenshots/sc_agiledashboard_backlog_ranking.png
-   :align: center
-   :alt: Rank the Backlog elements
-   :name: Rank the Backlog elements
-   :width: 500px
-
-   Agile Dashboard: Rank the Backlog elements
+The agile dashboard also provides the possibility to prioritize the backlog, by drag'n'dropping elements from top to bottom.
 
 Monitor project progress
 ````````````````````````
 By any moment of the sprint, the development team can monitor and update the progress of the sprint by going to the cardwall and the burndown.
 
-The latest sprint cardwall is available directly from the agile dashboard homepage or the short access boxes.
+The cardwalls and burndowns are directly from the agile dashboard homepage.
 
 The cardwall (see `Cardwall`_) lets the development team manipulates the cards with drag'n drop to change their status, or assign the tasks
 and change the remaining effort on the fly, that is to say staying on the same page.
@@ -216,31 +172,11 @@ select box on the right.
 Finally, it offers the possibility to filter the cards thanks to the search at the top right of the cardwall. You will be able to filter by
 assignee for instance, or by the type of tracker (display only the tasks or only the user stories).
 
-.. figure:: ../images/screenshots/sc_agiledashboard_cardwall.png
+.. figure:: ../images/screenshots/sc_ad_cardwall.png
    :align: center
    :alt: Cardwall
    :name: Cardwall
    :width: 800px
 
    Agile Dashboard: Cardwall
-
-The team can follow the progress of the sprint by accessing the burndown via the homepage's short access boxes (see `Short Access boxes`_) or the "Burndown" tab.
-
-The burndown graph is automatically generated depending on the remaining effort of the tasks the team update everyday.
-
-.. figure:: ../images/screenshots/sc_agiledashboard_short_access.png
-   :align: center
-   :alt: Short Access boxes
-   :name: Short Access boxes
-   :width: 500px
-
-   Agile Dashboard: Short Access boxes
-
-Training Video
-``````````````
-Here is a training video explaining how to use the agile dashboard.
-
-.. raw:: html
-
-   <iframe width="560" height="315" src="http://www.youtube.com/embed/wAJ_MosYgAM" frameborder="0" allowfullscreen></iframe>
 
