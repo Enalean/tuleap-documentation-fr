@@ -538,7 +538,7 @@ semble nécessaire.
 -  **Les champs édités automatiquement**: Tuleap propose des
    champs dont la valeur est modifiée de manière automatique : "ID de
    l'Artefact", "Date de dernière mise à jour", "Auteur de l'Artefact",
-   "Date de Soumission" et "Priorité". Les utilisateurs ne peuvent pas
+   "Date de Soumission" et "Rang". Les utilisateurs ne peuvent pas
    modifier ces champs.
 
 -  **Références Croisées**: Tuleap propose un autre champ
@@ -1571,10 +1571,10 @@ Voici une description détaillée de chaque type :
    être modifié par l'utilisateur. La valeur de ce champ correspond à la
    date de création de l'artefact et est ajoutée automatiquement.
 
--  *Priorité* : Ce champ est en lecture seule et ne peut donc
+-  *Rang* : Ce champ est en lecture seule et ne peut donc
    être modifié par l'utilisateur. Il est directement mis à jour par le
-   plugin Agile Dashboard. Sa valeur correspond à la priorité globale de
-   l'artefact par rapport à toute la plateforme.
+   plugin Agile Dashboard. Sa valeur correspond au rang de l'artefact dans
+   le contexte d'un jalon.
 
 -  *Références Croisées* : ce champ est automatiquement mis à jour avec
    les références existantes de l'artefact. Il affiche liste des objets
