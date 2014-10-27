@@ -6,7 +6,7 @@ Intégration Continue avec Hudson/Jenkins
 ========================================
 
 Introduction à l'intégration continue
-=====================================
+-------------------------------------
 
 L'intégration continue est un ensemble de bonnes pratiques utilisées en
 génie logiciel. Ces bonnes pratiques visent à vérifier qu'une
@@ -113,7 +113,7 @@ nombre de termes spécifiques. En voici la définition :
 Table: Glossaire des termes spécifiques à l'I.C. et à Hudson
 
 Installation de Hudson
-======================
+----------------------
 
 Pour installer Hudson, vous devez disposer d'une JVM sur le serveur
 d'intégration continue (version 1.5 ou supérieure nécessaire). Nous
@@ -126,14 +126,14 @@ manager de Tomcat. Ca y est ! Hudson est installé. Par défaut, vous
 pouvez y accèder à l'adresse : http://localhost:8080/hudson
 
 Configuration de Hudson
-=======================
+-----------------------
 
 Avant de créer vos propres Jobs (voir ?), il faut configurer Hudson.
 Toutes les étapes sont facultatives. Ne configurez que ce dont vous avez
 besoin.
 
 Configuration système
----------------------
+`````````````````````
 
 Pour configurer Hudson, cliquez sur le lien "Administrer Hudson" dans le
 menu en haut à gauche de l'interface principale d'Hudson, puis sur le
@@ -225,7 +225,7 @@ serveur (par défaut tuleap.example.com) ainsi que le JabberID de
 l'auteur des notifications.
 
 Plugins Hudson
---------------
+```````````````
 
 Il existe de nombreux plugins pour étendre Hudson. Parmis ceux-ci, nous
 pouvons citer : checkstyle, CI game, Crap4J, LDAP Email, MSBuild, NAnt,
@@ -243,7 +243,7 @@ la liste des plugins disponibles, puis cliquez sur Installer, et suivez
 les instructions.
 
 Création et configuration de Jobs Hudson
-========================================
+-----------------------------------------
 
 Une fois le système configuré, vous pouvez définir vos Jobs. Pour ceci,
 cliquez sur le lien "Nouveau job" dans le menu en haut à gauche. Il vous
@@ -261,7 +261,7 @@ jour de code source, définir les différentes étapes du build, et
 finalement préciser à Hudson ce que vous souhaitez faire après le build.
 
 CVS et Subversion
------------------
+``````````````````
 
 Par défaut, Hudson propose les deux même gestionnaire de code source que
 Tuleap : CVS et Subversion. Sélectionnez le gestionnaire que
@@ -305,7 +305,7 @@ chaîne suivante :
 **http://tuleap.example.com/svn/viewvc.php?roottype=svn&root=[le\_nom\_court\_de\_votre\_projet]**
 
 Déclenchement des builds
-------------------------
+`````````````````````````
 
 Comme nous l'expliquions en introduction, l'intérêt de l'intégration
 continue réside dans le fait que, une fois paramétré correctement, le
@@ -331,7 +331,7 @@ options principales s'offrent à vous :
    jeton si vous en avez défini un.
 
 Définition du build (Etapes)
-----------------------------
+`````````````````````````````
 
 Il vous faut maintenant définir ce que va réellement faire le build
 (compiler votre projet, générer la documentation, exécuter les tests
@@ -361,8 +361,9 @@ d'étapes possibles :
 
 Cette partie de définition des étapes du build étant propre à chaque
 projet, nous vous laisserons le soin de la remplir selon vos besoins.
+
 Actions à la suite du build
----------------------------
+````````````````````````````
 
 Après le build, Hudson vous propose un certain nombre d'actions. On peut
 citer parmis elle :
@@ -428,7 +429,7 @@ citer parmis elle :
    serveur soit correctement configuré (voir ?).
 
 Intégration dans Tuleap
-===================================
+------------------------
 
 Parce que l'intégration continue fait partie des bonnes pratiques de
 développement logiciel, et pas seulement dans des projets mettant en
@@ -439,7 +440,7 @@ jobs Hudson (voir ?). Voyons maintenant comment Hudson est intégré à
 Tuleap.
 
 Service Hudson
---------------
+```````````````
 
 Si le plugin Hudson est installé et activé sur votre serveur
 Tuleap, chaque projet peut activer le service Hudson (voir ?
@@ -498,7 +499,7 @@ Le tableau vous propose également un lien vers le flux RSS de chaque
 job.
 
 Widgets Hudson
---------------
+```````````````
 
 Le service Hudson vous permet d'agrémenter votre tableau de bord projet
 ou personnel de nombreux widgets. Pour savoir comment ajouter des
@@ -551,7 +552,7 @@ bord projet (page sommaire du projet, voir ?).
    quelque chose.
 
 Références Hudson
------------------
+``````````````````
 
 Il est possible de créer des références vers certains objets Hudson dans
 Tuleap. Certaines références sont prédéfinies (job, build),

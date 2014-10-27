@@ -10,10 +10,10 @@ utilisé dans Tuleap s'appuie sur l'outil
 `phpWiki <http://phpwiki.sourceforge.net>`__.
 
 Présentation d'un Wiki
-======================
+-----------------------
 
 Définition d'un Wiki
---------------------
+`````````````````````
 
 Un Wiki est un site Web qui permet à ses utilisateurs d'ajouter très
 facilement du contenu ou de modifier le contenu déjà en place.
@@ -33,7 +33,7 @@ Wikis Tuleap sont ouverts à tous les utilisateurs
 enregistrés.
 
 Wiki Page Formatting
---------------------
+`````````````````````
 
 Dans les Wikis de Tuleap, une page possède trois
 représentations : le code HTML, la page résultant du rendu par le
@@ -51,7 +51,7 @@ cela permet d'assurer une cohérence dans le style des pages et d'éviter
 les failles de sécurité.
 
 Lier et créer des pages
------------------------
+````````````````````````
 
 Les Wikis sont de vrais documents hypertextes avec une structure de
 navigation non linéaire. Chaque page contient des liens vers d'autres
@@ -88,20 +88,20 @@ référencées nulle part dans le Wiki.
     à la place de "wiki #N:WikiPageName"
 
 Rechercher
-----------
+```````````
 
 Les Wikis Tuleap permettent d'effectuer des recherches par
 mots-clés aussi bien dans le titre que dans le contenu des pages.
 
 Les Wikis de Tuleap
-===============================
+--------------------
 
 Les Wikis de Tuleap sont spécifiques à chaque projet. Ainsi
 deux projets distincts peuvent utiliser les mêmes noms de pages sans
 risque de conflit.
 
 Création d'un Wiki
-------------------
+```````````````````
 
 Pour être utilisable, le Wiki doit d'abord être initialisé par
 l'administrateur du projet. Pour ce faire, cliquez sur le lien "wiki"
@@ -119,7 +119,7 @@ utiles : une page d'accueil, une "sandbox" où faire des tests, la
 documentation PhpWiki, etc…
 
 Permissions du Wiki
--------------------
+````````````````````
 
 Par défaut, les Wikis de Tuleap sont lisibles et modifiables
 par n'importe quel utilisateur enregistré.
@@ -133,7 +133,7 @@ et s'appliquer à toutes les pages, ou bien au niveau de la page
 permettant ainsi de protéger uniquement certaines pages bien choisies.
 
 Exemples de pages Wiki
-----------------------
+```````````````````````
 
 Les Wikis de projets hébergés sur Tuleap peuvent être
 utilisés de maintes façons. Les exemples qui suivent sont juste des
@@ -156,7 +156,7 @@ suggestions :
    clients s'ils ont les droits d'accès.
 
 En savoir plus
---------------
+```````````````
 
 Tous les Wikis de Tuleap sont initialisés avec un jeu de
 pages par défaut dont la documentation PhpWiki. Consultez la page

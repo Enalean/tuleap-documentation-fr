@@ -35,7 +35,7 @@ avec les membres de votre projet et d'améliorer régulièrement votre plan
 de gestion de configuration.
 
 CVS : Concurrent Version Control
-================================
+---------------------------------
 
 CVS signifie Concurrent Versions System. Cet outil permet à une équipe
 de plusieurs développeurs de gérer concurremment leur propre version de
@@ -75,7 +75,7 @@ parfaitement valable pour les raisons suivantes :
    licence GNU GPL.
 
 Clients CVS
------------
+````````````
 
 CVS suit une architecture client-serveur. En d'autres termes, les
 développeurs Tuleap qui souhaitent interagir avec le dépôt
@@ -186,7 +186,7 @@ Autres points à connaitre à propos de WinCVS :
    s'applique au répertoire et non à la copie de travail locale.
 
 Références CVS
---------------
+```````````````
 
 Comme indiqué précédemment, ce chapitre n'est pas un manuel
 d'utilisation de CVS. Il se concentre sur l'intégration de CVS dans
@@ -210,10 +210,10 @@ référez-vous aux documents suivants :
 -  Le site Web officiel de CVS. Voir http://www.cvshome.org/.
 
 Intégration de CVS dans Tuleap
-==========================================
+-------------------------------
 
 Le dépôt CVS
-------------
+`````````````
 
 Dès qu'un nouveau projet est hébergé, un nouveau dépôt CVS est
 automatiquement créé et initialisé correctement. Chaque projet dispose
@@ -234,7 +234,7 @@ personnalisation complète des dépôts CVS projet par projet.
     cette possibilité que si vous savez exactement ce que vous faites.
 
 Contrôle d'accès CVS
---------------------
+`````````````````````
 
 Les permissions d'accès au dépôt CVS dépendent du statut du projet
 (privé ou public) et de la classe de l'utilisateur (voir ?).
@@ -283,7 +283,7 @@ suivantes :
    membres du projet.
 
 L'interface de navigation Web de CVS
-====================================
+-------------------------------------
 
 Tuleap vous permet d'interagir avec votre dépôt CVS via
 l'interface Web. Il ne s'agit pas de remplacer le véritable client CVS
@@ -322,7 +322,7 @@ les fonctionnalités suivantes :
 Voyons plus en détail certaines de ces fonctionnalités :
 
 Naviguer dans le dépôt CVS
---------------------------
+```````````````````````````
 
 Pour interagir avec le dépôt CVS d'un projet Tuleap, il est
 normalement nécessaire d'installer un client CVS sur votre poste de
@@ -333,7 +333,7 @@ l'historique d'un fichier ou de comparer deux révisions du même fichier.
 |Un exemple de navigation dans le dépôt CVS|
 
 Interroger le dépôt CVS
------------------------
+````````````````````````
 
 Si le projet a activé la fonction de suivi de CVS (voir ?), l'interface
 Web de CVS offre des fonctionnalités particulièrement intéressantes pour
@@ -373,7 +373,7 @@ les développeurs :
 |Détails concernant une opération de commit CVS|
 
 Références croisées entre artefacts et commits CVS
---------------------------------------------------
+```````````````````````````````````````````````````
 
 Lors des phases de développement ou de maintenance d'un projet, il est
 essentiel de garder la trace des changements effectués dans le code
@@ -428,7 +428,7 @@ les suivants :
     pourquoi un changement a eu lieu.
 
 Administration CVS
-------------------
+```````````````````
 
 Tuleap vous permet de configurer les paramètres suivants de
 CVS depuis l'interface Web :
@@ -501,7 +501,7 @@ CVS depuis l'interface Web :
     pour la création de liste de diffusion.
 
 Un cycle de vie typique de CVS
-==============================
+-------------------------------
 
 Comme indiqué précédemment, l'objectif de cette section n'est pas de
 fournir une formation à CVS mais plutôt d'expliquer quelles sont les
@@ -518,7 +518,7 @@ ne devrait pas poser de problèmes.
 |Un cycle de développement logiciel typique sur Tuleap|
 
 Se connecter
-------------
+`````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -557,7 +557,7 @@ souhaitez pas laisser votre connexion ouverte, utilisez simplement la
 commande "``cvs logout``\ ".
 
 Importer du code source existant
---------------------------------
+`````````````````````````````````
 
 *Audience : membres du projet*
 
@@ -609,7 +609,7 @@ Où :
     Contactez-nous pour plus d'information à ce sujet.
 
 Créer une copie de travail (checkout)
--------------------------------------
+``````````````````````````````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -662,7 +662,7 @@ Où :
    navigation dans le dépôt CVS (voir ?)
 
 Mettre à jour le code source (update)
--------------------------------------
+``````````````````````````````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -694,7 +694,7 @@ de changer la branche sur laquelle pointe votre copie de travail.
 Référez-vous à la documentation CVS pour plus d'information.
 
 Remonter les modifications vers le dépôt (commit)
--------------------------------------------------
+``````````````````````````````````````````````````
 
 *Audience : membres du projet*
 
@@ -755,7 +755,7 @@ travail..
     faut alors créer une branche pour y travailler de façon isolée.
 
 Proposer des modifications à l'équipe de projet
------------------------------------------------
+````````````````````````````````````````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -828,7 +828,7 @@ votre correctif à l'équipe de projet.
 Et un grand merci pour votre contribution !
 
 Exporter et empaqueter
-----------------------
+```````````````````````
 
 *Audience : membres du projet*
 
@@ -881,13 +881,13 @@ d'annoncer la disponibilité de cette nouvelle version en utilisant le
 service d'annonces de Tuleap (voir ?).
 
 CVS pour les administrateurs de projet
-======================================
+---------------------------------------
 
 Pour gérer au mieux leur dépôt CVS, les administrateurs doivent
 impérativement être informés sur les points qui suivent.
 
 Plus d'information sur le contrôle d'accès à CVS
-------------------------------------------------
+`````````````````````````````````````````````````
 
 Comme expliqué dans la ?, CVS est configuré de telle façon que l'accès
 en écriture est accordé à tous les membres du projet et à eux seuls.
@@ -909,7 +909,7 @@ suivantes :
 -  ``exit`` (Déconnexion)
 
 Les fichiers d'administration de CVS
-------------------------------------
+`````````````````````````````````````
 
 Chaque dépôt CVS possède ses propres fichiers d'administration situés
 dans le répertoire CVSROOT. Ces fichiers offrent toutes sortes de

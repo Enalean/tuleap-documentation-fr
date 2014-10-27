@@ -6,7 +6,7 @@ Gestionnaire de livrables
 =========================
 
 Publication du code source : conseils
-=====================================
+--------------------------------------
 
 Il existe deux façons pour un administrateur de projet de donner accès
 au code source d'un projet hébergé sur Tuleap : le système
@@ -47,7 +47,7 @@ complémentaires, le cycle de vie typique d'un projet est illustré sur la
 ?.
 
 Jargon du Gestionnaire de Livrables
-===================================
+------------------------------------
 
 Avant d'aller plus avant dans la description du Gestionnaire de
 livrables nous allons définir quelques termes clés utilisés dans cette
@@ -100,7 +100,7 @@ bien pour les administrateurs que pour les utilisateurs. (voir ?).
     votre projet.
 
 Navigation dans les fichiers publiés et téléchargement
-======================================================
+-------------------------------------------------------
 
 La version la plus récente de chaque paquet d'un projet peut être
 visible sur le Tableau de bord Projet (voir ?). Cette version peut être
@@ -111,7 +111,7 @@ lien "Voir tous les fichiers du projet".
 |Exemple de Gestionnaire de livrables|
 
 Navigation dans les paquets
----------------------------
+````````````````````````````
 
 Comme expliqué dans la ?, les projets peuvent contenir plusieurs
 paquets.
@@ -133,7 +133,7 @@ d'arrêter de surveiller le paquet en question. Si vous ne surveillez pas
 le paquet, la cloche aura un petit *plus* vert.
 
 Navigation dans les versions
-----------------------------
+`````````````````````````````
 
 Un paquet peut contenir plusieurs versions listées dans l'ordre
 chronologique. Chaque version contient un certain nombre de fichiers.
@@ -148,7 +148,7 @@ Après chaque nom de version, l'icône représentant un fichier texte vous
 donne accès aux notes et aux changements de la version.
 
 Téléchargement de fichiers
---------------------------
+```````````````````````````
 
 Chaque version contient un certain nombre de fichiers qui peuvent être
 téléchargés. Certaines informations sur les fichiers sont également
@@ -158,7 +158,7 @@ télécharger un fichier, il suffit de cliquer sur le nom du fichier et de
 suivre les instructions.
 
 Administration et Livraison de fichiers
-=======================================
+----------------------------------------
 
 Cette section s'adresse uniquement aux administrateurs de projet ou aux
 administrateurs du Gestionnaire de livrables. Elle explique par le menu
@@ -183,7 +183,7 @@ contient certains lien supplémentaires, vous permettant de réaliser les
 actions d'administration sur le service Fichier (Voir ?
 
 Administration des paquets
---------------------------
+```````````````````````````
 
 Pour administrer les paquets, vous devez être administrateur du projet
 ou administrateur du service Fichier. La création et la modification de
@@ -229,7 +229,7 @@ affecter des permissions différentes pour chaque version (voir
 ci-dessous).
 
 Administration des versions
----------------------------
+````````````````````````````
 
 Pour administrer les versions, vous devez être administrateur du projet
 ou administrateur du service Fichier. La création et la modification de
@@ -383,7 +383,7 @@ modifier les versions a posteriori.
        Tuleap bien sûr)
 
 Administration de la liste des processeurs
-==========================================
+-------------------------------------------
 
 Les administrateurs projet et les administrateur du service fichier
 peuvent gérer la liste des processeurs pour un projet donné. Le

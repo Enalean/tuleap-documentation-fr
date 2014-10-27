@@ -6,7 +6,7 @@ Autres Services
 ===============
 
 Compte Shell
-============
+-------------
 
 **Note Importante** : cette fonctionnalité peut avoir été désactivée par
 l'administrateur de votre site Tuleap et s'avérer
@@ -58,7 +58,7 @@ Vous pouvez utiliser cette commande autant de fois que vous le souhaitez
 lorsque vous vous apprêtez à travailler pour un autre de vos projets.
 
 Espaces de stockage FTP anonyme
-===============================
+--------------------------------
 
 Chaque projet dispose de son propre espace de stockage FTP anonyme. Si
 vous souhaitez controller les accès à vos fichiers, utilisez plutôt le
@@ -89,7 +89,7 @@ cet espace de stockage uniquement pour des fichiers lisibles par tous.
    ``ftp://nom_projet.tuleap.example.com:/pub/nom_projet``
 
 API SOAP
-========
+---------
 
 Tuleap fournit une API SOAP pour accéder à
 Tuleap avec les 'web services'. Actuellement, seuls les
@@ -107,7 +107,7 @@ dans le language formel WSDL à l'adresse
 Le WSDL contient en plus la définition des type.
 
 Client en Ligne de Commande Tuleap (Command Line Interface, CLI)
-============================================================================
+-----------------------------------------------------------------
 
 Une autre manière d'utiliser Tuleap est d'utiliser le client
 en ligne de commande (CLI). Il s'agit d'une application cliente qui

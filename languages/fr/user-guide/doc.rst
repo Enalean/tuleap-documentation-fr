@@ -32,7 +32,7 @@ Les fonctionnalités du gestionnaire de documents sont les suivantes :
 -  Les documents possèdent des propriétés.
 
 Structure
-=========
+----------
 
 Vous pouvez structurer comme vous voulez votre gestionnaire de document
 en créant des dossiers et sous-dossiers pour classer vos documents.
@@ -40,7 +40,7 @@ en créant des dossiers et sous-dossiers pour classer vos documents.
 |Dossiers et sous-dossiers|
 
 Actions
-=======
+--------
 
 Le gestionnaire de document permet certaines actions sur les dossiers ou
 documents. Ces action sont disponible ou pas suivant les permissions.
@@ -53,7 +53,7 @@ Nous allons maintenant décrire toutes les actions qui peuvent être
 effectuées :
 
 Nouveau Document
-----------------
+`````````````````
 
 Cette action est seulement disponible pour les dossiers et permet à
 l'utilisateur de créer un nouveau document. Quand vous selectionnez
@@ -103,7 +103,7 @@ sélectionné. L'utilisateur peut aussi choisir un autre dossier. Il peut
 au début ou à la fin.
 
 Nouveau Dossier
----------------
+````````````````
 
 Cette action est seulement disponible pour les dossiers et permet à
 l'utilisateur de créer un sous-dossier.
@@ -128,7 +128,7 @@ dossier. Il peut également sélectionner la position du nouveau dossier :
 au début ou à la fin.
 
 Propriétés
-----------
+```````````
 
 Cette action permet à l'utilisateur de voir les propriétés d'un document
 ou d'un dossier, si il en a les droits. Si il a les permissions
@@ -141,7 +141,7 @@ permissions, voir l'historique et d'accèder aux actions (mise à
 jour/déplacement/suppression).
 
 Notifications
--------------
+``````````````
 
 Cette action permet à l'utilisateur de s'abonner à toute modification
 d'un élément. Ainsi il pourra être prévenu de l'ajout d'un document dans
@@ -151,7 +151,7 @@ suffit de cocher la case prévue à cet effet.
 |Notifications|
 
 Historique
-----------
+```````````
 
 Cette action permet à l'utilisateur de voir les journaux et les
 anciennes versions (si disponibles).
@@ -159,7 +159,7 @@ anciennes versions (si disponibles).
 |Historique|
 
 Mise à jour
------------
+````````````
 
 Cette action permet à l'utilisateur de mettre à jour le nom d'une page
 wiki ou l'url d'un lien.
@@ -167,7 +167,7 @@ wiki ou l'url d'un lien.
 |Mise à jour d'un lien|
 
 Nouvelle version
-----------------
+`````````````````
 
 Cette action permet à l'utilisateur de mettre à jour un document de type
 fichier ou fichier embarqué.
@@ -175,7 +175,7 @@ fichier ou fichier embarqué.
 |Créer une nouvelle version d'un fichier embarqué|
 
 Permissions
------------
+````````````
 
 Cette action permet à l'utilisateur de gérer les permissions d'un
 document ou d'un dossier. Les permissions d'un dossier peuvent être
@@ -215,7 +215,7 @@ permissions d'un document ou d'un dossier. Ils peuvent aussi consulter
 les historique d'accès à un document.
 
 Déplacer
---------
+`````````
 
 Les documents ou les dossiers peuvent être déplacés au sein des
 documents du projet.
@@ -241,7 +241,7 @@ début du dossier ou à la fin.
 |Raccourcis pour déplacer un élément au sein d'un dossier|
 
 Delete
-------
+```````
 
 Les documents ou dossiers peuvent être supprimés. Si un utilisateur veut
 supprimer un dossier, il sera averti que tous les sous-éléments seront
@@ -251,10 +251,10 @@ Pour pouvoir supprimer un élément, l'utilisateur doit avoir le droit
 "rédacteur" sur le répertoir parent.
 
 Administration
-==============
+---------------
 
 Permissions
------------
+````````````
 
 Cette section définie qui peut administrer le gestionnaire de documents.
 
@@ -262,14 +262,14 @@ Les administrateurs du gestionnaire de documents ont tous les droits sur
 tous les éléments du gestionnaires.
 
 Afficher les permissions
-------------------------
+`````````````````````````
 
 Cette section permet de définir la vue par défaut du gestionnaire de
 documents. Ce paramètre peut être surchargé par les préférences de
 l'utilisateur.
 
 Propriétés
-----------
+```````````
 
 Cette section gère les propriétés des documents. Chaque propriété peut
 être valuée lors de la soumission ou de l'édition d'un document.

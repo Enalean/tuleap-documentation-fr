@@ -21,7 +21,7 @@ l'ensemble de la plateforme ou bien créés par chaque projet sont
 entièrement personnalisables.
 
 Terminologie et Points communs
-==============================
+------------------------------
 
 Avant de présenter les fonctionnalités des outils de suivi, il est utile
 de passer quelques instants sur la terminologie employée pour les outils
@@ -45,7 +45,7 @@ utilisateurs. Cette section permet aussi d'ajouter un commentaire qui
 sera associé au flux de commentaires.
 
 Accéder à un outil de suivi
-===========================
+---------------------------
 
 Pour accéder au service outil de suivi d'un projet, rendez vous d'abord
 sur le Tableau de bord du Projet (voir ?) et cliquez soit sur l'entrée
@@ -63,7 +63,7 @@ base d'artefacts ou configurer l'outil de suivi.
 |Page d'accueil des outils de suivi|
 
 Soumission d'un nouvel artefact
-===============================
+-------------------------------
 
 Pour soumettre un nouvel artefact à un projet donné, vous devez tout
 d'abord accéder à l'outil de suivi approprié comme indiqué dans la
@@ -124,13 +124,13 @@ lorsque vous en avez terminé avec le formulaire !
     Tuleap.
 
 Naviguer dans les artefacts
-===========================
+---------------------------
 
 Tuleap permet de naviguer dans la base des artefacts selon
 un nombre de critères variables.
 
 Critères de sélection
----------------------
+`````````````````````
 
 La partie supérieure de l'écran de navigation est consacrée aux critères
 de recherche. La ? montre le jeu de critères par défaut disponibles à la
@@ -345,7 +345,7 @@ type "Table"), les vues graphiques affichent les artefacts répondant aux
 critères de sélection. Pour plus de détails, voir ?.
 
 Gestion des rapports
---------------------
+`````````````````````
 
 Les rapports des outils de suivi permettent de choisir les critères de
 recherche et créer différentes représentations des résultats (aussi
@@ -501,7 +501,7 @@ la représentation.
     "Options".
 
 Modifier un artefact
-====================
+---------------------
 
 La sélection d'un artefact dans la liste générée suite à une opération
 de recherche entraîne l'affichage d'une page qui comporte toutes les
@@ -518,7 +518,7 @@ L'écran de modification d'un artefact se divise en deux sections :
 **Entête et Commentaires**
 
 Entête
-------
+``````
 
 La zone d'entête concentre l'ensemble des champs associés à un artefact.
 Comme le montre la figure ?, certains champs disposent d'un jeu de
@@ -573,7 +573,7 @@ semble nécessaire.
 suivi)|
 
 Commentaires
-------------
+`````````````
 
 Autant de commentaires que nécessaire peuvent être attachés à un
 artefact. Il s'agit de commentaires libres saisis dans un champ texte.
@@ -602,7 +602,7 @@ Les commentaires présentent plusieurs caractéristiques intéressantes :
 |Commentaires attachés à un artefact|
 
 Mise à jour massive d'artefacts
--------------------------------
+````````````````````````````````
 
 Tuleap permet aux administrateurs d'un outil de suivi ou du
 projet d'effectuer la même modification sur un ensemble d'artefacts en
@@ -627,7 +627,7 @@ worflow sur un ou plusieurs champs
 |Mise à jour massive d'artefacts|
 
 Notification email
-==================
+```````````````````
 
 Les outil de suivi de Tuleap sont munis d'un mécanisme de
 notification d'évènements par email puissant et flexible. A moins que
@@ -655,7 +655,7 @@ rapidement à l'artefact sur Tuleap.
 |Notification par email|
 
 Champ "artifact link"
-=====================
+---------------------
 
 Le champ "artifact link" permet de créer des liens vers d'autres
 artefacts du même ou d'un autre tracker. Les artefacts sont affichés
@@ -665,7 +665,7 @@ correspond au rapport couramment utilisé par l'utilisateur et le
 renderer par defaut associé.
 
 Lier un artefact
-----------------
+`````````````````
 
 En cliquant sur l'icône à gauche du champs texte, une fenêtre modale
 s'ouvre. Dans cette fenêtre il est alors possible de sélectionner ou
@@ -676,7 +676,7 @@ artefacts selectionnés ajoutés (séparés par des virgules) dans le champs
 texte; et visibles (lignes jaunes) dans les onlgets correspondants.
 
 Créer un artefact
------------------
+``````````````````
 
 Il est possible de créer un artefact que l'on souhaite ensuite lié
 directement à l'artefact courant. En cliquant sur le bouton "Créer un
@@ -686,7 +686,7 @@ tracker. Tout artefact crée est ajouté dans l'artefact courant de la
 même façon qu'un artefact à lier.
 
 Gérer les artefacts liés
-------------------------
+`````````````````````````
 
 Tous les artefacts peuvent être géré directement dans les onglets du
 tableau. Les artefacts qui n'ont pas encore été liés sont mis en valeur
@@ -694,7 +694,7 @@ par la couleur jaune. Tous les artefacts peuvent être supprimés de la
 liste des artefacts liés ou à lier en cliquant sur la croix rouge.
 
 Importation d'artefacts
-=======================
+````````````````````````
 
 Les administrateurs d'un projet ont la possibilité d'importer des
 artefacts dans un outil de suivi de Tuleap en utilisant des
@@ -724,7 +724,7 @@ L'importation d'artefacts se déroule en trois étapes :
    artefacts existants sont mis à jour.
 
 Quand utiliser la fonction d'importation ?
-------------------------------------------
+```````````````````````````````````````````
 
 Vous trouverez ci-dessous quelques suggestions d'utilisation de la
 fonction d'importation de l'outil de suivi :
@@ -740,7 +740,7 @@ fonction d'importation de l'outil de suivi :
    autre.
 
 Exporter une feuille de calcul Excel au format CSV
---------------------------------------------------
+```````````````````````````````````````````````````
 
 Pour exporter une feuille de calcul Excel au format CSV, suivez les
 étapes suivantes :
@@ -752,7 +752,7 @@ Pour exporter une feuille de calcul Excel au format CSV, suivez les
    sauvegarde.
 
 Analyse du fichier CSV
-----------------------
+```````````````````````
 
 Le format CSV accepté en entrée est documenté sur l'écran de soumission
 du fichier CSV. Cette page vous permet de vérifier de façon manuelle que
@@ -810,7 +810,7 @@ D'autres erreurs peuvent être détectées à l'occasion de l'inspection
 visuelle du rapport d'importation fourni par Tuleap.
 
 Mise à jour de la base de données
----------------------------------
+``````````````````````````````````
 
 Si vous importez de nouveaux artefacts, tous les champs optionnels omis
 dans le fichier CSV sont renseignés avec leur valeur par défaut.
@@ -862,7 +862,7 @@ l'opération d'importation.
     "corrigé" dans Tuleap.
 
 Permissions d'accès par défaut aux outils de suivi
-==================================================
+---------------------------------------------------
 
 Selon la classe d'utilisateurs à laquelle vous appartenez et le niveau
 de permission qui vous est accordé en tant que membre d'un projet,
@@ -951,7 +951,7 @@ table ci-dessous :
 Table: Permissions d'accès par défaut des outils de suivi
 
 Création d'un outil de suivi
-============================
+-----------------------------
 
 Avant de choisir les champs et les valeurs associés aux champs d'un
 outil de suivi, il faut tout d'abord créer ce dernier. On peut accéder à
@@ -1024,7 +1024,7 @@ initial.
    configuration des champs et la structure du formulaire des artefacts)
 
 Modèles d'outils de suivi de Tuleap
-===============================================
+------------------------------------
 
 Les outils de suivi standards fournis par défaut sont :
 
@@ -1052,7 +1052,7 @@ libres de décider par eux-mêmes des informations qu'un artefact doit
 comporter et de personnaliser la définition des champs en conséquence.
 
 L'outil de suivi d'anomalies (Bugs)
------------------------------------
+````````````````````````````````````
 
 L'une des règles d'or d'un environnement de projet collaboratif est de
 permettre à ces utilisateurs de tester le logiciel et de rendre compte
@@ -1067,7 +1067,7 @@ contraire, passer le statut de certains champs à "Inutilisé" pour
 simplifier l'outil de suivi.
 
 L'outil de suivi de tâches (Tasks)
-----------------------------------
+```````````````````````````````````
 
 L'outil de suivi de tâches de Tuleap est un gestionnaire de
 tâches et pas un logiciel de gestion de projet comme CA-SuperProject,
@@ -1099,7 +1099,7 @@ projets :
    projets.
 
 L'outil de suivi "User Story"
------------------------------
+``````````````````````````````
 
 Tuleap facilite le déploiement de la méthodologie Scrum en
 fournissant un outil de suivi "User Story" à chaque projet. Vous
@@ -1128,7 +1128,7 @@ du sprint précédent sont mises à jour dans l'outil de suivi, et de
 nouvelles "stories" sont sélectionnées pour le prochain "Sprint".
 
 L'outil de suivi "Change Request"
----------------------------------
+``````````````````````````````````
 
 Cet outil de suivi permet de stocker des "Change Request" afin de gérer
 les réajustements de votre application. Ceci est important dans la
@@ -1164,7 +1164,7 @@ Comme pour tous les outils de suivi, l'administrateur du tracker peut
 personnaliser les champs selon ses propres process.
 
 L'outil de suivi de exigences (Requirements)
---------------------------------------------
+`````````````````````````````````````````````
 
 Cet outil de suivi permet, en ingénierie informatique, de gérer les
 exigences d'un projet, en identifiant par exemple des caractéristiques
@@ -1197,7 +1197,7 @@ Comme pour tous les outils de suivi, l'administrateur du tracker peut
 personnaliser les champs selon ses propres process.
 
 L'outil de suivi des risques
-----------------------------
+`````````````````````````````
 
 Cet outil de suivi permet de gérer les risques. Il fournit des
 informations liées à l'identification, la priorisation, l'estimation des
@@ -1219,7 +1219,7 @@ Quand vous estimez un risque, vous devez fournir certaines informations
 -  Action pour réduire le risque(action, responsable)
 
 Administration des outils de suivi
-==================================
+-----------------------------------
 
 Depuis le début du chapitre concernant les outils de suivi, il a été
 fait plusieurs fois mention de la flexibilité de ce service et de la
@@ -1256,7 +1256,7 @@ La configuration d'un outil de suivi se divise en dix sections :
 -  **Export**: permet d'exporter un outil de suivi au format xml.
 
 Options générales
------------------
+``````````````````
 
 Ce module vous permet de définir un ensemble de propriétés pour votre
 outil de suivi. Certaines de ces propriétés ont déjà été définies dans
@@ -1304,7 +1304,7 @@ cette page de configuration :
    caractères gras, de l'italique, des couleurs, des URLs…)
 
 Gestion des permissions
------------------------
+````````````````````````
 
 Ce module est utilisé pour donner des permissions d'accès différentes
 aux utilisateurs suivant leur rôle.
@@ -1410,7 +1410,7 @@ modification, dans l'historique des changements et, enfin, dans les
 notifications email envoyées aux utilisateurs concernés.
 
 Gestion de l'utilisation des champs
------------------------------------
+````````````````````````````````````
 
 Lorsqu'un outil de suivi est créé, il comprend un ensemble de champs
 préconfigurés qui proviennent du modèle utilisé pour sa création. Pour
@@ -1801,7 +1801,7 @@ Pour supprimer définitivement un champ, cliquer sur l'icône "poubelle"
 dans la liste des élements inutilisés de la palette.
 
 Semantique
-----------
+```````````
 
 Comme les outils de suivi peuvent être complétement personnalisables, il
 fallait un moyen de définir ce qu'était le titre d'un artefact, ou ce
@@ -1887,7 +1887,7 @@ L'effort estimé est utilisé dans les onglets **content** et **planification** 
 l'Agile Dashboard.
 
 Dépendances entre champs
-------------------------
+`````````````````````````
 
 Les dépendances entre champs permettent de lier les valeurs d'un champ
 source aux valeurs d'un champ cible. Autrement dit, les valeurs
@@ -1961,7 +1961,7 @@ points suivants :
    qui satisferont les règles de dépendances.
 
 Réponses-type
--------------
+``````````````
 
 Il est assez fréquent de voir des membres d'un projet en charge de la
 gestion des artefacts taper souvent le même genre de commentaires. Parmi
@@ -1981,7 +1981,7 @@ d'un artefact.
 |Définition d'une réponse-type|
 
 Gestionnaire de Workflow
-------------------------
+`````````````````````````
 
 Définition
 ~~~~~~~~~~
@@ -2052,7 +2052,7 @@ automatiquement une date de cloture lorsqu'un artefact passe de "Résolu"
 "date de cloture" lorsque l'artefact passe de "Fermé" à "Ré-ouvert".
 
 Options de notification email
------------------------------
+``````````````````````````````
 
 Comme expliqué dans la ? les outils de suivi sont préconfigurés avec une
 série de règles leur permettant d'informer les personnes concernées des
@@ -2096,7 +2096,7 @@ qualification et leur assignation.
     de témoin en cas d'audit.
 
 Importation d'artefacts
------------------------
+````````````````````````
 
 Les administrateurs d'un projet ont la possibilité d'importer des
 artefacts dans un outil de suivi de Tuleap en utilisant des
@@ -2104,7 +2104,7 @@ fichiers au format CSV . Voir la section ? pour plus de détails sur
 cette fonctionnalité.
 
 Exporter la structure d'un outil de suivi
------------------------------------------
+``````````````````````````````````````````
 
 Tuleap permet d'exporter la structure d'un outil de suivi
 dans un fichier XML. Les modèles d'outils de suivi Tuleap

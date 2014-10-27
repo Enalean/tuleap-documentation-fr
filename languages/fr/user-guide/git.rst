@@ -32,7 +32,7 @@ Deux types de dépôt se distinguent:
    public/intégrateur".
 
 Référence
-=========
+---------
 
 Seul un administrateur projet peut créer une référence. Cela se fait
 depuis la page d'accueil du service. L'administrateur peut créer autant
@@ -60,7 +60,7 @@ pouvez l'importer de la façon suivante:
         
 
 Fork
-====
+----
 
 Les dépôts "Référence" peuvent être forké de deux façon :
 
@@ -88,7 +88,7 @@ L'interface ci-dessus permet également de grouper les dépôt dans une
 sous-répertoire (via le champ "chemin").
 
 Paramètres du dépôt
-===================
+--------------------
 
 L'administrateur de projet a la possibilité de modifier la configuration
 du dépôt. En particulier:
@@ -100,7 +100,7 @@ du dépôt. En particulier:
 -  et la notification suite à un "push"
 
 Permissions
------------
+````````````
 
 Dans l'interface de gestion d'un dépôt, l'administrateur de projet peut
 permettre à un ou plusieurs groupes d'utilisateur :
@@ -119,7 +119,7 @@ permettre à un ou plusieurs groupes d'utilisateur :
 |Réglage des permissions Git du dépôt|
 
 Notification par courriel
--------------------------
+``````````````````````````
 
 Il est souvent conseillé de tenir informée toute l'équipe lorque
 quelqu'un "pousse" (push) des nouvelles choses dans un dépôt. Vous
@@ -154,7 +154,7 @@ L'extraction des références croisées ne sera pas faite si la
 fonctionnalité de notification par mail n'est pas activée.
 
 Suppression d'un dépôt
-======================
+-----------------------
 
 Un dépôt peut être supprimé, une archive compressée sera créée sous le
 nom {PROJECT\_SHORT\_NAME}\_{REPOSITORY\_NAME}\_{DEL\_TIMESTAMP}.tar.bz2
@@ -162,13 +162,13 @@ et déplacée dans le répertoire de sauvegarde. Se référer à la section ?
 pour l'import des dépôts.
 
 Import de dépôt
-===============
+----------------
 
 Il n'existe pas de procédure automatique pour importer un dépôt, se
 référer à la documentation de l'administrateur.
 
 Les références Git
-==================
+-------------------
 
 -  Site officiel de git http://git-scm.com/
 

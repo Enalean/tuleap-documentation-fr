@@ -6,7 +6,7 @@ Site Web d'un projet
 ====================
 
 Visiter un site Web
-===================
+--------------------
 
 Lorsqu'un projet est créé sur Tuleap un site Web spécifique
 est initialisé. Vous pouvez accéder au site Web de deux façons
@@ -36,10 +36,10 @@ bientôt disponible complétée d'un lien de retour vers le site
 Tuleap.
 
 Création d'un site Web
-======================
+-----------------------
 
 Emplacement et structure des répertoires
-----------------------------------------
+`````````````````````````````````````````
 
 Chaque projet possède son propre emplacement de stockage des pages HTML,
 des images, des fichiers de données et des documents qui constituent le
@@ -96,7 +96,7 @@ vous verrez trois répertoires :
    fichier.
 
 Utilisez PHP pour votre site Web
---------------------------------
+`````````````````````````````````
 
 Les membres d'un projet peuvent concevoir des sites Web sophistiqués en
 utilisant le `langage PHP <http://www.php.net>`__. PHP est en train de
@@ -116,7 +116,7 @@ des documents (DocumentRoot) de votre projet à  savoir
 ``/home/groups/nom_projet/htdocs``.
 
 Publication du site Web
------------------------
+````````````````````````
 
 Vous pouvez utiliser différentes méthodes pour publier les pages de
 votre site Web sur le serveur Tuleap :

@@ -35,7 +35,7 @@ communiquer sur le sujet avec les membres de votre projet et d'améliorer
 régulièrement votre plan de gestion de configuration.
 
 Subversion : l'après CVS
-========================
+-------------------------
 
 Subversion est un système de contrôle de version Open Source qui gère
 l'historique de vos fichiers et répertoires. L'effort de développement
@@ -128,7 +128,7 @@ Subversion présente aussi un nombre important d'amélioration par rapport
    Java, Python et Perl.
 
 Les clients Subversion
-----------------------
+```````````````````````
 
 Subversion repose sur une architecture client-serveur. En d'autres
 termes, Les développeurs Tuleap qui souhaitent interagir
@@ -207,7 +207,7 @@ travaille l'utilisateur.
    le dépôt lorsque vous avez terminé vos modifications.
 
 Références Subversion
----------------------
+``````````````````````
 
 Comme indiqué précédemment, ce chapitre n'est pas un manuel
 d'utilisation de Subversion. Si vous souhaitez en savoir plus sur
@@ -227,10 +227,10 @@ Subversion, référez-vous à l'un des documents suivants :
    http://jsvn.alternatecomputing.com/.
 
 Intégration de Subversion dans Tuleap
-=================================================
+--------------------------------------
 
 Le dépôt Subversion
--------------------
+````````````````````
 
 Dès qu'un nouveau projet est hébergé, un nouveau dépôt Subversion est
 automatiquement créé et initialisé correctement. Chaque projet dispose
@@ -253,7 +253,7 @@ personnalisation complète des dépôts Subversion projet par projet.
     ce que vous faites.
 
 La structure du dépôt Subversion
---------------------------------
+`````````````````````````````````
 
 Lorsqu'un nouveau projet Tuleap est créé, il est pourvu d'un
 dépôt Subversion totalement vierge que l'équipe de projet doit remplir
@@ -302,7 +302,7 @@ Pour plus d'information sur la structure des dépôts Subversion référez
 vous aux ouvrages cités dans la ?.
 
 L'interface de navigation Web de Subversion
-===========================================
+--------------------------------------------
 
 Tuleap vous permet d'interagir avec votre dépôt Subversion
 via l'interface Web. Il ne s'agit pas de remplacer le véritable client
@@ -344,7 +344,7 @@ propose les fonctionnalités suivantes :
 Voyons plus en détail quelques unes de ces fonctionnalités :
 
 Naviguer dans le dépôt Subversion
----------------------------------
+``````````````````````````````````
 
 Pour interagir avec le dépôt Subversion d'un projet Tuleap,
 il est normalement nécessaire d'installer un client Subversion sur votre
@@ -356,7 +356,7 @@ même fichier.
 |Un exemple de navigation dans le dépôt Subversion|
 
 Interroger le dépôt Subversion
-------------------------------
+```````````````````````````````
 
 Si le projet a activé le fonction de suivi de Subversion (voir ?),
 l'interface Web de Subversion offre des fonctionnalités particulièrement
@@ -397,7 +397,7 @@ intéressantes pour les développeurs :
 |Interrogation de la base de suivi Subversion d'un projet|
 
 Références croisées entre artefacts et commits Subversion
----------------------------------------------------------
+``````````````````````````````````````````````````````````
 
 Lors des phases de développement ou de maintenance d'un projet, il est
 essentiel de garder la trace des changements effectués dans le code
@@ -455,7 +455,7 @@ les suivants :
     changements et pourquoi un changement a eu lieu.
 
 Interface d'administration de Subversion
-========================================
+-----------------------------------------
 
 Les administrateurs de projets peuvent effectuer les tâches les plus
 courantes d'administration et de configuration du dépôt Subversion via
@@ -464,7 +464,7 @@ sont accessibles par l'entrée ``SVN
     Admin`` située dans la barre de menu du service Subversion.
 
 Options générales
------------------
+`````````````````
 
 -  **Suivi Subversion** : étant donné que Subversion est un système de
    contrôle de version il prend naturellement en charge l'historique des
@@ -487,7 +487,7 @@ Options générales
    tapant le texte de son choix dans cette zone de saisie.
 
 Contrôle des accès au dépôt Subversion
---------------------------------------
+```````````````````````````````````````
 
 Permissions d'accès par défaut
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -654,7 +654,7 @@ Pour plus d'information concernant le format de ce fichier référez-vous
 aux ouvrages sur Subversion (voir ?).
 
 Notification e-mail de Subversion
----------------------------------
+``````````````````````````````````
 
 En complément des fonctions de suivi, Tuleap peut aussi
 expédier un courrier électronique proprement formaté à des individus ou
@@ -696,7 +696,7 @@ suivants concernant la notification par e-mail :
     diffusion.
 
 Un cycle de vie typique de Subversion
-=====================================
+--------------------------------------
 
 Comme indiqué précédemment, l'objectif de cette section n'est pas de
 fournir une formation à Subversion mais plutôt d'expliquer quelles sont
@@ -713,7 +713,7 @@ ne devrait pas poser de problèmes.
 |Un cycle de développement logiciel typique sur Tuleap|
 
 Se connecter
-------------
+`````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -724,7 +724,7 @@ demandera votre nom d'utilisateur et votre mot de passe à la première
 opération nécessitant une authentification (comme l'opération commit).
 
 Importer du code source existant
---------------------------------
+`````````````````````````````````
 
 *Audience : membres du projet*
 
@@ -780,7 +780,7 @@ Où :
     sujet.
 
 Créer une copie de travail (checkout)
--------------------------------------
+``````````````````````````````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -822,7 +822,7 @@ Où :
 -  ``nom_projet`` est le nom court du projet
 
 Mettre à jour le code source (update)
--------------------------------------
+``````````````````````````````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -837,7 +837,7 @@ dernières versions de chaque fichier en provenance du dépôt. Pour mettre
             
 
 Observer les modifications
---------------------------
+```````````````````````````
 
 Si vous souhaitez savoir quels fichiers ont été modifiés dans votre
 copie de travail depuis votre dernière mise à jour, tapez la commande
@@ -871,7 +871,7 @@ Si aucun ``nom_de_fichier`` n'est indiqué, l'opération diff est
 appliquée de façon récursive sur tous les fichiers et sous-répertoires.
 
 Remonter les modifications vers le dépôt (commit)
--------------------------------------------------
+``````````````````````````````````````````````````
 
 *Audience : membres du projet*
 
@@ -924,7 +924,7 @@ Où :
     branche pour y travailler de façon isolée.
 
 Proposer des modifications à l'équipe de projet
------------------------------------------------
+````````````````````````````````````````````````
 
 *Audience : tous les utilisateurs Tuleap*
 
@@ -998,7 +998,7 @@ votre correctif à l'équipe de projet.
 Et un grand merci pour votre contribution !
 
 Exporter et empaqueter
-----------------------
+```````````````````````
 
 *Audience : membres du projet*
 
@@ -1053,10 +1053,10 @@ d'annoncer la disponibilité de cette nouvelle version en utilisant le
 service d'annonces de Tuleap (voir ?).
 
 Subversion pour les administrateurs de projet
-=============================================
+---------------------------------------------
 
 Les scripts d'accrochage de Subversion (hook scripts)
------------------------------------------------------
+``````````````````````````````````````````````````````
 
 Tuleap offre une interface Web facile d'utilisation
 permettant de définir les paramètres de configuration les plus

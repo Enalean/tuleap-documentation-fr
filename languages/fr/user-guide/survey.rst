@@ -48,7 +48,7 @@ gestionnaire de sondages :
 |Page d'accueil du gestionnaire de sondages|
 
 Publier un sondage
-==================
+-------------------
 
 *Audience : membres du projet*
 
@@ -110,7 +110,7 @@ exemple de sondage.
 |Un exemple de sondage émanant du projet Tuleap|
 
 Administration des sondages
-===========================
+----------------------------
 
 *Audience : membres du projet*
 
@@ -133,7 +133,7 @@ avez accès à l'ensemble des fonctions d'administrations (voir ?).
 |Écran d'administration du gestionnaire de sondages|
 
 Structure d'un sondage
-----------------------
+```````````````````````
 
 Pour maîtriser le processus de création et de mise à jour d'un sondage,
 il est nécessaire de bien comprendre que le gestionnaire de sondages
@@ -153,7 +153,7 @@ réside dans le fait de pouvoir utiliser la même question dans différents
 sondages si besoin est.
 
 Créer et éditer des questions
------------------------------
+``````````````````````````````
 
 En tout premier lieu vous devez définir un jeu de questions et les
 réponses possibles pour chacune d'elles. Créer un bon sondage n'est pas
@@ -224,7 +224,7 @@ dans l'intitulé d'une question sans pour autant affecter les réponses
 déjà collectées.
 
 Créer ou modifier un sondage
-----------------------------
+`````````````````````````````
 
 Une fois que vous avez créé des questions, vous pouvez créer un sondage
 et lui attacher des questions.
@@ -268,7 +268,7 @@ cependant pas perdues. En ré-insérant la question dans la liste vous
 pourrez consulter les réponses associées (voir la section suivante).
 
 Consulter les résultats d'un sondage
-------------------------------------
+`````````````````````````````````````
 
 *Audience : membres du projet*
 

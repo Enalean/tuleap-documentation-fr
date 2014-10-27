@@ -18,10 +18,10 @@ inclut les listes de diffusion, le service d'annonces (news), les forums
 Web et un plug-in de messagerie instantanée.
 
 Listes de distribution
-======================
+-----------------------
 
 Création
---------
+`````````
 
 Chaque projet peut créer autant de listes de diffusion que nécessaire.
 Pour ce faire cliquez sur le lien "Listes" dans la barre de menu
@@ -69,7 +69,7 @@ Où :
     vous encourageons vivement à suivre cette pratique bien établie.
 
 Administration
---------------
+```````````````
 
 L'administration d'une liste de diffusion se fait intégralement via
 l'interface Web. Vous pouvez accéder à la page d'administration de la
@@ -97,7 +97,7 @@ de l'éventail des fonctionnalités.
     tout autre mot de passe d'utilisateurs Tuleap.
 
 (Dés)Inscription, archive et préférences
-----------------------------------------
+`````````````````````````````````````````
 
 A moins qu'une liste de diffusion ne soit privée, tout utilisateur
 Tuleap peut s'y inscrire. Pour ce faire il suffit de cliquer
@@ -113,7 +113,7 @@ mois. Veuillez noter que la version actuelle de l'archiveur ne garde pas
 trace des attachements au format MIME.
 
 Annonces
-========
+---------
 
 Le service d'annonces vient en complément du service de listes de
 diffusion. Il vous permet de publier les actualalités du projet. Tous
@@ -149,7 +149,7 @@ votre annonce soit mise en avant sur la page d'accueil principale du
 site.
 
 Forums Web
-==========
+-----------
 
 Il s'agit là de la troisième forme de communication offert par
 Tuleap. Les forums Web sont plus ou moins équivalents aux
@@ -180,7 +180,7 @@ administrateurs de rendre un forum public ou privé, de modifier son nom
 ou sa description ou même de le détruire.
 
 Plug-in de messagerie instantanée
-=================================
+----------------------------------
 
 Tuleap est associé à un serveur Jabber et contient un
 plug-in de messagerie instantanée (IM) permettant un niveau
@@ -214,7 +214,7 @@ Le status d'un utilisateur utilisant un client Jabber (en ligne, occupé,
 absent) est affiché dans Tuleap.
 
 Intégration de la messagerie instantanée dans Tuleap
-----------------------------------------------------------------
+`````````````````````````````````````````````````````
 
 Un certain nombre d'informations concernant la messagerie instantanée
 sont disponibles directement depuis Tuleap. Ainsi, chaque
@@ -250,7 +250,7 @@ Si un projet est détruit, son salon de discussions sera détruit et son
 groupe partagé n'existera plus .
 
 Configuration d'un client Jabber
---------------------------------
+`````````````````````````````````
 
 La configuration d'un client Jabber pour utiliser votre compte
 Tuleap est simple. Si vous utilisez un client qui accèpte
@@ -289,7 +289,7 @@ plus d'informations, consultez la documentation fournie avec votre
 client.
 
 Salon de discussion multi-utilisateurs (MUC)
---------------------------------------------
+`````````````````````````````````````````````
 
 Comme il a été spécifié précédement,le plug-in de messagerie instantanée
 crée un salon de discussion multi-utilisateurs pour chaque projet. Ce
@@ -462,7 +462,7 @@ un salon de discussion, consultez la documentation de votre client
 Jabber.
 
 Archives des conversations
---------------------------
+```````````````````````````
 
 Les conversations des salons de discussions sont archivées par le
 système (les conversations privées ne sont pas archivées). Pour accéder
