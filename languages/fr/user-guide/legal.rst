@@ -19,7 +19,7 @@ screen such as icons, screen displays, looks, etc.
 Ce document a été formaté à l'aide de la DTD XML DocBook. La version
 HTML a été générée avec le génerateur HTML de DocBook.
 
-Copyright © 2011, 2012 Enalean SAS
+Copyright © 2011, 2012,2013,2014,2015 Enalean SAS
 
 Copyright © 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008 Xerox
 Corporation, Codendi.
