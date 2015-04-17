@@ -196,12 +196,12 @@ personnelle :
 
 -  **Fichiers sous surveillance** liste les fichiers que vous
    surveillez, par projet. Pour interrompre la surveillance, il vous
-   suffit de cliquer sur la corbeille (|image1|) à côté de l'item
+   suffit de cliquer sur la corbeille (|trash_icon|) à côté de l'item
    concerné.
 
 -  **Forums sous surveillance** liste les forums que vous surveillez,
    par projet. Pour interrompre la surveillance, il vous suffit de
-   cliquer sur la corbeille (|image2|) à côté de l'item concerné.
+   cliquer sur la corbeille (|trash_icon|) à côté de l'item concerné.
 
 -  **Mes artefacts** liste les artéfacts soumis par vous ou qui vous ont
    été assignés, par projet.
@@ -220,6 +220,8 @@ personnelle :
 
 -  **RSS Reader** vous permet d'inclure dans votre page personnelle des
    fils rss (ou atom) publiques.
+
+   .. |trash_icon| image:: ../images/icons/trash.png
 
 Gestion de compte
 -----------------
