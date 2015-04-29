@@ -295,8 +295,7 @@ décrivant l'ensemble des outils et services. Un clic sur le lien "Index
 de l'aide" dirige l'utilisateur vers la table des matières du guide de
 l'utilisateur de Tuleap. Ce même guide est utilisé sur
 l'ensemble du site Tuleap par les liens "Aide" apparaissant
-dans quasiment tous les menus. Une version PDF de l'intégralité du guide
-de l'utilisateur est disponible dans la section "Documentation Site".
+dans quasiment tous les menus.
 
 Documentation Site
 ~~~~~~~~~~~~~~~~~~
