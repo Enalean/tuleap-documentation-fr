@@ -80,6 +80,14 @@ de passer en mode compatibilité. Si choisie et si les administrateurs de la for
 mediawiki du projet en mode "par défaut". Néanmoins, on reste toujours au sein de son projet et des liens pour y revenir se trouvent
 sur la barre de gauche.
 
+Afficher le logo de votre projet dans Mediawiki
+-----------------------------------------------
+Les conditions suivantes sont requises afin d'afficher votre logo dans Mediawiki :
+
+- Le fichier du logo doit être nommé `` .wgLogo.png`` exactement (notez le point au début).
+- Le logo doit être placé dans le répertoire ``/var/lib/tuleap/mediawiki/projects/<project-id>/images/``. Demandez aux administrateurs de la forge de le téléverser à cet emplacement pour vous.
+- Sa hauteur et sa largeur *devraient* être de 155px par 155px mais il peut être plus petit ou plus grand, étant donné qu'il sera dans tous les cas adapté à ces dimensions.
+
 Références pour Mediawiki
 -------------------------
 
