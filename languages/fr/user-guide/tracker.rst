@@ -2121,6 +2121,14 @@ XML généré.
 suivi mais seulement sa structure (options générales, champs, valeurs,
 workflow, semantique, réponses-type et permissions).
 
+Suppression d'artefacts
+```````````````````````
+
+Tuleap permet aux administrateurs de projet et de tracker de supprimer définitivement des artefacts.
+Pour supprimer un artefact, sélectionnez le lien "Suppression d'artefact" dans la partie Administartion d'un tracker.
+
+**Note**: Si vous n'êtes pas administrateur, vous devrez contacter celui-ci afin qu'il procède à la suppression.
+
 .. |Page d'accueil des outils de suivi| image:: ../../screenshots/fr_FR/sc_v5_trackerwelcomescreen.png
 .. |Un exemple d'écran de soumission d'artefact (ici de type "bug")| image:: ../../screenshots/fr_FR/sc_v5_artifactsubmission.png
 .. |Exemple d'affichage des résultats d'une requête| image:: ../../screenshots/fr_FR/sc_v5_artifactbrowsing.png
