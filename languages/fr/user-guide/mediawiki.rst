@@ -60,25 +60,38 @@ une synchronisation est lancée lorsque les actions suivantes se produisent :
 -  Un utilisateur Tuleap est renommé
 
 
-Mediawiki extensions
+Extensions Mediawiki
 --------------------
-Tuleap a intégré les extensions Mediawiki suivantes :
--  SyntaxHighlight_GeSHi (http://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi): cette extension permet d'afficher du code source formaté.
 
--  PdfBook (http://www.mediawiki.org/wiki/Extension:PdfBook): cette extension permet de composer un ensemble d'articles d'une catégorie et de l'exporter au format pdf.
+Tuleap intègre actuellement les extensions Mediawiki suivantes :
 
--  ParserFunctions (http://www.mediawiki.org/wiki/Extension:ParserFunctions): cette extension améliore l'analyseur de wiki avec des fonctions principalement liés à la logique et la manipulation de chaîne de caractères.
+* `CategoryTree <https://www.mediawiki.org/wiki/Extension:CategoryTree>`_ : cette extension parcourt dynamiquement la
+  structure des catégories. Pour plus d'informations à ce sujet, veuillez vous reporter au mediawiki du projet, cliquez
+  sur **Pages spéciales**, puis sur **Version** pour accéder à la liste des extensions installées. Un lien hypertexte
+  vous permettra d'accéder à des informations détaillées sur CategoryTree.
+ 
+* `Cite <https://www.mediawiki.org/wiki/Extension:Cite/Cite.php>`_ : cette extension ajoute les balises ``<ref[name="id"]>`` et ``<references/>`` pour les références et les notes de bas de page.
 
--  WikiEditor (http://www.mediawiki.org/wiki/Extension:WikiEditor): cette extension offre un éditeur de texte. Elle est seulement disponible avec l'affichage en mode compatibilité.
+* `ImageMap <https://www.mediawiki.org/wiki/Extension:ImageMap>`_ : cette extension permet d'utiliser des images cliquables côté client, grâce à la balise ``<imagemap>``.
 
+* `InputBox <https://www.mediawiki.org/wiki/Extension:InputBox>`_ : cette extension permet l'inclusion de formulaires HTML prédéfinis.
+
+* `LabeledSectionTransclusion <https://www.mediawiki.org/wiki/Extension:Labeled_Section_Transclusion>`_ : cette extension ajoute les fonctions ``#lst`` et ``#lstx`` ainis que la balise ``<section>``, et elle active les sections marquées dans le texte qui doivent être transcluses.
+
+* `ParserFunctions <https://www.mediawiki.org/wiki/Extension:ParserFunctions>`_ : cette extension améliore l'analyseur de wiki avec des fonctions principalement liées à la logique et à la manipulation de chaîne de caractères.
+
+* `PdfBook <http://www.mediawiki.org/wiki/Extension:PdfBook>`_ : cette extension permet de composer un livre à partir d'articles d'une catégorie et de l'exporter au format PDF.
+
+* `SyntaxHighlight_GeSHi <https://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi>`_ : cette extension permet d'afficher du code source formaté grâce à la balise ``<syntaxhighlight>`` et au support du `système GeSHi de mise en évidence de la syntaxe <http://qbnz.com/highlighter/>`_.
+
+* **TuleapArtLinks** : grâce à cette extension, depuis Tuleap 7.10, MediaWiki reconnaît les références croisées telles que **art #12345** et les convertit automatiquement en liens hyper-texte qui pointent sur l'artifact correspondant dans Tuleap. 
+
+* `WikiEditor <http://www.mediawiki.org/wiki/Extension:WikiEditor>`_ : cette extension offre un éditeur de texte. Elle est seulement disponible avec l'affichage en mode compatibilité (voir ci-dessous).
 
 Affichage en mode compatibilité
 -------------------------------
 
-Afin de permettre l'utilisation des plugins mediawiki qui produisent des conflits d'affichage au sein de Tuleap, il y a une option
-de passer en mode compatibilité. Si choisie et si les administrateurs de la forge l'ont activée, cette option passe l'affichage du
-mediawiki du projet en mode "par défaut". Néanmoins, on reste toujours au sein de son projet et des liens pour y revenir se trouvent
-sur la barre de gauche.
+Afin de permettre l'utilisation des plugins mediawiki qui produisent des conflits d'affichage au sein de Tuleap, il y a une option de passer en mode compatibilité. Si choisie et si les administrateurs de la forge l'ont activée, cette option passe l'affichage du mediawiki du projet en mode "par défaut". Néanmoins, on reste toujours au sein de son projet et des liens pour y revenir se trouvent sur la barre de gauche.
 
 Afficher le logo de votre projet dans Mediawiki
 -----------------------------------------------
@@ -94,3 +107,16 @@ Références pour Mediawiki
 -  Documentation officielle de Mediawiki : http://www.mediawiki.org/wiki/Documentation/fr
 
 -  Mediawiki, droits d'accès par défaut : http://www.mediawiki.org/wiki/Manual:User_rights/fr
+
+Contributions
+-------------
+
+- **CategoryTree** est une contribution de Daniel Kinzler.
+- **Cite** est une contribution de Ævar Arnfjörð Bjarmason.
+- **ImageMap** est une contribution de Tim Starling.
+- **InputBox** est une contribution de Erik Moeller, Leonardo Pimenta, Rob Church, Trevor Parscal et DaSch.
+- **LabeledSectionTransclusion** est une contribution de Steve Sanbeg.
+- **ParserFunctions** est une contribution de Tim Starling, Robert Rohde, Ross McClure et Juraj Simlovic.
+- **PdfBook** est une contribution de `Aran Dunkley <http://www.organicdesign.co.nz/nad>`_.
+- **SyntaxHighlight_GeSHi** est une contribution de Brion Vibber, Tim Starling, Rob Church et Niklas Laxström.
+- **TuleapArtLinks** est une contribution de `Enalean SAS <https://www.enalean.com/>`_.
