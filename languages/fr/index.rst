@@ -26,6 +26,7 @@ Bienvenue sur la documentation de Tuleap !
    user-guide/survey
    user-guide/project-website
    user-guide/project-links
+   user-guide/notification
    user-guide/other-services
    user-guide/legal
 
