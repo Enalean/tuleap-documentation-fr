@@ -84,9 +84,13 @@ Tuleap intègre actuellement les extensions Mediawiki suivantes :
 
 * `SyntaxHighlight_GeSHi <https://www.mediawiki.org/wiki/Extension:SyntaxHighlight_GeSHi>`_ : cette extension permet d'afficher du code source formaté grâce à la balise ``<syntaxhighlight>`` et au support du `système GeSHi de mise en évidence de la syntaxe <http://qbnz.com/highlighter/>`_.
 
+* `WikiEditor <http://www.mediawiki.org/wiki/Extension:WikiEditor>`_ : cette extension offre un éditeur de texte. Elle est seulement disponible avec l'affichage en mode compatibilité (voir ci-dessous).
+
+Extension spécifique à Tuleap
+`````````````````````````````
+
 * **TuleapArtLinks** : grâce à cette extension, depuis Tuleap 7.10, MediaWiki reconnaît les références croisées telles que **art #12345** et les convertit automatiquement en liens hyper-texte qui pointent sur l'artifact correspondant dans Tuleap. 
 
-* `WikiEditor <http://www.mediawiki.org/wiki/Extension:WikiEditor>`_ : cette extension offre un éditeur de texte. Elle est seulement disponible avec l'affichage en mode compatibilité (voir ci-dessous).
 
 Affichage en mode compatibilité
 -------------------------------
