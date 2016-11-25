@@ -77,53 +77,53 @@ informations qui vous sont présentées.
 
 S'enregistrer sur Tuleap est simple et rapide :
 
-Sélectionnez le lien "Nouveau compte".
+    1. Sélectionnez le lien "Nouveau compte"
 
-Remplissez les champs suivants (ceux marqués d'un astérisque sont
-obligatoires) :
+    2. Remplissez les champs suivants (ceux marqués d'un astérisque sont
+       obligatoires) :
 
-**Nom de login** : votre nom d'utilisateur. A noter que sur certains
-systèmes Tuleap connectés à un annuaire d'entreprise le nom
-d'utilisateur peut être imposé (voir plus loin).
+        a. **Nom de login** : votre nom d'utilisateur. A noter que sur certains
+           systèmes Tuleap connectés à un annuaire d'entreprise le nom
+           d'utilisateur peut être imposé (voir plus loin).
 
-**Mot de passe** : 6 caractères minimum à répéter deux fois pour éviter
-toute erreur de frappe.
+        b. **Mot de passe** : 6 caractères minimum à répéter deux fois pour éviter
+           toute erreur de frappe.
 
-**Nom complet** : rappelez-moi votre nom HYPHEN s'il vous plaît.
+        c. **Nom complet** : rappelez-moi votre nom HYPHEN s'il vous plaît
 
-**Adresse email** : suivant la configuration du site, les adresses
-emails considérées comme valides peuvent se limiter au domaine
-SYS\_ORG\_NAME ou à l'un de ses sous-domaines. Vérifiez bien que votre
-adresse email est correcte faute de quoi vous ne recevriez pas la
-demande de confirmation de votre enregistrement.
+        d. **Adresse email** : suivant la configuration du site, les adresses
+           emails considérées comme valides peuvent se limiter au domaine
+           SYS\_ORG\_NAME ou à l'un de ses sous-domaines. Vérifiez bien que votre
+           adresse email est correcte faute de quoi vous ne recevriez pas la
+           demande de confirmation de votre enregistrement.
 
-**Fuseau horaire** : choisissez le fuseau horaire dans lequel vous
-vivez. C'est une information importante car Tuleap stocke
-tous ses marqueurs de temps en temps universel (GMT) et s'appuie sur le
-fuseau horaire fourni par l'utilisateur pour présenter les dates et
-heures en temps local sur les différentes pages Web.
+        e. **Fuseau horaire** : choisissez le fuseau horaire dans lequel vous
+           vivez. C'est une information importante car Tuleap stocke
+           tous ses marqueurs de temps en temps universel (GMT) et s'appuie sur le
+           fuseau horaire fourni par l'utilisateur pour présenter les dates et
+           heures en temps local sur les différentes pages Web.
 
-**Annonces site** : cochez cette case si vous souhaitez recevoir les
-informations concernant les mises à jour du site Tuleap. Le
-trafic est très faible et nous vous recommandons vivement de cocher
-cette case. Les notifications reçues traitent des nouvelles
-fonctionnalités disponibles, des plages d'indisponibilité pour raison de
-maintenance, des événements importants dans la vie du site, etc…
+        f. **Annonces site** : cochez cette case si vous souhaitez recevoir les
+           informations concernant les mises à jour du site Tuleap. Le
+           trafic est très faible et nous vous recommandons vivement de cocher
+           cette case. Les notifications reçues traitent des nouvelles
+           fonctionnalités disponibles, des plages d'indisponibilité pour raison de
+           maintenance, des événements importants dans la vie du site, etc…
 
-**Annonces site supplémentaires** : cochez cette case pour recevoir des
-messages moins importants concernant la vie du site. Vous pouvez cocher
-cette case sans crainte d'être submergé de messages car le trafic est
-extrêmement réduit.
+        g. **Annonces site supplémentaires** : cochez cette case pour recevoir des
+           messages moins importants concernant la vie du site. Vous pouvez cocher
+           cette case sans crainte d'être submergé de messages car le trafic est
+           extrêmement réduit.
 
-Peu après avoir validé l'enregistrement de votre compte utilisateur, un
-email doit vous parvenir vous demandant confirmation. En cliquant sur
-l'URL contenu dans ce message, vous ferez apparaître un formulaire vous
-demandant à nouveau votre nom d'utilisateur et votre mot de passe. S'ils
-correspondent bien à ceux que vous avez initialement choisis, votre
-compte utilisateur est définitivement validé et vous êtes désormais
-connecté à Tuleap.
+    3. Peu après avoir validé l'enregistrement de votre compte utilisateur, un
+       email doit vous parvenir vous demandant confirmation. En cliquant sur
+       l'URL contenu dans ce message, vous ferez apparaître un formulaire vous
+       demandant à nouveau votre nom d'utilisateur et votre mot de passe. S'ils
+       correspondent bien à ceux que vous avez initialement choisis, votre
+       compte utilisateur est définitivement validé et vous êtes désormais
+       connecté à Tuleap.
 
-    **Tip**
+    **Conseil**
 
     Si votre serveur Tuleap est connecté à un annuaire
     d'entreprise le processus d'enregistrement est encore plus simple :
@@ -133,13 +133,13 @@ connecté à Tuleap.
     complet, etc…
 
 Ce processus d'enregistrement en deux étapes a été mis en place pour des
-raisons de sécurité. En supposant qu'un utilisateur crée un compte avec
+raisons de sécurité. En supposant qu'un utilisateur créé un compte avec
 une fausse adresse email, le message ne lui parviendra pas et la
 validation du compte ne pourra se faire. Pour les sites situés derrière
-un pare-feu cela implique aussi qu'un compte ne peut-être validé depuis
+un pare-feu, cela implique aussi qu'un compte ne peut-être validé depuis
 l'extérieur.
 
-    **Tip**
+    **Conseil**
 
     Tout d'abord ne paniquez pas et, surtout, ne créez pas un nouveau
     compte dans la foulée. Si vous avez oublié votre mot de passe, allez
