@@ -17,34 +17,34 @@ source, l’intégration continue et la collaboration.
 
 Avec Tuleap, vous allez pouvoir:
 
--  planifier et suivre vos projets,
+-  Planifier et suivre vos projets,
 
--  suivre vos exigences, tâches, bugs, etc.,
+-  Suivre vos exigences, tâches, bugs, etc.,
 
--  track requirements, tasks, incidents, etc.
+-  Gérer le cycle de développement du logiciel: versions de source code,
+   builds...,Suivre vos exigences, tâches, bugs, etc.,
 
--  gérer le cycle de développement du logiciel: versions de source code,
-   builds...,
+-  Mettre à disposition des documents et des livrables,
 
--  favoriser la collaboration et les discussions entre les utilisateurs
+-  Favoriser la collaboration et les discussions entre les utilisateurs
    de Tuleap.
 
 Tuleap a une haute capacité de configuration. Ceci vous
 permet de personnaliser finement chaque outil à vos processus et vos
-exigences métiers.
+exigences métiers. `Plus d'informations concernant les fonctionalités de Tuleap.
+<http://www.tuleap.org/>`__
 
 Nous souhaitons que vous utilisiez toute la puissance de la technologie
 Tuleap. Ainsi, nous ne faisons pas de différence entre une version «
 Entreprise » et une version « Communautaire ». De la même façon, nous
 vous fournissons ce guide qui comprend toutes les informations utiles et
-bonnes pratiques pour que vous utilisiez pleinement les fonctionnalités
-de `Tuleap. <http://www.tuleap.com/>`__
+bonnes pratiques pour que vous utilisiez pleinement la suite Tuleap.
 
 L’Equipe Tuleap prend soin de maintenir à jour ce guide à
 chaque nouvelle version. N’hésitez pas à nous aider à l’améliorer.
 Partager votre expérience et vos astuces, en écrivant à la liste de
-distribution tuleap-devel
+distribution `tuleap-devel <mailto:tuleap-devel@tuleap.net>`_.
 
-Profitez de Tuleap tenez nous au courant!
+Profitez de Tuleap et tenez nous au courant !
 
-L'Equipe Tuleap!
+L'Equipe Tuleap.
