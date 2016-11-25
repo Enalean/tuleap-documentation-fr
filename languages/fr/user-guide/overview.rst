@@ -9,7 +9,7 @@ Page d'accueil Tuleap
 
 La Page d'accueil de Tuleap est la page générale d'accueil de la forge.
 Elle permet aux nouveaux utilisateurs de se créer un compte, de
-rejoindre un projet ou d'en crééer un nouveau. Elle permet également de
+rejoindre un projet ou d'en créer un nouveau. Elle permet également de
 suivre l'activité sur la forge et les actualités des projets. Vous
 pouvez personnaliser certains espaces tel que le logo par exemple.
 
