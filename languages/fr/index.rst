@@ -23,11 +23,8 @@ Bienvenue sur la documentation de Tuleap !
    user-guide/ci
    user-guide/wiki
    user-guide/communication
-   user-guide/survey
    user-guide/project-website
    user-guide/project-links
    user-guide/notification
    user-guide/other-services
    user-guide/legal
-
-

@@ -215,9 +215,6 @@ personnelle :
 -  **Mes projets** liste les projets auxquels vous appartenez. La
    sélection d'un de ces projets vous amène sur sa page sommaire.
 
--  **Sondages**: Sondage site en cours auxquels vous n'avez pas encore
-   participé.
-
 -  **RSS Reader** vous permet d'inclure dans votre page personnelle des
    fils rss (ou atom) publiques.
 
