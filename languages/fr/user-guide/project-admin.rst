@@ -140,7 +140,7 @@ Type de projet
 
 *Emplacement : contenu de la page d'administration*
 
-Tuleap propose trois types de projets :
+Tuleap propose trois types de projets (les types ne sont modifiables que par un administrateur de la plateforme Tuleap):
 
 -  **Projet** : C'est le type des projets standards sur
    Tuleap.
