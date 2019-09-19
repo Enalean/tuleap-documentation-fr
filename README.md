@@ -2,36 +2,24 @@ Tuleap Documentation
 ====================
 
 This is a proposal to use Sphinx (instead of docbook) in order to generate the 
-documentation for [Tuleap](http://tuleap.com/).
+documentation for [Tuleap](https://tuleap.org/).
 
-This is a work in progress. Please refer to the official documentation until this 
-becomes stable.
-
-Build the documentations
+Set-up your environment
 -----------------------
 
-    sudo apt-get install python-pip
-    sudo pip install -q Sphinx
-    cd /path/to/tuleap-documentation
+    virtualenv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    deactivate
+
+Build the documentation
+-----------------------
+
+    source venv/bin/activate
     make html
+    deactivate
 
-The documentation is generated in `_build/html/`
-
-Convert docbook files to reStructuredText
------------------------------------------
-
-First install latest version of pandoc:
-
-    sudo apt-get install haskell-platform
-    cabal update
-    cabal install pandoc
-
-Then convert the file from legacy documentation:
-
-    cd src/documentation/user_guide/en_US/
-    $HOME/.cabal/bin/pandoc -f docbook -s -w rst --toc ProjectAdministration.xml -o project-admin.rst 
-
-Move the file if `tuleap-documentation/languages/en/user-guide/` and modify the `tuleap-documentation/languages/en/index.rst` accordingly.
+The documentation is generated in `tuleap-documentation-fr/_build/html/fr/` You can check the modifications by opening `index.html` with your web browser. You need to build the documentation in order to see your modifications.
 
 License
 -------
