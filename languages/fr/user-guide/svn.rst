@@ -591,7 +591,7 @@ où :
    ``rw`` pour l'accès en lecture et en écriture ou encore une valeur
    vide si l'accès est interdit.
 
-En guise d'exemple, les permissions par défaut du dépôt Subversion
+En guise d'exemple, les permissions par défaut du dépôt Subversion, d'un projet public,
 telles qu'expliquées ci-dessus, s'expriment par les règles suivantes :
 
 ::
@@ -620,38 +620,46 @@ comme le début du fichier de spécification des permission du dépôt
 Subversion: les administrateurs du projet peuvent définir des
 permissions, qui seront ajoutées à la suite de cette section.
 
-Notez bien qu'il n'est pas possible de restreindre des permissions déjà
-accordées sur un même répertoire.
-
-Par exemple, un projet publique aura le fichier de permission décrit
-plus haut; il est inutile dans ce cas d'écrire des règles plus strictes
-pour limiter l'accès au repertoire racine. Ainsi, ajouter:
+Un administarateur projet peut donc modifier les règles par défaut,
+par exemple, pour en définir de plus strictes :
 
 ::
+   
+   [/]
+   * =
+   @members = r
+   @staff = rw
 
-    [/]
-    * = 
-          
+Seuls les membres de l'équipe interne peuvent, ici, mettre à jour le dépôt.
 
-n'empèchera pas tout utilisateur enregistré d'accéder au dépôt, puisque
-la règle par défaut l'y autorise. Néanmoins, il est tout à fait possible
-de restreindre l'accès à un sous-répertoire:
+Il est également possible de restreindre l'accés à un sous-répertoire :
 
 ::
 
     [/secret]
-    * = 
-    @members = rw
-          
+    @members =
+    @staff = rw
 
 empèchera effectivement aux utilisateurs non membres du projet d'accéder
-au repertoire '/secret'.
+au répertoire '/secret'.
 
-Si vous souhaitez néanmoins interdire l'accès à la totalité du dépôt,
-vous devrez contacter un administrateur Tuleap.
+::
+   
+    [/inputs/customer]
+    @members =
+    @staff = r
+    @customer = rw
+
+permettra de s'assurer que seul le client peut déposer des fichiers dans
+le répertoire '/inputs/customer'.
 
 Pour plus d'information concernant le format de ce fichier référez-vous
-aux ouvrages sur Subversion (voir ?).
+à la documentation Subversion: http://svnbook.red-bean.com/en/1.8/svn.serverconfig.pathbasedauthz.html.
+
+.. warning:: Il faut bien garder à l'esprit que l'on peut ainsi modifier
+             des comportements logiquement attendus. Puisque la dernière
+             déclaration l'emporte, il est, par exemple, possible d'autoriser
+             l'accés en lecture à tout le monde sur un projet privé.
 
 Notification e-mail de Subversion
 ``````````````````````````````````
