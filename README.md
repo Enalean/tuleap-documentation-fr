@@ -7,6 +7,7 @@ documentation for [Tuleap](https://tuleap.org/).
 Set-up your environment
 -----------------------
 
+    nix-shell
     virtualenv venv
     source venv/bin/activate
     pip install -r requirements.txt
@@ -15,6 +16,7 @@ Set-up your environment
 Build the documentation
 -----------------------
 
+    nix-shell
     source venv/bin/activate
     make html
     deactivate
