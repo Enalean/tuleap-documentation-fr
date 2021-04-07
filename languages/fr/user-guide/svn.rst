@@ -372,8 +372,8 @@ intéressantes pour les développeurs :
    à chaque opération de commit peut être référencé dans de futures
    opérations de commits ou dans les commentaires associés aux artefacts
    des différents outils de suivi (tâches, anomalies, demande
-   d'assistance...) simplement en utilisant le patron ``revision
-         #XXXX`` ou encore ``rev #XXXX`` (où XXXX est le numéro de la
+   d'assistance...) simplement en utilisant le patron ``revision #XXXX``
+   ou encore ``rev #XXXX`` (où XXXX est le numéro de la
    révision généré par Subversion). Toute référence de ce type est
    automatiquement transformé en hyperlien vers la base de suivi de
    Subversion. Ce mécanisme permet de naviguer facilement depuis un
@@ -460,8 +460,7 @@ Interface d'administration de Subversion
 Les administrateurs de projets peuvent effectuer les tâches les plus
 courantes d'administration et de configuration du dépôt Subversion via
 l'interface Web de Tuleap. Les fonctions d'administration
-sont accessibles par l'entrée ``SVN
-    Admin`` située dans la barre de menu du service Subversion.
+sont accessibles par l'entrée ``SVN Admin`` située dans la barre de menu du service Subversion.
 
 Options générales
 `````````````````
@@ -571,8 +570,7 @@ où :
    enregistrés.
 
    S'il s'agit d'un groupe d'utilisateurs, le nom doit commencer par le
-   caractère @. La ligne ``nom =
-           permission`` peut être répétée autant de fois que nécessaire
+   caractère @. La ligne ``nom = permission`` peut être répétée autant de fois que nécessaire
    pour un chemin donné. Pour définir des groupes d'utilisateurs,
    utilisez le bloc d'instructions suivant :
 

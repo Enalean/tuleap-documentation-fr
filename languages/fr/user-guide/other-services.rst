@@ -74,12 +74,12 @@ donc être librement téléchargés. En conséquence, assurez-vous d'utiliser
 cet espace de stockage uniquement pour des fichiers lisibles par tous.
 
 -  Accès en utilisateur anonyme : utilisez un client ftp pour vous
-   connecter à ````. Utilisez "ftp" comme nom d'utilisateur et votre
+   connecter. Utilisez "ftp" comme nom d'utilisateur et votre
    adresse email comme mot de passe. Ensuite utilisez la commande
    ``cd /pub/nom_projet`` pour accéder à l'espace FTP anonyme.
 
 -  Accès pour les membres du projet : utilisez un client ftp pour vous
-   connecter à ````. utilisez votre nom d'utilisateur et mot de passe
+   connecter. Utilisez votre nom d'utilisateur et mot de passe
    Tuleap pour vous identifier, puis tapez la commande
    ``cd SYS_DATA_DIR/ftp/pub/nom_projet`` pour accéder à l'espace FTP
    anonyme. A partir de là les membres du projet ont accès en lecture et

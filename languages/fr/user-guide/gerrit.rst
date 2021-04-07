@@ -341,11 +341,13 @@ Pour que cette fonctionnalité soit proposée il faut installer un plugin suppl�
 * Pour installer le plugin, vous avez deux options.
 
   * option 1 – Copier le plugin dans le dossier de 'plugins' sur votre instance Gerrit instance puis exécuter
+
   .. code-block:: bash
 
-    ssh -p29418 admin-my.tuleap.server.net@gerrit.instance.com gerrit plugin enable deleteproject
+    ssh -p29418 admin-my.tuleap.server.net@gerrit.instance.example.com gerrit plugin enable deleteproject
 
   * option 2 – Mettre le plugin quelquepart d'accessible puis exécuter
+
   .. code-block:: bash
 
-    ssh -p29418 admin-my.tuleap.server.net@gerrit.instance.com gerrit plugin install <url du plugin>
+    ssh -p29418 admin-my.tuleap.server.net@gerrit.instance.example.com gerrit plugin install <url du plugin>

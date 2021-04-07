@@ -282,7 +282,7 @@ Pour accéder à un artefact, cliquez simplement sur l'icône |image3| dans
 la liste des résultats.
 
 Tri de la liste des artefacts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`````````````````````````````
 
 Par défaut, les artefacts sont triés par ordre chronologique de
 soumission sur Tuleap.
@@ -305,7 +305,7 @@ ramènera en arrière dans les critères de tri. Grâce à cette
 fonctionnalité vous pouvez aisément tester plusieurs stratégies de tri.
 
 Exporter les résultats d'une requête
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+````````````````````````````````````
 
 Dans le menu "options" du rapport, les liens "Exporter uniquement les
 colonnes du rapport" et "Exporter toutes les colonnes" permettent
@@ -318,7 +318,7 @@ Voir ? pour savoir comment importer des artefacts à partir d'un fichier
 CSV.
 
 Version imprimable
-~~~~~~~~~~~~~~~~~~
+``````````````````
 
 Vous pouvez à tout moment cliquer sur le lien "Version imprimable"
 (présent dans le menu des "Options" du rapport) pour générer une version
@@ -328,7 +328,7 @@ votre choix. Pour une meilleure lisibilité nous vous conseillons
 d'imprimer les résultats en format paysage.
 
 Visualisation Graphique
-~~~~~~~~~~~~~~~~~~~~~~~
+```````````````````````
 
 Il est également possible de visualiser les résultats d'une requête sous
 forme graphique en ajoutant un onglet de type "Graphique(s)". Il y a
@@ -735,8 +735,7 @@ Exporter une feuille de calcul Excel au format CSV
 Pour exporter une feuille de calcul Excel au format CSV, suivez les
 étapes suivantes :
 
--  Sélectionnez ``Fichier -> Enregistrer
-                 sous...``
+-  Sélectionnez ``Fichier -> Enregistrer sous...``
 
 -  Dans la boîte de dialogue choisissez ``CSV`` comme format de
    sauvegarde.
@@ -868,7 +867,7 @@ table ci-dessous :
 | Fonctionnalité du tracker        | Permission                               |
 +==================================+==========================================+
 | `Soumission d'un nouvel          | Par défaut tout visiteur, connecté à     |
-| artefact <#TrackerV5ArtifactSubm | Tuleap ou pas, peut          |
+| artefact <#TrackerV5ArtifactSubm | Tuleap ou pas, peut                      |
 | ission>`__                       | soumettre un nouvel artefact.            |
 |                                  | L'administrateur de l'outil de suivi     |
 |                                  | peut limiter l'usage de cette fonction   |
@@ -878,7 +877,7 @@ table ci-dessous :
 +----------------------------------+------------------------------------------+
 | `Navigation/Recherche            | La recherche et la navigation dans la    |
 | d'artefact <#TrackerV5ArtifactBr | base d'artefacts est accessible à tous   |
-| owsing>`__                       | les visiteurs Tuleap sauf si |
+| owsing>`__                       | les visiteurs Tuleap sauf si             |
 |                                  | l'outil de suivi est privé auquel cas    |
 |                                  | seuls les membres de l'équipe y ont      |
 |                                  | accès.                                   |
@@ -924,8 +923,8 @@ table ci-dessous :
 +----------------------------------+------------------------------------------+
 | `Administration de l'outil de    | Uniquement accessible aux                |
 | suivi - Gérer les réponses       | administrateurs du projet et aux membres |
-| type <#TrackerV5CannedResponses> | du projet ayant les droits               |
-| `__                              | d'administration sur l'outil de suivi.   |
+| type                             | du projet ayant les droits               |
+| <#TrackerV5CannedResponses>`__   | d'administration sur l'outil de suivi.   |
 +----------------------------------+------------------------------------------+
 | `Administration de l'outil de    | Uniquement accessible aux                |
 | suivi - Options de               | administrateurs du projet et aux membres |
