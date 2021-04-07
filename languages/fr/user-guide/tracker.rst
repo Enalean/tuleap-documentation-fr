@@ -48,36 +48,31 @@ Accéder à un outil de suivi
 ---------------------------
 
 Pour accéder au service outil de suivi d'un projet, rendez vous d'abord
-sur le Tableau de bord du Projet (voir ?) et cliquez soit sur l'entrée
+sur le Tableau de bord du Projet et cliquez soit sur l'entrée
 "Suivi" de la barre de services ou directement sur l'outil de suivi qui
 vous intéresse dans la section Zones Publiques du Tableau de bord.
 
 Dans le premier cas, une page récapitulant l'ensemble des outils de
-suivi disponibles pour ce projet vous est présentée (voir ?). Après
+suivi disponibles pour ce projet vous est présentée. Après
 avoir sélectionné l'outil de suivi qui vous intéresse, un certains
 nombre de fonctionnalités vous sont accessibles selon le niveau de
 permission dont vous disposez. Vous pouvez soumettre de nouveaux
 artefacts, les modifier, effectuer des recherches et naviguer dans la
 base d'artefacts ou configurer l'outil de suivi.
 
-|Page d'accueil des outils de suivi|
-
 Soumission d'un nouvel artefact
 -------------------------------
 
 Pour soumettre un nouvel artefact à un projet donné, vous devez tout
 d'abord accéder à l'outil de suivi approprié comme indiqué dans la
-section ci-dessus (voir ?.
+section ci-dessus.
 
 En pénétrant dans un outil de suivi, un écran de sélection et de
 navigation apparaît (plus d'information sur cette fonctionnalité dans la
 ?). Pour le moment cliquez sur l'entrée "Soumettre un nouvel artefact"
-dans le menu de l'outil de suivi en haut de l'écran (voir ?).
+dans le menu de l'outil de suivi en haut de l'écran.
 
-|Un exemple d'écran de soumission d'artefact (ici de type "bug")|
-
-La ? montre un exemple de soumission d'écran provenant d'un projet
-Tuleap. En raison du très haut niveau de personnalisation du
+En raison du très haut niveau de personnalisation du
 service "outil de suivi" de Tuleap, les écrans de soumission
 d'artefact varient énormément d'un outil de suivi à l'autre. Suivant les
 cas les champs affichés et le nom des artefacts diffèrent.
@@ -108,7 +103,7 @@ externe. Il est en effet très improbable qu'un utilisateur lambda en
 sache suffisamment sur l'organisation interne d'un projet pour assigner
 un bug à la bonne personne. C'est pour cette raison que les champs
 visibles à la soumission sont configurables dans le module
-d'administration de l'outil de suivi (voir ?)
+d'administration de l'outil de suivi
 
 Quoi qu'il en soit, n'oubliez pas de cliquer sur le bouton "Valider"
 lorsque vous en avez terminé avec le formulaire !
@@ -138,7 +133,7 @@ création d'un outil de suivi. Ici, des bugs peuvent être sélectionnés en
 fonction de leur catégorie, de leur groupe, de leur statut et de la
 personne à qui ils ont été assignés. Vous pouvez également ajouter ou
 supprimer des critères en utilisant le lien "Modifier les
-critères".(Pour plus de détails, voir ?)
+critères".
 
 La façon de spécifier la valeur d'un critère de sélection dépend de son
 type. Le service outil de suivi propose actuellement les types de champs
@@ -272,11 +267,9 @@ Sur la base de vos critères de sélection, Tuleap effectue
 une requête dans la base de données, sélectionne les artefacts
 correspondants et les affiche juste au dessous des critères de
 sélection. Le choix des colonnes affichées par la liste de résultat est
-entièrement configurable par les utilisateurs. (voir ?). C'est pour
+entièrement configurable par les utilisateurs. C'est pour
 cette raison que l'écran d'affichage des résultats d'une requête peut
-être totalement différents de l'exemple montré sur la ?.
-
-|Exemple d'affichage des résultats d'une requête|
+être totalement différents d'un résultat de recherche à l'autre.
 
 Les résultats sont affichés par groupe de N artefacts où N est
 modifiable par l'utilisateur. Si plus de N artefacts correspondent à la
@@ -569,9 +562,6 @@ semble nécessaire.
    dans la section suivante, classées par type puis par sens de
    référence initial.
 
-|Entête d'un écran de modification d'un artefact (champs de l'outil de
-suivi)|
-
 Commentaires
 `````````````
 
@@ -598,8 +588,6 @@ Les commentaires présentent plusieurs caractéristiques intéressantes :
 
    Pour poster une réponse-type il suffit de la choisir dans la boîte de
    sélection prévue à cet effet et de soumettre les modifications.
-
-|Commentaires attachés à un artefact|
 
 Mise à jour massive d'artefacts
 ````````````````````````````````
@@ -969,7 +957,7 @@ de suivi".
     modifier ceux qui existent déjà dans chacun de ces outils de suivi.
 
 Pour définir un nouvel outil de suivi vous devez fournir les
-informations suivantes (voir ?) :
+informations suivantes :
 
 -  **Nom** : il s'agit du nom de l'outil de suivi. Le nom d'un outil de
    suivi est classiquement calqué sur le nom des artefacts qui sont
@@ -988,8 +976,6 @@ informations suivantes (voir ?) :
    l'identifiant de l'artefact. Si nous reprenons les exemples donnés
    pour le champ Nom ci-dessus, les noms courts correspondants
    pourraient être : fonc, tache, anom,…
-
-|Création d'un nouvel outil de suivi|
 
 L'étape suivante consiste à prendre une décision concernant les champs à
 utiliser dans l'outil de suivi. Pour vous éviter d'avoir à redéfinir
@@ -1978,8 +1964,6 @@ de choisir la réponse-type dans la boîte de sélection située à proximité
 de la zone de saisie du commentaire dans le formulaire de modification
 d'un artefact.
 
-|Définition d'une réponse-type|
-
 Gestionnaire de Workflow
 `````````````````````````
 
@@ -2129,27 +2113,20 @@ Pour supprimer un artefact, sélectionnez le lien "Suppression d'artefact" dans 
 
 **Note**: Si vous n'êtes pas administrateur, vous devrez contacter celui-ci afin qu'il procède à la suppression.
 
-.. |Page d'accueil des outils de suivi| image:: ../../screenshots/fr_FR/sc_v5_trackerwelcomescreen.png
-.. |Un exemple d'écran de soumission d'artefact (ici de type "bug")| image:: ../../screenshots/fr_FR/sc_v5_artifactsubmission.png
-.. |Exemple d'affichage des résultats d'une requête| image:: ../../screenshots/fr_FR/sc_v5_artifactbrowsing.png
-.. |image3| image:: ../../icons/artifact-arrow.png
-.. |image4| image:: ../../icons/sum--plus.png
-.. |Entête d'un écran de modification d'un artefact (champs de l'outil de suivi)| image:: ../../screenshots/fr_FR/sc_v5_artifactupdateheader.png
-.. |Commentaires attachés à un artefact| image:: ../../screenshots/fr_FR/sc_v5_artifactupdatecomments.png
-.. |Mise à jour massive d'artefacts| image:: ../../screenshots/fr_FR/sc_trackermasschange.png
-.. |Notification par email| image:: ../../screenshots/fr_FR/sc_emailnotification.png
-.. |Création d'un nouvel outil de suivi| image:: ../../screenshots/fr_FR/sc_v5_trackercreatenewtracker.png
-.. |Aperçu du gestionnaire de création d'un outil de suivi| image:: ../../screenshots/fr_FR/sc_tracker_admin_field_usage_overview.png
-.. |Administration : Edition d'un champ| image:: ../../screenshots/fr_FR/sc_tracker_admin_field_usage_edition.png
-.. |Sélection du champ source| image:: ../../screenshots/fr_FR/sc_v5_trackerfielddependencies_01.png
-.. |Sélection du champ cible| image:: ../../screenshots/fr_FR/sc_v5_trackerfielddependencies_02.png
-.. |Matrice des dépendances| image:: ../../screenshots/fr_FR/sc_v5_trackerfielddependencies_03.png
-.. |Une matrice des dépendances remplie| image:: ../../screenshots/fr_FR/sc_v5_trackerfielddependencies_04.png
-.. |Récapitulatif des dépendances entre champs| image:: ../../screenshots/fr_FR/sc_v5_trackerfielddependencies_05.png
-.. |Les versions proposées pour Linux| image:: ../../screenshots/fr_FR/sc_trackerfielddependencies_07.png
-.. |Les versions proposées pour MacOS X| image:: ../../screenshots/fr_FR/sc_trackerfielddependencies_08.png
-.. |Les versions proposées pour MS Windows| image:: ../../screenshots/fr_FR/sc_trackerfielddependencies_09.png
-.. |Les versions proposées pour NetBSD| image:: ../../screenshots/fr_FR/sc_trackerfielddependencies_10.png
-.. |Définition d'une réponse-type| image:: ../../screenshots/fr_FR/sc_v5_trackercannedresponses.png
-.. |Ecran de définition d'un workflow| image:: ../../screenshots/fr_FR/sc_manage_workflow.png
-.. |Permissions sur les transitions du workflow| image:: ../../screenshots/fr_FR/sc_manage_workflow_transitions.png
+.. |image3| image:: ../images/icons/artifact-arrow.png
+.. |image4| image:: ../images/icons/sum--plus.png
+.. |Mise à jour massive d'artefacts| image:: ../images/screenshots/sc_trackermasschange.png
+.. |Notification par email| image:: ../images/screenshots/sc_emailnotification.png
+.. |Aperçu du gestionnaire de création d'un outil de suivi| image:: ../images/screenshots/sc_tracker_admin_field_usage_overview.png
+.. |Administration : Edition d'un champ| image:: ../images/screenshots/sc_tracker_admin_field_usage_edition.png
+.. |Sélection du champ source| image:: ../images/screenshots/sc_trackerfielddependencies_01.png
+.. |Sélection du champ cible| image:: ../images/screenshots/sc_trackerfielddependencies_02.png
+.. |Matrice des dépendances| image:: ../images/screenshots/sc_trackerfielddependencies_03.png
+.. |Une matrice des dépendances remplie| image:: ../images/screenshots/sc_trackerfielddependencies_04.png
+.. |Récapitulatif des dépendances entre champs| image:: ../images/screenshots/sc_trackerfielddependencies_05.png
+.. |Les versions proposées pour Linux| image:: ../images/screenshots/sc_trackerfielddependencies_07.png
+.. |Les versions proposées pour MacOS X| image:: ../images/screenshots/sc_trackerfielddependencies_08.png
+.. |Les versions proposées pour MS Windows| image:: ../images/screenshots/sc_trackerfielddependencies_09.png
+.. |Les versions proposées pour NetBSD| image:: ../images/screenshots/sc_trackerfielddependencies_10.png
+.. |Ecran de définition d'un workflow| image:: ../images/screenshots/sc_manage_workflow.png
+.. |Permissions sur les transitions du workflow| image:: ../images/screenshots/sc_manage_workflow_transitions.png
