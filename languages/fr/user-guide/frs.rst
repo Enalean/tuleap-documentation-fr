@@ -398,7 +398,7 @@ Vous pouvez les modifier, les supprimer et en créer de nouveaux. Un
 processeur a pour attribut un nom et un rang d'affichage dans la liste
 des processeurs..
 
-.. |Structure du Gestionnaire de livrables| image:: ../../slides/fr_FR/File_Release.png
-.. |Exemple de Gestionnaire de livrables| image:: ../../screenshots/fr_FR/sc_filereleasedownloads.png
-.. |Ecran de modification d'un paquet| image:: ../../screenshots/fr_FR/sc_filereleasepackageadmin.png
-.. |Ecran de modification d'une version| image:: ../../screenshots/fr_FR/sc_frsreleases.png
+.. |Structure du Gestionnaire de livrables| image:: ../images/screenshots/File_Release.png
+.. |Exemple de Gestionnaire de livrables| image:: ../images/screenshots/sc_filereleasedownloads.png
+.. |Ecran de modification d'un paquet| image:: ../images/screenshots/sc_filereleasepackageadmin.png
+.. |Ecran de modification d'une version| image:: ../images/screenshots/sc_frsreleases.png
