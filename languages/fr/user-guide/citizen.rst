@@ -43,7 +43,7 @@ groupes d'utilisateurs pré-définis:
    l'activité de support ou de contrôle qualité, de la gestion de la
    documentation ou de la gestion du projet lui-même. Les membres d'un
    projet se voient souvent assignés des droits différents par
-   l'administrateur du projet selon leur rôle (voir :ref:`Administration d'un projet` pour plus de
+   l'administrateur du projet selon leur rôle (voir :ref:`administration-d'un-projet` pour plus de
    détails).
 
 -  **Les administrateurs d'un projet** : les utilisateurs enregistrés
@@ -265,7 +265,7 @@ Vos préférences utilisateurs sont disponibles dans Ma page personnelle
    disposez d'une machine personnelle.
 
 -  **Séparateur CSV**: Tuleap vous permet d'importer et
-   d'exporter des données de vos projets (Voir :ref:`exportation-des-données-du-projet` pour plus de détails).
+   d'exporter des données de vos projets (Voir :ref:`exportation-des-donnees-du-projet` pour plus de détails).
    Le format d'import et d'export utilisé est le format CSV. Comme la
    norme CSV n'est pas implémentée de la même manière dans tous les
    logiciels, vous avez la possibilité de définir votre séparateur CSV.
@@ -279,7 +279,7 @@ Vos préférences utilisateurs sont disponibles dans Ma page personnelle
    -  Tab (tabulation).
 
 -  **Format de date CSV**: Tuleap vous permet d'importer et
-   d'exporter des données de vos projets (Voir :ref:`exportation-des-données-du-projet` pour plus de détails).
+   d'exporter des données de vos projets (Voir :ref:`exportation-des-donnees-du-projet` pour plus de détails).
    Le format d'import et d'export utilisé est le format CSV. Comme la
    norme CSV n'est pas implémentée de la même manière dans tous les
    logiciels, vous avez la possibilité de définir votre format de date

@@ -2,6 +2,8 @@
    :depth: 3
 ..
 
+.. _wiki:
+
 Wiki
 ====
 

@@ -5,6 +5,8 @@
 Autres Services
 ===============
 
+.. _compte-shell:
+
 Compte Shell
 -------------
 
