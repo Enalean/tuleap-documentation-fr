@@ -210,6 +210,8 @@ l'écran et son statut :
    paquets caché, afin de pouvoir les modifier. Dans ce cas, ils sont
    affichés en italique pour les différencier des autres.
 
+.. _modification-d'un-paquet:
+
 Modification d'un paquet
 ~~~~~~~~~~~~~~~~~~~~~~~~
 

@@ -222,18 +222,6 @@ Il existe deux sortes de services :
 -  **Les services projet** : ces services peuvent être modifiés à
    loisir, voire même supprimés par l'administrateur du projet.
 
-La seule exception concerne le service **Site Web**; il s'agit d'un
-service système mais il peut être personnalisé pour pointer sur l'URL de
-votre choix. Chaque projet hébergé sur Tuleap possède son
-propre serveur Web virtuel sur le site Tuleap. Par défaut le
-service "Site Web" de la barre de services pointe sur ce site (voir le :ref:`site-web-d'un-projet`
-pour plus de détails). Vous pouvez remplacer l'URL par défaut avec un
-pointeur vers votre propre site Web. Attention à ne pas confondre le
-site web de votre projet avec la page de sommaire. Le site web de votre
-projet pointe sur un ensemble de pages HTML dont vous êtes l'auteur
-alors que la page de sommaire du projet est uniquement un point d'entrée
-vers les différents services et délivrables de votre projet.
-
 Créer ou modifier un service
 `````````````````````````````
 
@@ -591,7 +579,7 @@ en revue chacune des colonnes :
    [#f1]_ du projet et cela ne peut être modifié depuis l'interface
    utilisateur de Tuleap. Nous verrons cependant comment
    désactiver l'accès en écriture au dépôt CVS dans le chapitre qui lui
-   est consacré (:ref:`contrôle-de-version-avec-CVS`).
+   est consacré (:ref:`controle-version-cvs`).
 
 -  **Outils de suivi** :
 
