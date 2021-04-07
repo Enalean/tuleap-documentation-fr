@@ -365,12 +365,7 @@ les développeurs :
    changements apportés au code par auteur (qui a fait le changement),
    par identifiant de commit, par tag ou par mots-clés présents dans le
    message associé au commit. Les résultats peuvent être triés en
-   cliquant sur les entêtes des colonnes de la table de résultats (voir
-   ?).
-
-|Interrogation de la base de suivi CVS d'un projet|
-
-|Détails concernant une opération de commit CVS|
+   cliquant sur les entêtes des colonnes de la table de résultats.
 
 Références croisées entre artefacts et commits CVS
 ```````````````````````````````````````````````````
@@ -514,8 +509,6 @@ lorsque vous ne faites pas partie de l'équipe de projet. Dans les
 paragraphes qui suivent tous les exemples sont donnés sous la forme de
 lignes de commande mais leur transposition dans une interface graphique
 ne devrait pas poser de problèmes.
-
-|Un cycle de développement logiciel typique sur Tuleap|
 
 Se connecter
 `````````````
@@ -945,7 +938,4 @@ plus d'information sur les fichiers d'administration de CVS).
    marché soient libres (SCCS, RCS, PKS, Arch, Monotone...) soient
    commerciaux (SourceSafe, ClearCase, TeamWare...)
 
-.. |Un exemple de navigation dans le dépôt CVS| image:: ../../slides/fr_FR/CVS_Web_Session.png
-.. |Interrogation de la base de suivi CVS d'un projet| image:: ../../screenshots/fr_FR/sc_cvssearch.png
-.. |Détails concernant une opération de commit CVS| image:: ../../screenshots/fr_FR/sc_cvsshowcommit.png
-.. |Un cycle de développement logiciel typique sur Tuleap| image:: ../../slides/fr_FR/CVS_Life_Cycle.png
+.. |Un exemple de navigation dans le dépôt CVS| image:: ../images/screenshots/CVS_Web_Session.png
