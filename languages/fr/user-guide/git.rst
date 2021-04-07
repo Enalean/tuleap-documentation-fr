@@ -174,5 +174,5 @@ Les références Git
 
 -  Le livre : Pro Git http://progit.org/book/ch1-1.html.
 
-.. |Interface de fork de dépôt Git| image:: ../../screenshots/fr_FR/sc_git_personal_fork.png
-.. |Réglage des permissions Git du dépôt| image:: ../../screenshots/fr_FR/sc_git_permissions.png
+.. |Interface de fork de dépôt Git| image:: ../images/screenshots/sc_git_personal_fork.png
+.. |Réglage des permissions Git du dépôt| image:: ../images/screenshots/sc_git_permissions.png
