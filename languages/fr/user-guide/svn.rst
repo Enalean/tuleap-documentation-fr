@@ -1102,7 +1102,7 @@ Une fois connecté, tapez la commande suivante à l'invite du shell :
    Il se peut que l'administrateur du site ait décidé de désactiver les
    compte Shell.
 
-.. |Un exemple de navigation dans le dépôt Subversion| image:: ../../slides/fr_FR/SVN_Web_Session.png
-.. |Interrogation de la base de suivi Subversion d'un projet| image:: ../../screenshots/fr_FR/sc_svnsearch.png
-.. |Détails concernant une opération de commit Subversion| image:: ../../screenshots/fr_FR/sc_svnshowcommit.png
-.. |Un cycle de développement logiciel typique sur Tuleap| image:: ../../slides/fr_FR/SVN_Life_Cycle.png
+.. |Un exemple de navigation dans le dépôt Subversion| image:: ../images/screenshots/SVN_Web_Session.png
+.. |Interrogation de la base de suivi Subversion d'un projet| image:: ../images/screenshots/sc_svnsearch.png
+.. |Détails concernant une opération de commit Subversion| image:: ../images/screenshots/sc_svnshowcommit.png
+.. |Un cycle de développement logiciel typique sur Tuleap| image:: ../images/screenshots/SVN_Life_Cycle.png
