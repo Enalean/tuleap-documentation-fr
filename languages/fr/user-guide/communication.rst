@@ -138,7 +138,7 @@ dire visible seulement par vos membres de projet.
 N'importe quel utilisateur Tuleap peut attacher un
 commentaire aux annonces visibles pour lui sur votre page de sommaire de
 projet, ce qui signifie que chaque annonce est un forum de discussion en
-puissance [1]_. De plus, l'équipe d'administration du site
+puissance. De plus, l'équipe d'administration du site
 Tuleap a une vue sur l'ensemble des annonces publiques
 publiées par les différents projets et peut décider de faire apparaître
 certaines d'entre elles sur la page d'accueil principale du site

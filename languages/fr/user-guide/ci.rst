@@ -81,7 +81,7 @@ nombre de termes spécifiques. En voici la définition :
 | **Artéfact**     | Item généré lors du build, et mis à disposition par      |
 |                  | l'outil d'intégration continue. Attention à ne pas       |
 |                  | confondre un artefact d'un build et un artefact          |
-|                  | Tuleap (qui est un item suivi dans l'outil   |
+|                  | Tuleap (qui est un item suivi dans l'outil               |
 |                  | de suivi).                                               |
 +------------------+----------------------------------------------------------+
 | **Espace de      | Répertoire dans lequel le projet va être dépoyé pour     |
@@ -102,7 +102,6 @@ nombre de termes spécifiques. En voici la définition :
 |                  | -  Inactif : aucun build n'a encore été lancé ou le      |
 |                  |    build est désactivé.                                  |
 |                  |                                                          |
-                                                                             
 +------------------+----------------------------------------------------------+
 | **Tendance (des  | Tendance du résultat des builds basé sur les 5 derniers  |
 | builds)**        | builds. Cette tendance est représentée par une image     |

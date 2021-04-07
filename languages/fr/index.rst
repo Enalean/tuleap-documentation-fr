@@ -1,5 +1,5 @@
 Bienvenue sur la documentation de Tuleap !
-==================================
+==========================================
 
 .. toctree::
    :numbered:
