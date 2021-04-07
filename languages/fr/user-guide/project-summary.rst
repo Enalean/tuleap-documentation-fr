@@ -14,6 +14,8 @@ d'Administration du Projet (voir :ref:`administration-d'un-projet`), le Tableau 
 accessible à tous les utilisateurs. D'une certaine façon il s'agit de la
 façade publique du projet.
 
+.. _accessing-a-project-dashboard:
+
 Accéder au Tableau de bord Projet
 ---------------------------------
 

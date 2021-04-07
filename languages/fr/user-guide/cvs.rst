@@ -2,6 +2,8 @@
    :depth: 3
 ..
 
+.. _controle-version-cvs:
+
 Contrôle de version avec CVS
 ============================
 

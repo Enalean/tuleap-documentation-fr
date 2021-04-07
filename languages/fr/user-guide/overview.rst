@@ -109,7 +109,7 @@ affichées à la suite de la description. Notez qu'à côté de chaque valeur
 d'un critère figure un lien hypertexte appelé [Filtre]. Cliquer sur l'un
 de ces liens a pour effet de n'afficher que les projets qui
 correspondent à cette valeur du critère. Les projets de type "modèles"
-et les projets de test (voir :ref:`type-de-project`) ne sont pas listés dans l'arbre des
+et les projets de test (voir :ref:`type-de-projet`) ne sont pas listés dans l'arbre des
 projets.
 
 Un exemple d'affichage de l'arbre des projets est montré `Exemple de navigation dans l'arbre des projets`_. Dans cet

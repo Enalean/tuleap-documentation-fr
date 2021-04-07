@@ -133,7 +133,7 @@ de catégorisation utilisé dans l'arbre des projets. Si vous ne trouvez
 pas de valeur correspondant à votre projet, n'hésitez pas à contacter
 l'équipe Tuleap.
 
-.. type-de-projet:
+.. _type-de-projet:
 
 Type de projet
 ---------------

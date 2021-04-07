@@ -2,6 +2,8 @@
    :depth: 3
 ..
 
+.. _trackers-and-real-time-reports:
+
 Outil de suivi (Tracker) et Rapports en temps réel
 ==================================================
 
