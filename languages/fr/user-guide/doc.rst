@@ -278,15 +278,15 @@ Il n'y a pas de permissions spécifiques aux propriétés. Si un
 utilisateur peut lire(modifier) un document, il peut également
 lire(modifier) chacune de ses propriétés.
 
-.. |Dossiers et sous-dossiers| image:: ../../screenshots/fr_FR/sc_docman2_folders.png
-.. |Actions| image:: ../../screenshots/fr_FR/sc_docman2_actions.png
-.. |Créer un nouveau document| image:: ../../screenshots/fr_FR/sc_docman2_newdocument.png
-.. |Créer un nouveau dossier| image:: ../../screenshots/fr_FR/sc_docman2_newfolder.png
-.. |Afficher et editer les propriétés| image:: ../../screenshots/fr_FR/sc_docman2_properties.png
-.. |Notifications| image:: ../../screenshots/fr_FR/sc_docman2_notifications.png
-.. |Historique| image:: ../../screenshots/fr_FR/sc_docman2_history.png
-.. |Mise à jour d'un lien| image:: ../../screenshots/fr_FR/sc_docman2_update.png
-.. |Créer une nouvelle version d'un fichier embarqué| image:: ../../screenshots/fr_FR/sc_docman2_newversion.png
-.. |Definir les permissions| image:: ../../screenshots/fr_FR/sc_docman2_permissions.png
-.. |Déplacer un document| image:: ../../screenshots/fr_FR/sc_docman2_move.png
-.. |Raccourcis pour déplacer un élément au sein d'un dossier| image:: ../../screenshots/en_US/sc_docman2_move_shortcuts.png
+.. |Dossiers et sous-dossiers| image:: ../images/screenshots/sc_docman2_folders.png
+.. |Actions| image:: ../images/screenshots/sc_docman2_actions.png
+.. |Créer un nouveau document| image:: ../images/screenshots/sc_docman2_newdocument.png
+.. |Créer un nouveau dossier| image:: ../images/screenshots/sc_docman2_newfolder.png
+.. |Afficher et editer les propriétés| image:: ../images/screenshots/sc_docman2_properties.png
+.. |Notifications| image:: ../images/screenshots/sc_docman2_notifications.png
+.. |Historique| image:: ../images/screenshots/sc_docman2_history.png
+.. |Mise à jour d'un lien| image:: ../images/screenshots/sc_docman2_update.png
+.. |Créer une nouvelle version d'un fichier embarqué| image:: ../images/screenshots/sc_docman2_newversion.png
+.. |Definir les permissions| image:: ../images/screenshots/sc_docman2_permissions.png
+.. |Déplacer un document| image:: ../images/screenshots/sc_docman2_move.png
+.. |Raccourcis pour déplacer un élément au sein d'un dossier| image:: ../images/screenshots/sc_docman2_move_shortcuts.png
