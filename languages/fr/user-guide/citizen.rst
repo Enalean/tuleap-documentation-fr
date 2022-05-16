@@ -1,4 +1,9 @@
 
+.. attention::
+
+   La version française de la documentation est n'est pas régulièrement mise à jour. 
+   
+   Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
 
 
 Devenir un utilisateur Tuleap
@@ -237,14 +242,7 @@ certaines d'entre elles :
    utilisateurs de mieux vous connaître vous et votre expertise
    technique.
 
--  **Clés SSH partagées** : ce champ se rapporte au service Compte
-   Shell. Lorsque vous êtes utilisateur enregistré, le serveur
-   Tuleap vous offre un compte shell personnel qui utilise
-   le même nom d'utilisateur et le même mot de passe que le compte Web.
-   Pour automatiser la procédure de connexion à ce compte vous pouvez
-   partager votre clé publique SSH avec Tuleap. Ainsi
-   vous vous éviterez la saisie systématique d'un nom d'utilisateur et
-   d'un mot de passe. Plus de détails sur :ref:`compte-shell`.
+-  **Clés SSH partagées** : pour utilisation du protocol SSH lors des opérations Git. Plus de détails sur :ref:`git`.
 
 .. _preferences:
 

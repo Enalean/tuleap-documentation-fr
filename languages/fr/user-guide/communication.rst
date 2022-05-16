@@ -2,6 +2,12 @@
    :depth: 3
 ..
 
+.. attention::
+
+   La version française de la documentation est n'est pas régulièrement mise à jour. 
+   
+   Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
+
 Outils de communication
 =======================
 

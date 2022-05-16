@@ -1,6 +1,12 @@
 Bienvenue sur la documentation de Tuleap !
 ==========================================
 
+.. attention::
+
+   La version française de la documentation est n'est pas régulièrement mise à jour. 
+   
+   Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
+
 .. toctree::
    :numbered:
    :maxdepth: 3
@@ -15,14 +21,10 @@ Bienvenue sur la documentation de Tuleap !
    user-guide/agile-dashboard
    user-guide/frs
    user-guide/cvs
-   user-guide/svn
    user-guide/git
-   user-guide/gerrit
    user-guide/mediawiki
    user-guide/doc
    user-guide/ci
    user-guide/wiki
    user-guide/communication
-   user-guide/project-links
-   user-guide/other-services
    user-guide/legal
