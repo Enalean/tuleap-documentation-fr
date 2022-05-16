@@ -2,14 +2,16 @@
    :depth: 3
 ..
 
+.. attention::
+
+   La version française de la documentation est n'est pas régulièrement mise à jour. 
+   
+   Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
+
 .. _trackers-and-real-time-reports:
 
 Outil de suivi (Tracker) et Rapports en temps réel
 ==================================================
-
-**Attention :** ce chapitre couvre les fonctionnalités de la nouvelle
-version du système de suivi ou tracker(v5). Pour la documentation de
-l'outil de suivi de l'ancienne génération (v3), se référer à ?.
 
 Les outils de suivi (tracker en anglais) représentent l'un des services
 les plus puissants et les plus flexibles mis à la disposition des
