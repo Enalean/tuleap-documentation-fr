@@ -1,6 +1,3 @@
-.. contents::
-   :depth: 3
-..
 
 .. attention::
 
