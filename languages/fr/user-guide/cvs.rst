@@ -1,7 +1,7 @@
 .. attention::
 
-   La version française de la documentation est n'est pas régulièrement mise à jour. 
-   
+   La version française de la documentation n'est pas régulièrement mise à jour.
+
    Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
 
 .. contents::
@@ -538,7 +538,7 @@ faire, tapez la commande suivante (sur une seule ligne) :
 
     cvs -d:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet
     login
-            
+
 
 Où :
 
@@ -574,7 +574,7 @@ Ensuite tapez les commandes suivantes (la seconde sur une seule ligne) :
     $ cd racine
     $ cvs -d:pserver:nom_utilisateur@cvs.nom_projet.tuleap.example.com:/cvsroot/nom_projet
     import racine tag_vendeur start
-            
+
 
 Où :
 
@@ -676,7 +676,7 @@ informations, tapez la commande :
 ::
 
     cvs -q update
-            
+
 
 Si vous souhaitez uniquement savoir quels sont les fichiers qui ont été
 modifiés dans le dépôt depuis la dernière mise à jour de votre copie de
@@ -686,7 +686,7 @@ l'argument -n à la commande précédente :
 ::
 
     cvs -n -q update
-            
+
 
 Remarque : la commande update de CVS est l'une des plus riches. Outre
 l'utilisation que nous venons d'en faire, elle permet aussi de fusionner
@@ -710,7 +710,7 @@ dépôt, tapez la commande suivante :
 ::
 
     cvs commit -m"Expliquez ici la nature de la modification..." [nom_fichiers]
-            
+
 
 Où :
 

@@ -4,8 +4,8 @@
 
 .. attention::
 
-   La version française de la documentation est n'est pas régulièrement mise à jour. 
-   
+   La version française de la documentation n'est pas régulièrement mise à jour.
+
    Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
 
 .. _git:
@@ -57,7 +57,7 @@ exemple.
         git add .
         git commit -m 'initial commit'
         git push gitolite@tuleap.example.com:<nom_court_du_projet>/<nom_du_depot>.git master
-        
+
 
 Si vous avez un dépôt Git existant avec des branches et des tags, vous
 pouvez l'importer de la façon suivante:
@@ -65,7 +65,7 @@ pouvez l'importer de la façon suivante:
 ::
 
         git push --mirror gitolite@tuleap.example.com:<nom_court_du_projet>/<nom_du_depot>.git
-        
+
 
 Fork
 ----

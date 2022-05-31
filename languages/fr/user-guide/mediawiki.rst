@@ -1,8 +1,8 @@
 
 .. attention::
 
-   La version française de la documentation est n'est pas régulièrement mise à jour. 
-   
+   La version française de la documentation n'est pas régulièrement mise à jour.
+
    Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
 
 .. _mediawiki:
@@ -45,7 +45,7 @@ Il n'est dorénavant plus possible d'ajouter un utilisateur
 directement dans un groupe Mediawiki.
 
 Actuellement, il n'existe pas de moyen pour créer une correspondance personnalisée entre les groupes.
-La correspondance définie par Tuleap est la suivante : 
+La correspondance définie par Tuleap est la suivante :
 
 .. figure:: ../images/screenshots/mediawiki_mapping.png
    	   :align: center
@@ -74,7 +74,7 @@ Tuleap intègre actuellement les extensions Mediawiki suivantes :
   structure des catégories. Pour plus d'informations à ce sujet, veuillez vous reporter au mediawiki du projet, cliquez
   sur **Pages spéciales**, puis sur **Version** pour accéder à la liste des extensions installées. Un lien hypertexte
   vous permettra d'accéder à des informations détaillées sur CategoryTree.
- 
+
 * `Cite <https://www.mediawiki.org/wiki/Extension:Cite/Cite.php>`_ : cette extension ajoute les balises ``<ref[name="id"]>`` et ``<references/>`` pour les références et les notes de bas de page.
 
 * `ImageMap <https://www.mediawiki.org/wiki/Extension:ImageMap>`_ : cette extension permet d'utiliser des images cliquables côté client, grâce à la balise ``<imagemap>``.
@@ -94,7 +94,7 @@ Tuleap intègre actuellement les extensions Mediawiki suivantes :
 Extension spécifique à Tuleap
 `````````````````````````````
 
-* **TuleapArtLinks** : grâce à cette extension, depuis Tuleap 7.10, MediaWiki reconnaît les références croisées telles que **art #12345** et les convertit automatiquement en liens hyper-texte qui pointent sur l'artifact correspondant dans Tuleap. 
+* **TuleapArtLinks** : grâce à cette extension, depuis Tuleap 7.10, MediaWiki reconnaît les références croisées telles que **art #12345** et les convertit automatiquement en liens hyper-texte qui pointent sur l'artifact correspondant dans Tuleap.
 
 
 Affichage en mode compatibilité

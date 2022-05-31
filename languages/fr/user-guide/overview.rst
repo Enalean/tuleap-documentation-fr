@@ -1,8 +1,8 @@
 
 .. attention::
 
-   La version française de la documentation est n'est pas régulièrement mise à jour. 
-   
+   La version française de la documentation n'est pas régulièrement mise à jour.
+
    Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
 
 Vue d'ensemble de Tuleap
@@ -126,7 +126,7 @@ système d'exploitation SunOS/Solaris.
 
 En appliquant ces multiples critères de sélection, l'utilisatrice réduit
 le nombre de projets potentiellement intéressants à neuf et elle peut
-donc les examiner un par un (seul le premier projet est montré sur `Exemple de navigation dans l'arbre des projets`_). 
+donc les examiner un par un (seul le premier projet est montré sur `Exemple de navigation dans l'arbre des projets`_).
 Les filtres ont une autre propriété intéressante : ils sont
 persistants. Cela signifie que si vous décidez d'explorer l'arbre des
 projets en partant d'un autre angle (par exemple en ouvrant le dossier

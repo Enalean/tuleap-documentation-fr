@@ -1,8 +1,8 @@
 
 .. attention::
 
-   La version française de la documentation est n'est pas régulièrement mise à jour. 
-   
+   La version française de la documentation n'est pas régulièrement mise à jour.
+
    Il est recommandé de se réfèrer à la version `anglaise </doc/en/>`_.
 
 .. _administration-d'un-projet:
@@ -803,7 +803,7 @@ Valider la sélection avec **Modifier la liason**.
    User Group Binding
 
 Voilà! Un groupe d'utilsateurs externes au projet a été créé et il est utilsable
-partout dans le projet comme n'importe quel autre groupe d'utilisateurs.   
+partout dans le projet comme n'importe quel autre groupe d'utilisateurs.
 
 
 Informations complémentaires sur les groupes d'utilisateurs
@@ -1010,7 +1010,7 @@ l'historique.
 
 .. figure:: ../images/screenshots/sc_sourcecodeaccesslogs.png
    :align: center
-   :alt: Exemple de journal d'accès 
+   :alt: Exemple de journal d'accès
    :name: Exemple de journal d'accès
 
    Exemple de journal d'accès
