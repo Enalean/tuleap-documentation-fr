@@ -6,15 +6,11 @@
   pkgs.gawk
   (pkgs.poetry2nix.mkPoetryEnv {
     projectDir = ../.;
-    # Some overrides are needed because some packages does not define their build deps correctly
-    overrides = pkgs.poetry2nix.overrides.withDefaults (
+    # Some overrides are needed because some packages do not define their build deps correctly
+    # https://github.com/nix-community/poetry2nix/blob/master/docs/edgecases.md
+    overrides = pkgs.poetry2nix.defaultPoetryOverrides.extend (
       self: super: {
-        idna = super.idna.overrideAttrs (
-          old: {
-            buildInputs = (old.buildInputs or [ ]) ++ [ self.flit-core ];
-          }
-        );
-        sphinx = super.sphinx.overrideAttrs (
+        sphinx = super.sphinx.overridePythonAttrs (
           old: {
             buildInputs = (old.buildInputs or [ ]) ++ [ self.flit-core ];
           }
