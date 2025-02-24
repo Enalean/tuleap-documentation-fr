@@ -1,26 +1,20 @@
 { pkgs ? (import ./pinned-nixpkgs.nix) { } }:
-[
+let
+  pythonWorkspace = pkgs.uv2nix.lib.workspace.loadWorkspace { workspaceRoot = ../.; };
+  pythonSet = (pkgs.callPackage pkgs.pyproject-nix.build.packages {
+    python = pkgs.python3;
+  }).overrideScope
+    (
+      pkgs.lib.composeManyExtensions [
+        pkgs.pyproject-build-systems
+        (pythonWorkspace.mkPyprojectOverlay { sourcePreference = "wheel"; })
+      ]
+    );
+  pythonVirtualenv = pythonSet.mkVirtualEnv "build-deps" pythonWorkspace.deps.all;
+in [
   pkgs.gnumake
   pkgs.gnugrep
   pkgs.gnused
   pkgs.gawk
-  (pkgs.poetry2nix.mkPoetryEnv {
-    projectDir = ../.;
-    # Some overrides are needed because some packages do not define their build deps correctly
-    # https://github.com/nix-community/poetry2nix/blob/master/docs/edgecases.md
-    overrides = pkgs.poetry2nix.defaultPoetryOverrides.extend (
-      self: super: {
-        sphinx = super.sphinx.overridePythonAttrs (
-          old: {
-            buildInputs = (old.buildInputs or [ ]) ++ [ self.flit-core ];
-          }
-        );
-        sphinxcontrib-jquery = super.sphinxcontrib-jquery.overridePythonAttrs (
-          old: {
-            buildInputs = (old.buildInputs or [ ]) ++ [ self.flit-core ];
-          }
-        );
-      }
-    );
-  })
+  pythonVirtualenv
 ]

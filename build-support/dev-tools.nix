@@ -1,4 +1,4 @@
 { pkgs }:
 [
-  pkgs.poetry
+  pkgs.uv
 ]
