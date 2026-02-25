@@ -2,18 +2,18 @@
 
 let
   pinnedNixpkgs = import (fetchTarball {
-    url = "https://github.com/NixOS/nixpkgs/archive/c04833a1e584401bb63c1a63ddc51a71e6aa457a.tar.gz";
-    sha256 = "sha256-knFaYjeg7swqG1dljj1hOxfg39zrIy8pfGuicjm9s+o=";
+    url = "https://github.com/NixOS/nixpkgs/archive/724cf38d99ba81fbb4a347081db93e2e3a9bc2ae.tar.gz";
+    sha256 = "sha256-MpAKyXfJRDTgRU33Hja+G+3h9ywLAJJNRq4Pjbb4dQs=";
   }) { };
   pyproject-nix = import (builtins.fetchTarball {
-    url = "https://github.com/pyproject-nix/pyproject.nix/archive/2c8df1383b32e5443c921f61224b198a2282a657.tar.gz";
-    sha256 = "sha256-xaKvtPx6YAnA3HQVp5LwyYG1MaN4LLehpQI8xEdBvBY=";
+    url = "https://github.com/pyproject-nix/pyproject.nix/archive/eb204c6b3335698dec6c7fc1da0ebc3c6df05937.tar.gz";
+    sha256 = "sha256-nFJSfD89vWTu92KyuJWDoTQJuoDuddkJV3TlOl1cOic=";
   }) { lib = pinnedNixpkgs.lib; };
   uv2nix =
     import
       (builtins.fetchTarball {
-        url = "https://github.com/pyproject-nix/uv2nix/archive/7a3eb140416318349ec58d2d4e81afe071bc9f03.tar.gz";
-        sha256 = "sha256-xxuRsew0pedwptVnhfru01xbe+dDhI+OY1kCFDMxBUs=";
+        url = "https://github.com/pyproject-nix/uv2nix/archive/44d9a110d65fc4caaf9349fa819e8daf9d90d074.tar.gz";
+        sha256 = "sha256-boRfTlN1GfVupWPnhcKlSHJzs9/lJP9KltycPLoPRbA=";
       })
       {
         lib = pinnedNixpkgs.lib;
@@ -22,8 +22,8 @@ let
   pyproject-build-systems =
     import
       (builtins.fetchTarball {
-        url = "https://github.com/pyproject-nix/build-system-pkgs/archive/042904167604c681a090c07eb6967b4dd4dae88c.tar.gz";
-        sha256 = "sha256-4bocaOyLa3AfiS8KrWjZQYu+IAta05u3gYZzZ6zXbT0=";
+        url = "https://github.com/pyproject-nix/build-system-pkgs/archive/04e9c186e01f0830dad3739088070e4c551191a4.tar.gz";
+        sha256 = "sha256-7uXPiWB0YQ4HNaAqRvVndYL34FEp1ZTwVQHgZmyMtC8=";
       })
       {
         lib = pinnedNixpkgs.lib;
