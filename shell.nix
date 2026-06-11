@@ -7,8 +7,7 @@ pkgs.mkShellNoCC {
   UV_PYTHON_DOWNLOADS = "never";
   UV_PYTHON = pkgs.lib.getExe pkgs.python3;
 
-  buildInputs = [
+  packages =
     (import ./build-support/build-tools.nix { inherit pkgs; })
-    (import ./build-support/dev-tools.nix { inherit pkgs; })
-  ];
+    ++ (import ./build-support/dev-tools.nix { inherit pkgs; });
 }
